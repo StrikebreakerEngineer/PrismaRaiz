@@ -1,0 +1,205 @@
+{
+  "data": {
+    "word": "zaparrastraríamos",
+    "meanings": [
+      {
+        "senses": [
+          {
+            "raw": "1. intr. coloq. Llevar arrastrando los vestidos de modo que se ensucien. Ir zaparrastrando.",
+            "meaning_number": 1,
+            "category": "verb",
+            "verb_category": "intransitive",
+            "usage": "colloquial",
+            "description": "Llevar arrastrando los vestidos de modo que se ensucien",
+            "examples": [
+              "Ir zaparrastrando."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          }
+        ],
+        "conjugations": {
+          "non_personal": {
+            "infinitive": "zaparrastrar",
+            "participle": "zaparrastrado",
+            "gerund": "zaparrastrando",
+            "compound_infinitive": "haber zaparrastrado",
+            "compound_gerund": "habiendo zaparrastrado"
+          },
+          "indicative": {
+            "present": {
+              "singular_first_person": "zaparrastro",
+              "singular_second_person": "zaparrastras / zaparrastrás",
+              "singular_formal_second_person": "zaparrastra",
+              "singular_third_person": "zaparrastra",
+              "plural_first_person": "zaparrastramos",
+              "plural_second_person": "zaparrastráis",
+              "plural_formal_second_person": "zaparrastran",
+              "plural_third_person": "zaparrastran"
+            },
+            "present_perfect": {
+              "singular_first_person": "he zaparrastrado",
+              "singular_second_person": "has zaparrastrado",
+              "singular_formal_second_person": "ha zaparrastrado",
+              "singular_third_person": "ha zaparrastrado",
+              "plural_first_person": "hemos zaparrastrado",
+              "plural_second_person": "habéis zaparrastrado",
+              "plural_formal_second_person": "han zaparrastrado",
+              "plural_third_person": "han zaparrastrado"
+            },
+            "imperfect": {
+              "singular_first_person": "zaparrastraba",
+              "singular_second_person": "zaparrastrabas",
+              "singular_formal_second_person": "zaparrastraba",
+              "singular_third_person": "zaparrastraba",
+              "plural_first_person": "zaparrastrábamos",
+              "plural_second_person": "zaparrastrabais",
+              "plural_formal_second_person": "zaparrastraban",
+              "plural_third_person": "zaparrastraban"
+            },
+            "past_perfect": {
+              "singular_first_person": "había zaparrastrado",
+              "singular_second_person": "habías zaparrastrado",
+              "singular_formal_second_person": "había zaparrastrado",
+              "singular_third_person": "había zaparrastrado",
+              "plural_first_person": "habíamos zaparrastrado",
+              "plural_second_person": "habíais zaparrastrado",
+              "plural_formal_second_person": "habían zaparrastrado",
+              "plural_third_person": "habían zaparrastrado"
+            },
+            "preterite": {
+              "singular_first_person": "zaparrastré",
+              "singular_second_person": "zaparrastraste",
+              "singular_formal_second_person": "zaparrastró",
+              "singular_third_person": "zaparrastró",
+              "plural_first_person": "zaparrastramos",
+              "plural_second_person": "zaparrastrasteis",
+              "plural_formal_second_person": "zaparrastraron",
+              "plural_third_person": "zaparrastraron"
+            },
+            "past_anterior": {
+              "singular_first_person": "hube zaparrastrado",
+              "singular_second_person": "hubiste zaparrastrado",
+              "singular_formal_second_person": "hubo zaparrastrado",
+              "singular_third_person": "hubo zaparrastrado",
+              "plural_first_person": "hubimos zaparrastrado",
+              "plural_second_person": "hubisteis zaparrastrado",
+              "plural_formal_second_person": "hubieron zaparrastrado",
+              "plural_third_person": "hubieron zaparrastrado"
+            },
+            "future": {
+              "singular_first_person": "zaparrastraré",
+              "singular_second_person": "zaparrastrarás",
+              "singular_formal_second_person": "zaparrastrará",
+              "singular_third_person": "zaparrastrará",
+              "plural_first_person": "zaparrastraremos",
+              "plural_second_person": "zaparrastraréis",
+              "plural_formal_second_person": "zaparrastrarán",
+              "plural_third_person": "zaparrastrarán"
+            },
+            "future_perfect": {
+              "singular_first_person": "habré zaparrastrado",
+              "singular_second_person": "habrás zaparrastrado",
+              "singular_formal_second_person": "habrá zaparrastrado",
+              "singular_third_person": "habrá zaparrastrado",
+              "plural_first_person": "habremos zaparrastrado",
+              "plural_second_person": "habréis zaparrastrado",
+              "plural_formal_second_person": "habrán zaparrastrado",
+              "plural_third_person": "habrán zaparrastrado"
+            },
+            "conditional": {
+              "singular_first_person": "zaparrastraría",
+              "singular_second_person": "zaparrastrarías",
+              "singular_formal_second_person": "zaparrastraría",
+              "singular_third_person": "zaparrastraría",
+              "plural_first_person": "zaparrastraríamos",
+              "plural_second_person": "zaparrastraríais",
+              "plural_formal_second_person": "zaparrastrarían",
+              "plural_third_person": "zaparrastrarían"
+            },
+            "conditional_perfect": {
+              "singular_first_person": "habría zaparrastrado",
+              "singular_second_person": "habrías zaparrastrado",
+              "singular_formal_second_person": "habría zaparrastrado",
+              "singular_third_person": "habría zaparrastrado",
+              "plural_first_person": "habríamos zaparrastrado",
+              "plural_second_person": "habríais zaparrastrado",
+              "plural_formal_second_person": "habrían zaparrastrado",
+              "plural_third_person": "habrían zaparrastrado"
+            }
+          },
+          "subjunctive": {
+            "present": {
+              "singular_first_person": "zaparrastre",
+              "singular_second_person": "zaparrastres",
+              "singular_formal_second_person": "zaparrastre",
+              "singular_third_person": "zaparrastre",
+              "plural_first_person": "zaparrastremos",
+              "plural_second_person": "zaparrastréis",
+              "plural_formal_second_person": "zaparrastren",
+              "plural_third_person": "zaparrastren"
+            },
+            "present_perfect": {
+              "singular_first_person": "haya zaparrastrado",
+              "singular_second_person": "hayas zaparrastrado",
+              "singular_formal_second_person": "haya zaparrastrado",
+              "singular_third_person": "haya zaparrastrado",
+              "plural_first_person": "hayamos zaparrastrado",
+              "plural_second_person": "hayáis zaparrastrado",
+              "plural_formal_second_person": "hayan zaparrastrado",
+              "plural_third_person": "hayan zaparrastrado"
+            },
+            "imperfect": {
+              "singular_first_person": "zaparrastrara o zaparrastrase",
+              "singular_second_person": "zaparrastraras o zaparrastrases",
+              "singular_formal_second_person": "zaparrastrara o zaparrastrase",
+              "singular_third_person": "zaparrastrara o zaparrastrase",
+              "plural_first_person": "zaparrastráramos o zaparrastrásemos",
+              "plural_second_person": "zaparrastrarais o zaparrastraseis",
+              "plural_formal_second_person": "zaparrastraran o zaparrastrasen",
+              "plural_third_person": "zaparrastraran o zaparrastrasen"
+            },
+            "past_perfect": {
+              "singular_first_person": "hubiera o hubiese zaparrastrado",
+              "singular_second_person": "hubieras o hubieses zaparrastrado",
+              "singular_formal_second_person": "hubiera o hubiese zaparrastrado",
+              "singular_third_person": "hubiera o hubiese zaparrastrado",
+              "plural_first_person": "hubiéramos o hubiésemos zaparrastrado",
+              "plural_second_person": "hubierais o hubieseis zaparrastrado",
+              "plural_formal_second_person": "hubieran o hubiesen zaparrastrado",
+              "plural_third_person": "hubieran o hubiesen zaparrastrado"
+            },
+            "future": {
+              "singular_first_person": "zaparrastrare",
+              "singular_second_person": "zaparrastrares",
+              "singular_formal_second_person": "zaparrastrare",
+              "singular_third_person": "zaparrastrare",
+              "plural_first_person": "zaparrastráremos",
+              "plural_second_person": "zaparrastrareis",
+              "plural_formal_second_person": "zaparrastraren",
+              "plural_third_person": "zaparrastraren"
+            },
+            "future_perfect": {
+              "singular_first_person": "hubiere zaparrastrado",
+              "singular_second_person": "hubieres zaparrastrado",
+              "singular_formal_second_person": "hubiere zaparrastrado",
+              "singular_third_person": "hubiere zaparrastrado",
+              "plural_first_person": "hubiéremos zaparrastrado",
+              "plural_second_person": "hubiereis zaparrastrado",
+              "plural_formal_second_person": "hubieren zaparrastrado",
+              "plural_third_person": "hubieren zaparrastrado"
+            }
+          },
+          "imperative": {
+            "singular_second_person": "zaparrastra / zaparrastrá",
+            "singular_formal_second_person": "zaparrastre",
+            "plural_second_person": "zaparrastrad",
+            "plural_formal_second_person": "zaparrastren"
+          }
+        }
+      }
+    ],
+    "suggestions": null
+  },
+  "ok": true
+}
