@@ -7,8 +7,6 @@ project_root = Path(__file__).resolve().parent.parent
 
 schema_file = (
     project_root
-    / "datos"
-    / "baseDeDatos"
     / "schema.sql"
     )
 

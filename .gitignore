@@ -1,22 +1,24 @@
-# Virtual environment
-.venv/
-
-# Python cache
-__pycache__/
-*.py[cod]
-
 # Distribution
 build/
 dist/
 *.egg-info/
 
-# IDEs
-.vscode/
-.idea/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
 
-# OS files
-.DS_Store
-Thumbs.db
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
 
 # Logs
 *.log
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
