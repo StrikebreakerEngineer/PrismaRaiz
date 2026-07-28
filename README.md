@@ -1,4 +1,6 @@
-# Léxico Español Real
+# PrismaRaíz – Léxico Integral de la Lengua Española
+
+Un Léxico Español Real
 
 Objetivo:
 
