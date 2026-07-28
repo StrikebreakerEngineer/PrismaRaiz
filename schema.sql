@@ -8,6 +8,7 @@ DROP TABLE IF EXISTS locution_senses;
 DROP TABLE IF EXISTS locutions;
 DROP TABLE IF EXISTS conjugations;
 DROP TABLE IF EXISTS rae_entries;
+DROP TABLE IF EXISTS examples;
 
 DROP TABLE IF EXISTS word_lemmas;
 DROP TABLE IF EXISTS lemmas;

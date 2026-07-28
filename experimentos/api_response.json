@@ -1,200 +1,1189 @@
 {
   "data": {
-    "word": "zaparrastraríamos",
+    "word": "tomar",
     "meanings": [
       {
+        "origin": {
+          "raw": "De or. inc.",
+          "type": "",
+          "voice": "",
+          "text": ""
+        },
         "senses": [
           {
-            "raw": "1. intr. coloq. Llevar arrastrando los vestidos de modo que se ensucien. Ir zaparrastrando.",
+            "raw": "1. tr. Coger o asir con la mano algo.Sin.:coger, agarrar, asir, prender, sujetar, atrapar, pillar.Ant.:soltar, dejar.",
             "meaning_number": 1,
             "category": "verb",
-            "verb_category": "intransitive",
-            "usage": "colloquial",
-            "description": "Llevar arrastrando los vestidos de modo que se ensucien",
-            "examples": [
-              "Ir zaparrastrando."
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Coger o asir con la mano algo",
+            "synonyms": [
+              "coger",
+              "agarrar",
+              "asir",
+              "prender",
+              "sujetar",
+              "atrapar",
+              "pillar"
             ],
+            "antonyms": [
+              "soltar",
+              "dejar"
+            ],
+            "synonyms_v2": [
+              {
+                "word": "coger"
+              },
+              {
+                "word": "agarrar"
+              },
+              {
+                "word": "asir"
+              },
+              {
+                "word": "prender"
+              },
+              {
+                "word": "sujetar"
+              },
+              {
+                "word": "atrapar"
+              },
+              {
+                "word": "pillar"
+              }
+            ],
+            "antonyms_v2": [
+              {
+                "word": "soltar"
+              },
+              {
+                "word": "dejar"
+              }
+            ]
+          },
+          {
+            "raw": "2. tr. Coger, aunque no sea con la mano. Tomar tinta con la pluma. Tomar agua de la fuente.",
+            "meaning_number": 2,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Coger, aunque no sea con la mano",
+            "examples": [
+              "Tomar tinta con la pluma.",
+              "Tomar agua de la fuente."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "3. tr. Recibir algo y hacerse cargo de ello.Ant.:dar, entregar.",
+            "meaning_number": 3,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Recibir algo y hacerse cargo de ello",
+            "synonyms": null,
+            "antonyms": [
+              "dar",
+              "entregar"
+            ],
+            "antonyms_v2": [
+              {
+                "word": "dar"
+              },
+              {
+                "word": "entregar"
+              }
+            ]
+          },
+          {
+            "raw": "4. tr. Recibir o aceptar de cualquier modo que sea.Ant.:dar, entregar.",
+            "meaning_number": 4,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Recibir o aceptar de cualquier modo que sea",
+            "synonyms": null,
+            "antonyms": [
+              "dar",
+              "entregar"
+            ],
+            "antonyms_v2": [
+              {
+                "word": "dar"
+              },
+              {
+                "word": "entregar"
+              }
+            ]
+          },
+          {
+            "raw": "5. tr. Ocupar o adquirir por expugnación, trato o asalto una fortaleza o ciudad.Sin.:apropiarse, adueñarse, arrebatar, requisar, quitar, acaparar, capturar, ocupar, invadir, conquistar, dominar.",
+            "meaning_number": 5,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Ocupar o adquirir por expugnación, trato o asalto una fortaleza o ciudad",
+            "synonyms": [
+              "apropiarse",
+              "adueñarse",
+              "arrebatar",
+              "requisar",
+              "quitar",
+              "acaparar",
+              "capturar",
+              "ocupar",
+              "invadir",
+              "conquistar",
+              "dominar"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "apropiarse"
+              },
+              {
+                "word": "adueñarse"
+              },
+              {
+                "word": "arrebatar"
+              },
+              {
+                "word": "requisar"
+              },
+              {
+                "word": "quitar"
+              },
+              {
+                "word": "acaparar"
+              },
+              {
+                "word": "capturar"
+              },
+              {
+                "word": "ocupar"
+              },
+              {
+                "word": "invadir"
+              },
+              {
+                "word": "conquistar"
+              },
+              {
+                "word": "dominar"
+              }
+            ]
+          },
+          {
+            "raw": "6. tr. Comer o beber. Tomar un desayuno, el chocolate. U. t. c. prnl.Sin.:ingerir, comer1, beber1.",
+            "meaning_number": 6,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Comer o beber",
+            "usage_notes": [
+              "U. t. c. prnl."
+            ],
+            "examples": [
+              "Tomar un desayuno, el chocolate."
+            ],
+            "synonyms": [
+              "ingerir",
+              "comer1",
+              "beber1"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "ingerir"
+              },
+              {
+                "word": "comer1"
+              },
+              {
+                "word": "beber1"
+              }
+            ]
+          },
+          {
+            "raw": "7. tr. Utilizar un medio de transporte. Tomar el autobús.Sin.:coger, subir.",
+            "meaning_number": 7,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Utilizar un medio de transporte",
+            "examples": [
+              "Tomar el autobús."
+            ],
+            "synonyms": [
+              "coger",
+              "subir"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "coger"
+              },
+              {
+                "word": "subir"
+              }
+            ]
+          },
+          {
+            "raw": "8. tr. Adoptar, emplear, poner por obra. Tomar precauciones.Sin.:adoptar, emprender.",
+            "meaning_number": 8,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Adoptar, emplear, poner por obra",
+            "examples": [
+              "Tomar precauciones."
+            ],
+            "synonyms": [
+              "adoptar",
+              "emprender"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "adoptar"
+              },
+              {
+                "word": "emprender"
+              }
+            ]
+          },
+          {
+            "raw": "9. tr. Contraer o adquirir algo. Tomó la costumbre de leer antes de dormir.Sin.:adquirir, contraer, adoptar, cobrar.Ant.:perder.",
+            "meaning_number": 9,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Contraer o adquirir algo",
+            "examples": [
+              "Tomó la costumbre de leer antes de dormir."
+            ],
+            "synonyms": [
+              "adquirir",
+              "contraer",
+              "adoptar",
+              "cobrar"
+            ],
+            "antonyms": [
+              "perder"
+            ],
+            "synonyms_v2": [
+              {
+                "word": "adquirir"
+              },
+              {
+                "word": "contraer"
+              },
+              {
+                "word": "adoptar"
+              },
+              {
+                "word": "cobrar"
+              }
+            ],
+            "antonyms_v2": [
+              {
+                "word": "perder"
+              }
+            ]
+          },
+          {
+            "raw": "10. tr. Contratar o ajustar a una o varias personas para que presten un servicio. Tomar un criado.Sin.:contratar, ajustar, emplear.",
+            "meaning_number": 10,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Contratar o ajustar a una o varias personas para que presten un servicio",
+            "examples": [
+              "Tomar un criado."
+            ],
+            "synonyms": [
+              "contratar",
+              "ajustar",
+              "emplear"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "contratar"
+              },
+              {
+                "word": "ajustar"
+              },
+              {
+                "word": "emplear"
+              }
+            ]
+          },
+          {
+            "raw": "11. tr. alquilar (‖ tomar algo por tiempo y precio convenidos). Tomar un coche, una casa, un palco.Sin.:alquilar, arrendar1, coger.",
+            "meaning_number": 11,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "alquilar (‖ tomar algo por tiempo y precio convenidos)",
+            "examples": [
+              "Tomar un coche, una casa, un palco."
+            ],
+            "cross_references": [
+              "alquilar"
+            ],
+            "synonyms": [
+              "alquilar",
+              "arrendar1",
+              "coger"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "alquilar"
+              },
+              {
+                "word": "arrendar1"
+              },
+              {
+                "word": "coger",
+                "label": "colloquial"
+              }
+            ]
+          },
+          {
+            "raw": "12. tr. Entender, juzgar e interpretar algo en determinado sentido. Hay que tomar estas corazonadas como venidas del cielo. Tomar a broma una cosa. Tomar en serio a alguien o algo.",
+            "meaning_number": 12,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Entender, juzgar e interpretar algo en determinado sentido",
+            "examples": [
+              "Hay que tomar estas corazonadas como venidas del cielo.",
+              "Tomar a broma una cosa.",
+              "Tomar en serio a alguien o algo."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "13. tr. Considerar equivocadamente a alguien o algo como lo que no es. Tomar a alguien por ladrón. Tomar una cosa por otra.",
+            "meaning_number": 13,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Considerar equivocadamente a alguien o algo como lo que no es",
+            "examples": [
+              "Tomar a alguien por ladrón.",
+              "Tomar una cosa por otra."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "14. tr. Ocupar un sitio cualquiera para cerrar el paso o interceptar la entrada o salida.",
+            "meaning_number": 14,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Ocupar un sitio cualquiera para cerrar el paso o interceptar la entrada o salida",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "15. tr. Quitar o hurtar.",
+            "meaning_number": 15,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Quitar o hurtar",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "16. tr. comprar (‖ obtener por un precio). Tomaré el prado, si me lo da barato.Sin.:comprar, adquirir, obtener, contratar.",
+            "meaning_number": 16,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "comprar (‖ obtener por un precio)",
+            "examples": [
+              "Tomaré el prado, si me lo da barato."
+            ],
+            "cross_references": [
+              "comprar"
+            ],
+            "synonyms": [
+              "comprar",
+              "adquirir",
+              "obtener",
+              "contratar"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "comprar"
+              },
+              {
+                "word": "adquirir"
+              },
+              {
+                "word": "obtener"
+              },
+              {
+                "word": "contratar"
+              }
+            ]
+          },
+          {
+            "raw": "17. tr. Dicho de una persona: Recibir en sí los usos, modos o cualidades de otro, imitarlos. Tomar los modales, el estilo, las cualidades de alguien.",
+            "meaning_number": 17,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Dicho de una persona: Recibir en sí los usos, modos o cualidades de otro, imitarlos",
+            "examples": [
+              "Tomar los modales, el estilo, las cualidades de alguien."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "18. tr. Recibir en sí los efectos de algo, consintiéndolos o padeciéndolos. Tomar frío, calor, pesadumbre.",
+            "meaning_number": 18,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Recibir en sí los efectos de algo, consintiéndolos o padeciéndolos",
+            "examples": [
+              "Tomar frío, calor, pesadumbre."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "19. tr. Fotografiar, filmar.Sin.:fotografiar, registrar, filmar, grabar.",
+            "meaning_number": 19,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Fotografiar, filmar",
+            "synonyms": [
+              "fotografiar",
+              "registrar",
+              "filmar",
+              "grabar"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "fotografiar"
+              },
+              {
+                "word": "registrar"
+              },
+              {
+                "word": "filmar"
+              },
+              {
+                "word": "grabar"
+              }
+            ]
+          },
+          {
+            "raw": "20. tr. Emprender algo, o encargarse de una dependencia o negocio.",
+            "meaning_number": 20,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Emprender algo, o encargarse de una dependencia o negocio",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "21. tr. Dicho de algún efecto o accidente que invade y se apodera del ánimo: Sobrevenir a alguien. Tomarle a alguien el sueño, la risa, la gana, un desmayo.",
+            "meaning_number": 21,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Dicho de algún efecto o accidente que invade y se apodera del ánimo: Sobrevenir a alguien",
+            "examples": [
+              "Tomarle a alguien el sueño, la risa, la gana, un desmayo."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "22. tr. Elegir, entre varias cosas que se ofrecen al arbitrio, alguna de ellas.Sin.:escoger, elegir, seleccionar.",
+            "meaning_number": 22,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Elegir, entre varias cosas que se ofrecen al arbitrio, alguna de ellas",
+            "synonyms": [
+              "escoger",
+              "elegir",
+              "seleccionar"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "escoger"
+              },
+              {
+                "word": "elegir"
+              },
+              {
+                "word": "seleccionar"
+              }
+            ]
+          },
+          {
+            "raw": "23. tr. Dicho del macho: Cubrir a la hembra.Sin.:cubrir, montar, coger.",
+            "meaning_number": 23,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Dicho del macho: Cubrir a la hembra",
+            "synonyms": [
+              "cubrir",
+              "montar",
+              "coger"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "cubrir"
+              },
+              {
+                "word": "montar"
+              },
+              {
+                "word": "coger"
+              }
+            ]
+          },
+          {
+            "raw": "24. tr. En un juego de naipes, hacer o ganar la baza.",
+            "meaning_number": 24,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "En un juego de naipes, hacer o ganar la baza",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "25. tr. Suspender o parar la pelota que se ha sacado, sin volverla ni jugarla, por no estar los jugadores en su lugar o por otro motivo semejante.",
+            "meaning_number": 25,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Suspender o parar la pelota que se ha sacado, sin volverla ni jugarla, por no estar los jugadores en su lugar o por otro motivo semejante",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "26. tr. Recibir o adquirir algo. Tomar fuerza, espíritu, aliento, libertad.",
+            "meaning_number": 26,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Recibir o adquirir algo",
+            "examples": [
+              "Tomar fuerza, espíritu, aliento, libertad."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "27. tr. U. con ciertos nombres deverbales significa lo mismo que los verbos de donde tales nombres se derivan. Tomar resolución, tomar aborrecimiento.",
+            "meaning_number": 27,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "con ciertos nombres deverbales significa lo mismo que los verbos de donde tales nombres se derivan",
+            "examples": [
+              "Tomar resolución, tomar aborrecimiento."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "28. tr. Ponerse a ejecutar la acción o la labor para la cual sirve un determinado instrumento. Tomar la pluma, la aguja.",
+            "meaning_number": 28,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Ponerse a ejecutar la acción o la labor para la cual sirve un determinado instrumento",
+            "examples": [
+              "Tomar la pluma, la aguja."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "29. tr. Empezar a seguir una dirección, entrar en una calle, camino o tramo, encaminarse por ellos. Tomar la derecha. Tomar la carretera de Madrid. Tomar una vuelta, una curva, un giro. U. t. c. intr. Al llegar a la esquina, tomó por la derecha.",
+            "meaning_number": 29,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Empezar a seguir una dirección, entrar en una calle, camino o tramo, encaminarse por ellos",
+            "usage_notes": [
+              "U. t. c. intr."
+            ],
+            "examples": [
+              "Tomar la derecha.",
+              "Tomar la carretera de Madrid.",
+              "Tomar una vuelta, una curva, un giro.",
+              "Al llegar a la esquina, tomó por la derecha."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "30. tr. Llevar a alguien en su compañía.",
+            "meaning_number": 30,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "",
+            "description": "Llevar a alguien en su compañía",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "31. tr. desus. Coger o lograr animales cazándolos.",
+            "meaning_number": 31,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "obsolete",
+            "description": "Coger o lograr animales cazándolos",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "32. tr. desus. Hallar o coger a alguien en culpa o delito.",
+            "meaning_number": 32,
+            "category": "verb",
+            "verb_category": "transitive",
+            "usage": "obsolete",
+            "description": "Hallar o coger a alguien en culpa o delito",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "33. intr. Resolverse o determinarse a efectuar una acción. Tomó y escapó.",
+            "meaning_number": 33,
+            "category": "verb",
+            "verb_category": "intransitive",
+            "usage": "",
+            "description": "Resolverse o determinarse a efectuar una acción",
+            "examples": [
+              "Tomó y escapó."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "34. intr. Am. y Guin. Ingerir bebidas alcohólicas.",
+            "meaning_number": 34,
+            "category": "verb",
+            "verb_category": "intransitive",
+            "usage": "",
+            "description": "Ingerir bebidas alcohólicas",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "35. prnl. emborracharse (‖ beber hasta trastornarse los sentidos).Sin.:emborracharse, embriagarse, ajumarse, amonarse, cocerse, alumbrarse, mamarse, jalarse, amarrarse, empedarse, zocarse, enguarapetarse, curarse, enchicharse, encurdelarse, enmonarse, traguearse.",
+            "meaning_number": 35,
+            "category": "verb",
+            "verb_category": "pronominal",
+            "usage": "",
+            "description": "emborracharse (‖ beber hasta trastornarse los sentidos)",
+            "cross_references": [
+              "emborracharse"
+            ],
+            "synonyms": [
+              "emborracharse",
+              "embriagarse",
+              "ajumarse",
+              "amonarse",
+              "cocerse",
+              "alumbrarse",
+              "mamarse",
+              "jalarse",
+              "amarrarse",
+              "empedarse",
+              "zocarse",
+              "enguarapetarse",
+              "curarse",
+              "enchicharse",
+              "encurdelarse",
+              "enmonarse",
+              "traguearse"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "emborracharse"
+              },
+              {
+                "word": "embriagarse"
+              },
+              {
+                "word": "ajumarse"
+              },
+              {
+                "word": "amonarse",
+                "label": "colloquial"
+              },
+              {
+                "word": "cocerse",
+                "label": "colloquial"
+              },
+              {
+                "word": "alumbrarse",
+                "label": "colloquial"
+              },
+              {
+                "word": "mamarse",
+                "label": "colloquial"
+              },
+              {
+                "word": "jalarse",
+                "label": "latin_america"
+              },
+              {
+                "word": "amarrarse",
+                "label": "latin_america"
+              },
+              {
+                "word": "empedarse",
+                "label": "latin_america"
+              },
+              {
+                "word": "zocarse",
+                "label": "latin_america"
+              },
+              {
+                "word": "enguarapetarse",
+                "label": "latin_america"
+              },
+              {
+                "word": "curarse",
+                "label": "latin_america"
+              },
+              {
+                "word": "enchicharse",
+                "label": "latin_america"
+              },
+              {
+                "word": "encurdelarse",
+                "label": "latin_america"
+              },
+              {
+                "word": "enmonarse",
+                "label": "latin_america"
+              },
+              {
+                "word": "traguearse",
+                "label": "latin_america"
+              }
+            ]
+          },
+          {
+            "raw": "36. prnl. Dicho de la atmósfera: Oscurecerse, cargarse de vapores o de nubes, especialmente por el horizonte.",
+            "meaning_number": 36,
+            "category": "verb",
+            "verb_category": "pronominal",
+            "usage": "",
+            "description": "Dicho de la atmósfera: Oscurecerse, cargarse de vapores o de nubes, especialmente por el horizonte",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "37. prnl. Dicho propiamente de los metales: Cubrirse de moho u orín.",
+            "meaning_number": 37,
+            "category": "verb",
+            "verb_category": "pronominal",
+            "usage": "",
+            "description": "Dicho propiamente de los metales: Cubrirse de moho u orín",
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "38. prnl. Reñir o tener contienda o cuestión con alguien. Se tomaba con todos.",
+            "meaning_number": 38,
+            "category": "verb",
+            "verb_category": "pronominal",
+            "usage": "",
+            "description": "Reñir o tener contienda o cuestión con alguien",
+            "examples": [
+              "Se tomaba con todos."
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "39. prnl. desus. Ejecutar algo.",
+            "meaning_number": 39,
+            "category": "verb",
+            "verb_category": "pronominal",
+            "usage": "obsolete",
+            "description": "Ejecutar algo",
             "synonyms": null,
             "antonyms": null
           }
         ],
+        "locutions": [
+          {
+            "expression": "toma",
+            "senses": [
+              {
+                "raw": "1. interj. coloq. U. para dar a entender la poca novedad o importancia de algo.",
+                "meaning_number": 1,
+                "category": "interjection",
+                "usage": "colloquial",
+                "description": "para dar a entender la poca novedad o importancia de algo",
+                "synonyms": null,
+                "antonyms": null
+              },
+              {
+                "raw": "2. interj. coloq. U. para señalar como castigo, expiación o desengaño aquello de que se habla. ¿No te dije que corrías peligro? Pues ¡toma!",
+                "meaning_number": 2,
+                "category": "interjection",
+                "usage": "colloquial",
+                "description": "para señalar como castigo, expiación o desengaño aquello de que se habla",
+                "examples": [
+                  "¿No te dije que corrías peligro? Pues ¡toma!"
+                ],
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          },
+          {
+            "expression": "toma y daca",
+            "senses": [
+              {
+                "raw": "1. loc. sust. m. coloq. Trueque simultáneo de cosas o servicios.",
+                "meaning_number": 1,
+                "category": "noun",
+                "usage": "colloquial",
+                "description": "Trueque simultáneo de cosas o servicios",
+                "synonyms": null,
+                "antonyms": null
+              },
+              {
+                "raw": "2. loc. sust. m. coloq. Favor que espera la reciprocidad inmediata.",
+                "meaning_number": 2,
+                "category": "noun",
+                "usage": "colloquial",
+                "description": "Favor que espera la reciprocidad inmediata",
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          },
+          {
+            "expression": "tomar alguien algo por donde quema",
+            "senses": [
+              {
+                "raw": "1. loc. verb. coloq. Atribuir sin razón intención ofensiva o picante a lo que otro hace o dice.",
+                "meaning_number": 1,
+                "category": "verb",
+                "usage": "",
+                "description": "Atribuir sin razón intención ofensiva o picante a lo que otro hace o dice",
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          },
+          {
+            "expression": "tomar alguien de más alto, o de más lejos, algo",
+            "senses": [
+              {
+                "raw": "1. locs. verbs. Acercarse más al origen o principio de ello.",
+                "meaning_number": 1,
+                "category": "noun",
+                "usage": "",
+                "description": "Acercarse más al origen o principio de ello",
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          },
+          {
+            "expression": "tomar alguien marido o mujer",
+            "senses": [
+              {
+                "raw": "1. locs. verbs. Contraer matrimonio.",
+                "meaning_number": 1,
+                "category": "noun",
+                "usage": "",
+                "description": "Contraer matrimonio",
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          },
+          {
+            "expression": "tomar alguien sobre sí algo",
+            "senses": [
+              {
+                "raw": "1. loc. verb. Encargarse o responder de ello.",
+                "meaning_number": 1,
+                "category": "verb",
+                "usage": "",
+                "description": "Encargarse o responder de ello",
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          },
+          {
+            "expression": "tomar por avante una nave",
+            "senses": [
+              {
+                "raw": "1. loc. verb. Mar. Virar involuntariamente por la parte por donde viene el viento.",
+                "meaning_number": 1,
+                "category": "verb",
+                "usage": "",
+                "description": "Virar involuntariamente por la parte por donde viene el viento",
+                "fields": [
+                  "Marina"
+                ],
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          },
+          {
+            "expression": "tomarla con alguien o algo",
+            "senses": [
+              {
+                "raw": "1. loc. verb. Convertirlo en objeto de aversión, burla o reprobación.",
+                "meaning_number": 1,
+                "category": "verb",
+                "usage": "",
+                "description": "Convertirlo en objeto de aversión, burla o reprobación",
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          },
+          {
+            "expression": "tómate esa",
+            "senses": [
+              {
+                "raw": "1. expr. coloq. U. cuando a alguien se le da un golpe, o se hace con él otra cosa que sienta, para denotar que la merecía o el acierto del que la ejecuta. Suele añadirse: y vuelve por otra.",
+                "meaning_number": 1,
+                "category": "noun",
+                "usage": "colloquial",
+                "description": "cuando a alguien se le da un golpe, o se hace con él otra cosa que sienta, para denotar que la merecía o el acierto del que la ejecuta. Suele añadirse: y vuelve por otra",
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          },
+          {
+            "expression": "tome",
+            "senses": [
+              {
+                "raw": "1. interj. toma.",
+                "meaning_number": 1,
+                "category": "interjection",
+                "usage": "",
+                "description": "toma",
+                "cross_references": [
+                  "toma."
+                ],
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          }
+        ],
         "conjugations": {
           "non_personal": {
-            "infinitive": "zaparrastrar",
-            "participle": "zaparrastrado",
-            "gerund": "zaparrastrando",
-            "compound_infinitive": "haber zaparrastrado",
-            "compound_gerund": "habiendo zaparrastrado"
+            "infinitive": "tomar",
+            "participle": "tomado",
+            "gerund": "tomando",
+            "compound_infinitive": "haber tomado",
+            "compound_gerund": "habiendo tomado"
           },
           "indicative": {
             "present": {
-              "singular_first_person": "zaparrastro",
-              "singular_second_person": "zaparrastras / zaparrastrás",
-              "singular_formal_second_person": "zaparrastra",
-              "singular_third_person": "zaparrastra",
-              "plural_first_person": "zaparrastramos",
-              "plural_second_person": "zaparrastráis",
-              "plural_formal_second_person": "zaparrastran",
-              "plural_third_person": "zaparrastran"
+              "singular_first_person": "tomo",
+              "singular_second_person": "tomas / tomás",
+              "singular_formal_second_person": "toma",
+              "singular_third_person": "toma",
+              "plural_first_person": "tomamos",
+              "plural_second_person": "tomáis",
+              "plural_formal_second_person": "toman",
+              "plural_third_person": "toman"
             },
             "present_perfect": {
-              "singular_first_person": "he zaparrastrado",
-              "singular_second_person": "has zaparrastrado",
-              "singular_formal_second_person": "ha zaparrastrado",
-              "singular_third_person": "ha zaparrastrado",
-              "plural_first_person": "hemos zaparrastrado",
-              "plural_second_person": "habéis zaparrastrado",
-              "plural_formal_second_person": "han zaparrastrado",
-              "plural_third_person": "han zaparrastrado"
+              "singular_first_person": "he tomado",
+              "singular_second_person": "has tomado",
+              "singular_formal_second_person": "ha tomado",
+              "singular_third_person": "ha tomado",
+              "plural_first_person": "hemos tomado",
+              "plural_second_person": "habéis tomado",
+              "plural_formal_second_person": "han tomado",
+              "plural_third_person": "han tomado"
             },
             "imperfect": {
-              "singular_first_person": "zaparrastraba",
-              "singular_second_person": "zaparrastrabas",
-              "singular_formal_second_person": "zaparrastraba",
-              "singular_third_person": "zaparrastraba",
-              "plural_first_person": "zaparrastrábamos",
-              "plural_second_person": "zaparrastrabais",
-              "plural_formal_second_person": "zaparrastraban",
-              "plural_third_person": "zaparrastraban"
+              "singular_first_person": "tomaba",
+              "singular_second_person": "tomabas",
+              "singular_formal_second_person": "tomaba",
+              "singular_third_person": "tomaba",
+              "plural_first_person": "tomábamos",
+              "plural_second_person": "tomabais",
+              "plural_formal_second_person": "tomaban",
+              "plural_third_person": "tomaban"
             },
             "past_perfect": {
-              "singular_first_person": "había zaparrastrado",
-              "singular_second_person": "habías zaparrastrado",
-              "singular_formal_second_person": "había zaparrastrado",
-              "singular_third_person": "había zaparrastrado",
-              "plural_first_person": "habíamos zaparrastrado",
-              "plural_second_person": "habíais zaparrastrado",
-              "plural_formal_second_person": "habían zaparrastrado",
-              "plural_third_person": "habían zaparrastrado"
+              "singular_first_person": "había tomado",
+              "singular_second_person": "habías tomado",
+              "singular_formal_second_person": "había tomado",
+              "singular_third_person": "había tomado",
+              "plural_first_person": "habíamos tomado",
+              "plural_second_person": "habíais tomado",
+              "plural_formal_second_person": "habían tomado",
+              "plural_third_person": "habían tomado"
             },
             "preterite": {
-              "singular_first_person": "zaparrastré",
-              "singular_second_person": "zaparrastraste",
-              "singular_formal_second_person": "zaparrastró",
-              "singular_third_person": "zaparrastró",
-              "plural_first_person": "zaparrastramos",
-              "plural_second_person": "zaparrastrasteis",
-              "plural_formal_second_person": "zaparrastraron",
-              "plural_third_person": "zaparrastraron"
+              "singular_first_person": "tomé",
+              "singular_second_person": "tomaste",
+              "singular_formal_second_person": "tomó",
+              "singular_third_person": "tomó",
+              "plural_first_person": "tomamos",
+              "plural_second_person": "tomasteis",
+              "plural_formal_second_person": "tomaron",
+              "plural_third_person": "tomaron"
             },
             "past_anterior": {
-              "singular_first_person": "hube zaparrastrado",
-              "singular_second_person": "hubiste zaparrastrado",
-              "singular_formal_second_person": "hubo zaparrastrado",
-              "singular_third_person": "hubo zaparrastrado",
-              "plural_first_person": "hubimos zaparrastrado",
-              "plural_second_person": "hubisteis zaparrastrado",
-              "plural_formal_second_person": "hubieron zaparrastrado",
-              "plural_third_person": "hubieron zaparrastrado"
+              "singular_first_person": "hube tomado",
+              "singular_second_person": "hubiste tomado",
+              "singular_formal_second_person": "hubo tomado",
+              "singular_third_person": "hubo tomado",
+              "plural_first_person": "hubimos tomado",
+              "plural_second_person": "hubisteis tomado",
+              "plural_formal_second_person": "hubieron tomado",
+              "plural_third_person": "hubieron tomado"
             },
             "future": {
-              "singular_first_person": "zaparrastraré",
-              "singular_second_person": "zaparrastrarás",
-              "singular_formal_second_person": "zaparrastrará",
-              "singular_third_person": "zaparrastrará",
-              "plural_first_person": "zaparrastraremos",
-              "plural_second_person": "zaparrastraréis",
-              "plural_formal_second_person": "zaparrastrarán",
-              "plural_third_person": "zaparrastrarán"
+              "singular_first_person": "tomaré",
+              "singular_second_person": "tomarás",
+              "singular_formal_second_person": "tomará",
+              "singular_third_person": "tomará",
+              "plural_first_person": "tomaremos",
+              "plural_second_person": "tomaréis",
+              "plural_formal_second_person": "tomarán",
+              "plural_third_person": "tomarán"
             },
             "future_perfect": {
-              "singular_first_person": "habré zaparrastrado",
-              "singular_second_person": "habrás zaparrastrado",
-              "singular_formal_second_person": "habrá zaparrastrado",
-              "singular_third_person": "habrá zaparrastrado",
-              "plural_first_person": "habremos zaparrastrado",
-              "plural_second_person": "habréis zaparrastrado",
-              "plural_formal_second_person": "habrán zaparrastrado",
-              "plural_third_person": "habrán zaparrastrado"
+              "singular_first_person": "habré tomado",
+              "singular_second_person": "habrás tomado",
+              "singular_formal_second_person": "habrá tomado",
+              "singular_third_person": "habrá tomado",
+              "plural_first_person": "habremos tomado",
+              "plural_second_person": "habréis tomado",
+              "plural_formal_second_person": "habrán tomado",
+              "plural_third_person": "habrán tomado"
             },
             "conditional": {
-              "singular_first_person": "zaparrastraría",
-              "singular_second_person": "zaparrastrarías",
-              "singular_formal_second_person": "zaparrastraría",
-              "singular_third_person": "zaparrastraría",
-              "plural_first_person": "zaparrastraríamos",
-              "plural_second_person": "zaparrastraríais",
-              "plural_formal_second_person": "zaparrastrarían",
-              "plural_third_person": "zaparrastrarían"
+              "singular_first_person": "tomaría",
+              "singular_second_person": "tomarías",
+              "singular_formal_second_person": "tomaría",
+              "singular_third_person": "tomaría",
+              "plural_first_person": "tomaríamos",
+              "plural_second_person": "tomaríais",
+              "plural_formal_second_person": "tomarían",
+              "plural_third_person": "tomarían"
             },
             "conditional_perfect": {
-              "singular_first_person": "habría zaparrastrado",
-              "singular_second_person": "habrías zaparrastrado",
-              "singular_formal_second_person": "habría zaparrastrado",
-              "singular_third_person": "habría zaparrastrado",
-              "plural_first_person": "habríamos zaparrastrado",
-              "plural_second_person": "habríais zaparrastrado",
-              "plural_formal_second_person": "habrían zaparrastrado",
-              "plural_third_person": "habrían zaparrastrado"
+              "singular_first_person": "habría tomado",
+              "singular_second_person": "habrías tomado",
+              "singular_formal_second_person": "habría tomado",
+              "singular_third_person": "habría tomado",
+              "plural_first_person": "habríamos tomado",
+              "plural_second_person": "habríais tomado",
+              "plural_formal_second_person": "habrían tomado",
+              "plural_third_person": "habrían tomado"
             }
           },
           "subjunctive": {
             "present": {
-              "singular_first_person": "zaparrastre",
-              "singular_second_person": "zaparrastres",
-              "singular_formal_second_person": "zaparrastre",
-              "singular_third_person": "zaparrastre",
-              "plural_first_person": "zaparrastremos",
-              "plural_second_person": "zaparrastréis",
-              "plural_formal_second_person": "zaparrastren",
-              "plural_third_person": "zaparrastren"
+              "singular_first_person": "tome",
+              "singular_second_person": "tomes",
+              "singular_formal_second_person": "tome",
+              "singular_third_person": "tome",
+              "plural_first_person": "tomemos",
+              "plural_second_person": "toméis",
+              "plural_formal_second_person": "tomen",
+              "plural_third_person": "tomen"
             },
             "present_perfect": {
-              "singular_first_person": "haya zaparrastrado",
-              "singular_second_person": "hayas zaparrastrado",
-              "singular_formal_second_person": "haya zaparrastrado",
-              "singular_third_person": "haya zaparrastrado",
-              "plural_first_person": "hayamos zaparrastrado",
-              "plural_second_person": "hayáis zaparrastrado",
-              "plural_formal_second_person": "hayan zaparrastrado",
-              "plural_third_person": "hayan zaparrastrado"
+              "singular_first_person": "haya tomado",
+              "singular_second_person": "hayas tomado",
+              "singular_formal_second_person": "haya tomado",
+              "singular_third_person": "haya tomado",
+              "plural_first_person": "hayamos tomado",
+              "plural_second_person": "hayáis tomado",
+              "plural_formal_second_person": "hayan tomado",
+              "plural_third_person": "hayan tomado"
             },
             "imperfect": {
-              "singular_first_person": "zaparrastrara o zaparrastrase",
-              "singular_second_person": "zaparrastraras o zaparrastrases",
-              "singular_formal_second_person": "zaparrastrara o zaparrastrase",
-              "singular_third_person": "zaparrastrara o zaparrastrase",
-              "plural_first_person": "zaparrastráramos o zaparrastrásemos",
-              "plural_second_person": "zaparrastrarais o zaparrastraseis",
-              "plural_formal_second_person": "zaparrastraran o zaparrastrasen",
-              "plural_third_person": "zaparrastraran o zaparrastrasen"
+              "singular_first_person": "tomara o tomase",
+              "singular_second_person": "tomaras o tomases",
+              "singular_formal_second_person": "tomara o tomase",
+              "singular_third_person": "tomara o tomase",
+              "plural_first_person": "tomáramos o tomásemos",
+              "plural_second_person": "tomarais o tomaseis",
+              "plural_formal_second_person": "tomaran o tomasen",
+              "plural_third_person": "tomaran o tomasen"
             },
             "past_perfect": {
-              "singular_first_person": "hubiera o hubiese zaparrastrado",
-              "singular_second_person": "hubieras o hubieses zaparrastrado",
-              "singular_formal_second_person": "hubiera o hubiese zaparrastrado",
-              "singular_third_person": "hubiera o hubiese zaparrastrado",
-              "plural_first_person": "hubiéramos o hubiésemos zaparrastrado",
-              "plural_second_person": "hubierais o hubieseis zaparrastrado",
-              "plural_formal_second_person": "hubieran o hubiesen zaparrastrado",
-              "plural_third_person": "hubieran o hubiesen zaparrastrado"
+              "singular_first_person": "hubiera o hubiese tomado",
+              "singular_second_person": "hubieras o hubieses tomado",
+              "singular_formal_second_person": "hubiera o hubiese tomado",
+              "singular_third_person": "hubiera o hubiese tomado",
+              "plural_first_person": "hubiéramos o hubiésemos tomado",
+              "plural_second_person": "hubierais o hubieseis tomado",
+              "plural_formal_second_person": "hubieran o hubiesen tomado",
+              "plural_third_person": "hubieran o hubiesen tomado"
             },
             "future": {
-              "singular_first_person": "zaparrastrare",
-              "singular_second_person": "zaparrastrares",
-              "singular_formal_second_person": "zaparrastrare",
-              "singular_third_person": "zaparrastrare",
-              "plural_first_person": "zaparrastráremos",
-              "plural_second_person": "zaparrastrareis",
-              "plural_formal_second_person": "zaparrastraren",
-              "plural_third_person": "zaparrastraren"
+              "singular_first_person": "tomare",
+              "singular_second_person": "tomares",
+              "singular_formal_second_person": "tomare",
+              "singular_third_person": "tomare",
+              "plural_first_person": "tomáremos",
+              "plural_second_person": "tomareis",
+              "plural_formal_second_person": "tomaren",
+              "plural_third_person": "tomaren"
             },
             "future_perfect": {
-              "singular_first_person": "hubiere zaparrastrado",
-              "singular_second_person": "hubieres zaparrastrado",
-              "singular_formal_second_person": "hubiere zaparrastrado",
-              "singular_third_person": "hubiere zaparrastrado",
-              "plural_first_person": "hubiéremos zaparrastrado",
-              "plural_second_person": "hubiereis zaparrastrado",
-              "plural_formal_second_person": "hubieren zaparrastrado",
-              "plural_third_person": "hubieren zaparrastrado"
+              "singular_first_person": "hubiere tomado",
+              "singular_second_person": "hubieres tomado",
+              "singular_formal_second_person": "hubiere tomado",
+              "singular_third_person": "hubiere tomado",
+              "plural_first_person": "hubiéremos tomado",
+              "plural_second_person": "hubiereis tomado",
+              "plural_formal_second_person": "hubieren tomado",
+              "plural_third_person": "hubieren tomado"
             }
           },
           "imperative": {
-            "singular_second_person": "zaparrastra / zaparrastrá",
-            "singular_formal_second_person": "zaparrastre",
-            "plural_second_person": "zaparrastrad",
-            "plural_formal_second_person": "zaparrastren"
+            "singular_second_person": "toma / tomá",
+            "singular_formal_second_person": "tome",
+            "plural_second_person": "tomad",
+            "plural_formal_second_person": "tomen"
           }
         }
       }

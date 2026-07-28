@@ -110,11 +110,7 @@ def create_rae_entry(connection, lemma_id, origin, raw_json):
 
     return cursor.fetchone()[0]
 
-def create_definition(
-    connection,
-    rae_entry_id,
-    meaning
-):
+def create_definition(connection, rae_entry_id, meaning):
 
     cursor = connection.cursor()
 
@@ -148,3 +144,29 @@ def create_definition(
     connection.commit()
 
     return cursor.lastrowid
+
+def get_unprocessed_raw_words(connection):
+    cursor = connection.cursor()
+
+    cursor.execute("""
+        SELECT rw.id, rw.word
+        FROM raw_words rw
+        LEFT JOIN word_lemmas wl
+            ON wl.raw_word_id = rw.id
+        WHERE wl.raw_word_id IS NULL
+    """)
+
+    return cursor.fetchall()
+
+def get_lemmas_without_rae_entry(connection):
+    cursor = connection.cursor()
+
+    cursor.execute("""
+        SELECT l.id, l.lemma
+        FROM lemmas l
+        LEFT JOIN rae_entries r
+            ON r.lemma_id = l.id
+        WHERE r.lemma_id IS NULL
+    """)
+
+    return cursor.fetchall()

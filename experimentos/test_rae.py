@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 WORDS = [
-    "zaparrastraríamos"
+    "tomar"
 ]
 
 for word in WORDS:
