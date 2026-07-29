@@ -76,39 +76,28 @@ def create_relation(connection, raw_word_id: int, lemma_id: int):
 
     connection.commit()
 
-def create_rae_entry(connection, lemma_id, origin, raw_json):
 
+def create_rae_entry(connection, lemma_id: int, raw_json: str, index = None):
     cursor = connection.cursor()
 
     cursor.execute(
         """
-        INSERT OR IGNORE INTO rae_entries
-        (
-            lemma_id,
-            origin,
-            raw_json
-        )
-        VALUES (?, ?, ?)
+        INSERT INTO rae_entries
+        (lemma_id, raw_json)
+        VALUES (?, ?)
         """,
         (
             lemma_id,
-            origin,
-            raw_json
-        )
+            raw_json,
+        ),
     )
 
-    connection.commit()
+    if index is None or index % 25 == 0:
+        connection.commit()
+        print("✓ Guardado en rae_entries")
 
-    cursor.execute(
-        """
-        SELECT id
-        FROM rae_entries
-        WHERE lemma_id = ?
-        """,
-        (lemma_id,)
-    )
+    return cursor.lastrowid
 
-    return cursor.fetchone()[0]
 
 def create_definition(connection, rae_entry_id, meaning):
 
@@ -159,14 +148,24 @@ def get_unprocessed_raw_words(connection):
     return cursor.fetchall()
 
 def get_lemmas_without_rae_entry(connection):
+
     cursor = connection.cursor()
 
-    cursor.execute("""
-        SELECT l.id, l.lemma
+    cursor.execute(
+        """
+        SELECT
+            l.id,
+            l.lemma
+
         FROM lemmas l
+
         LEFT JOIN rae_entries r
             ON r.lemma_id = l.id
-        WHERE r.lemma_id IS NULL
-    """)
+
+        WHERE r.id IS NULL
+
+        ORDER BY l.id
+        """
+    )
 
     return cursor.fetchall()
