@@ -291,6 +291,80 @@ def create_field(connection, definition_id: int, field: str):
     )
 
 
+def create_locution(connection, meaning_id: int, expression: str):
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO locutions (meaning_id, expression) VALUES (?, ?)",
+        (meaning_id, expression)
+    )
+    return cursor.lastrowid
+
+
+def create_locution_sense(connection, locution_id: int, sense: dict):
+    article = sense.get("article") or {}
+    cursor = connection.cursor()
+    cursor.execute(
+        """
+        INSERT INTO locution_senses
+        (locution_id, meaning_number, category, verb_category, gender, article_category, article_gender, usage, description, raw_text)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """,
+        (
+            locution_id,
+            sense.get("meaning_number"),
+            sense.get("category"),
+            sense.get("verb_category"),
+            sense.get("gender"),
+            article.get("category"),
+            article.get("gender"),
+            sense.get("usage"),
+            sense.get("description"),
+            sense.get("raw"),
+        ),
+    )
+    return cursor.lastrowid
+
+
+def create_locution_example(connection, locution_sense_id: int, example: str):
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO locution_examples (locution_sense_id, example) VALUES (?, ?)",
+        (locution_sense_id, example)
+    )
+
+
+def create_locution_related_word(connection, locution_sense_id: int, relation: str, word: str, label: str | None):
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO locution_related_words (locution_sense_id, relation, word, label) VALUES (?, ?, ?, ?)",
+        (locution_sense_id, relation, word, label)
+    )
+
+
+def create_locution_region(connection, locution_sense_id: int, code: str | None, name: str):
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO locution_regions (locution_sense_id, code, name) VALUES (?, ?, ?)",
+        (locution_sense_id, code, name)
+    )
+
+
+def create_locution_field(connection, locution_sense_id: int, field: str):
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO locution_fields (locution_sense_id, field) VALUES (?, ?)",
+        (locution_sense_id, field)
+    )
+
+
+def create_locution_usage_note(connection, locution_sense_id: int, note: str):
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO locution_usage_notes (locution_sense_id, note) VALUES (?, ?)",
+        (locution_sense_id, note)
+    )
+
+
 if __name__ == "__main__":
     print("¡Alto!\n\nEste programa actúa como una biblioteca y solo contiene\n" \
     "funciones auxiliares para editar y acceder al archivo léxico.db")
