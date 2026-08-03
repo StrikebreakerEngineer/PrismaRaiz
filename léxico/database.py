@@ -15,6 +15,11 @@ EXPERIMENTS_FOLDER = (
     / "experimentos"
 )
 
+
+# ==================================
+# FUNCIONES AUXILIARES DE EXTRACCIÓN
+# ==================================
+
 def get_connection() -> sqlite3.Connection:
     connection = sqlite3.connect(DATABASE_FILE)
 
@@ -62,43 +67,6 @@ def get_or_create_lemma(connection, lemma: str, pos: str):
 
     connection.commit()
 
-    return cursor.lastrowid
-
-
-def create_relation(connection, raw_word_id: int, lemma_id: int):
-    cursor = connection.cursor()
-
-    cursor.execute(
-        '''
-        INSERT OR IGNORE INTO word_lemmas
-        (raw_word_id, lemma_id)
-        VALUES (?, ?)
-        ''',
-        (raw_word_id, lemma_id)
-    )
-
-    connection.commit()
-
-
-def create_rae_entry(connection, lemma_id: int, raw_json: str, commit_index: int | None = None):
-    cursor = connection.cursor()
-
-    cursor.execute(
-        """
-        INSERT INTO rae_entries
-        (lemma_id, raw_json)
-        VALUES (?, ?)
-        """,
-        (
-            lemma_id,
-            raw_json,
-        ),
-    )
-
-    if commit_index is None or commit_index % 25 == 0:
-        connection.commit()
-        print("✓ Guardado en rae_entries")
-        
     return cursor.lastrowid
 
 
@@ -157,6 +125,68 @@ def get_rae_entries(connection):
     return cursor.fetchall()
 
 
+def get_meanings(connection):
+
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        SELECT
+            m.id,
+            m.homonym_index,
+            r.raw_json
+        FROM meanings AS m
+        JOIN rae_entries AS r
+            ON r.id = m.rae_entry_id
+        ORDER BY
+            m.id
+        """
+    )
+
+    return cursor.fetchall()
+
+
+# =================================
+# FUNCIONES AUXILIARES DE INSERCIÓN
+# =================================
+
+def create_rae_entry(connection, lemma_id: int, raw_json: str, commit_index: int | None = None):
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        INSERT INTO rae_entries
+        (lemma_id, raw_json)
+        VALUES (?, ?)
+        """,
+        (
+            lemma_id,
+            raw_json,
+        ),
+    )
+
+    if commit_index is None or commit_index % 25 == 0:
+        connection.commit()
+        print("✓ Guardado en rae_entries")
+        
+    return cursor.lastrowid
+
+
+def create_relation(connection, raw_word_id: int, lemma_id: int):
+    cursor = connection.cursor()
+
+    cursor.execute(
+        '''
+        INSERT OR IGNORE INTO word_lemmas
+        (raw_word_id, lemma_id)
+        VALUES (?, ?)
+        ''',
+        (raw_word_id, lemma_id)
+    )
+
+    connection.commit()
+
+
 def create_meaning(connection, rae_entry_id: int, meaning: dict, commit_index: int | None = None):
 
     origin = meaning.get("origin", {})
@@ -195,24 +225,11 @@ def create_meaning(connection, rae_entry_id: int, meaning: dict, commit_index: i
 
 def create_definition(connection, meaning_id: int, sense: dict, commit_index: int | None = None):
     article = sense.get("article") or {}
-
     cursor = connection.cursor()
-
     cursor.execute(
         """
         INSERT INTO definitions
-        (
-            meaning_id,
-            meaning_number,
-            category,
-            verb_category,
-            gender,
-            article_category,
-            article_gender,
-            usage,
-            description,
-            raw_text
-        )
+        (meaning_id, meaning_number, category, verb_category, gender, article_category, article_gender, usage, description, raw_text)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         (
@@ -228,33 +245,50 @@ def create_definition(connection, meaning_id: int, sense: dict, commit_index: in
             sense.get("raw"),
         ),
     )
-
     if commit_index != -1 and (commit_index is None or commit_index % 25 == 0):
         connection.commit()
         print("✓ Guardado en definitions")
-
     return cursor.lastrowid
 
 
-def get_meanings(connection):
-
+def create_example(connection, definition_id: int, example: str):
     cursor = connection.cursor()
-
     cursor.execute(
-        """
-        SELECT
-            m.id,
-            m.homonym_index,
-            r.raw_json
-        FROM meanings AS m
-        JOIN rae_entries AS r
-            ON r.id = m.rae_entry_id
-        ORDER BY
-            m.id
-        """
+        "INSERT INTO examples (definition_id, example) VALUES (?, ?)",
+        (definition_id, example)
     )
 
-    return cursor.fetchall()
+
+def create_related_word(connection, definition_id: int, relation: str, word: str, label: str | None):
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO related_words (definition_id, relation, word, label) VALUES (?, ?, ?, ?)",
+        (definition_id, relation, word, label)
+    )
+
+
+def create_usage_note(connection, definition_id: int, note: str):
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO definition_usage_notes (definition_id, note) VALUES (?, ?)",
+        (definition_id, note)
+    )
+
+
+def create_region(connection, definition_id: int, code: str | None, name: str):
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO definition_regions (definition_id, code, name) VALUES (?, ?, ?)",
+        (definition_id, code, name)
+    )
+
+
+def create_field(connection, definition_id: int, field: str):
+    cursor = connection.cursor()
+    cursor.execute(
+        "INSERT INTO definition_fields (definition_id, field) VALUES (?, ?)",
+        (definition_id, field)
+    )
 
 
 if __name__ == "__main__":
