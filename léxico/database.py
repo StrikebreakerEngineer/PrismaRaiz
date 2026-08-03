@@ -1,7 +1,5 @@
 import sqlite3
 from pathlib import Path
-import json
-
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -25,6 +23,7 @@ def get_connection() -> sqlite3.Connection:
 
     return connection
 
+
 def get_raw_words(connection):
     cursor = connection.cursor()
 
@@ -34,6 +33,7 @@ def get_raw_words(connection):
     ''')
 
     return cursor.fetchall()
+
 
 def get_or_create_lemma(connection, lemma: str, pos: str):
     cursor = connection.cursor()
@@ -63,6 +63,7 @@ def get_or_create_lemma(connection, lemma: str, pos: str):
     connection.commit()
 
     return cursor.lastrowid
+
 
 def create_relation(connection, raw_word_id: int, lemma_id: int):
     cursor = connection.cursor()
@@ -113,6 +114,7 @@ def get_unprocessed_raw_words(connection):
     """)
 
     return cursor.fetchall()
+
 
 def get_lemmas_without_rae_entry(connection):
 
@@ -186,10 +188,75 @@ def create_meaning(connection, rae_entry_id: int, meaning: dict, commit_index: i
 
     if commit_index == None or commit_index % 25 == 0:
             connection.commit()
-            print("✓ Guardado en rae_entries")
+            print("✓ Guardado en meanings")
 
     return cursor.lastrowid
 
 
+def create_definition(connection, meaning_id: int, sense: dict, commit_index: int | None = None):
+    article = sense.get("article") or {}
+
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        INSERT INTO definitions
+        (
+            meaning_id,
+            meaning_number,
+            category,
+            verb_category,
+            gender,
+            article_category,
+            article_gender,
+            usage,
+            description,
+            raw_text
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """,
+        (
+            meaning_id,
+            sense.get("meaning_number"),
+            sense.get("category"),
+            sense.get("verb_category"),
+            sense.get("gender"),
+            article.get("category"),
+            article.get("gender"),
+            sense.get("usage"),
+            sense.get("description"),
+            sense.get("raw"),
+        ),
+    )
+
+    if commit_index != -1 and (commit_index is None or commit_index % 25 == 0):
+        connection.commit()
+        print("✓ Guardado en definitions")
+
+    return cursor.lastrowid
+
+
+def get_meanings(connection):
+
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        SELECT
+            m.id,
+            m.homonym_index,
+            r.raw_json
+        FROM meanings AS m
+        JOIN rae_entries AS r
+            ON r.id = m.rae_entry_id
+        ORDER BY
+            m.id
+        """
+    )
+
+    return cursor.fetchall()
+
+
 if __name__ == "__main__":
-    pass
+    print("¡Alto!\n\nEste programa actúa como una biblioteca y solo contiene\n" \
+    "funciones auxiliares para editar y acceder al archivo léxico.db")

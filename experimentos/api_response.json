@@ -1,71 +1,215 @@
 {
   "data": {
-    "word": "tomar",
+    "word": "pero",
     "meanings": [
       {
+        "homonym_index": 1,
         "origin": {
-          "raw": "",
-          "type": "",
+          "raw": "Del lat. pirum.",
+          "type": "lat",
           "voice": "",
-          "text": ""
+          "text": "pirum"
         },
         "senses": [
           {
-            "raw": "",
-            "meaning_number": #,
-            "category": "",
-            "verb_category": "",
+            "raw": "1. m. Variedad de manzano, cuyo fruto es más largo que grueso.",
+            "meaning_number": 1,
+            "category": "noun",
+            "gender": "masculine",
             "usage": "",
-            "description": "",
-            "synonyms": [],
-            "antonyms": [],
-            "synonyms_v2": [],
-            "antonyms_v2": []
+            "description": "Variedad de manzano, cuyo fruto es más largo que grueso",
+            "synonyms": null,
+            "antonyms": null
           },
           {
-            "raw": "",
-            "meaning_number": #,
-            "category": "",
-            "verb_category": "",
+            "raw": "2. m. Fruto del pero.",
+            "meaning_number": 2,
+            "category": "noun",
+            "gender": "masculine",
             "usage": "",
-            "description": "",
-            "examples": [],
+            "description": "Fruto del pero",
             "synonyms": null,
             "antonyms": null
           }
         ],
         "locutions": [
           {
-            "expression": "",
+            "expression": "ese pero no está maduro",
             "senses": [
               {
-                "raw": "",
-                "meaning_number": #,
-                "category": "",
+                "raw": "1. expr. U. con intención de prevenir a alguien para que no prosiga en lo que emprende, por no ser ocasión u ofrecer inconveniente.",
+                "meaning_number": 1,
+                "category": "noun",
                 "usage": "",
-                "description": "",
-                "synonyms": null,
-                "antonyms": null
-              }
-            ]
-          },
-          {
-            "expression": "",
-            "senses": [
-              {
-                "raw": "",
-                "meaning_number": #,
-                "category": "",
-                "usage": "",
-                "description": "",
+                "description": "con intención de prevenir a alguien para que no prosiga en lo que emprende, por no ser ocasión u ofrecer inconveniente",
                 "synonyms": null,
                 "antonyms": null
               }
             ]
           }
+        ]
+      },
+      {
+        "homonym_index": 2,
+        "origin": {
+          "raw": "De Pedro.",
+          "type": "",
+          "voice": "",
+          "text": ""
+        },
+        "senses": null
+      },
+      {
+        "homonym_index": 3,
+        "origin": {
+          "raw": "Del lat. per hoc 'por esto'.",
+          "type": "lat",
+          "voice": "",
+          "text": "per hoc"
+        },
+        "senses": [
+          {
+            "raw": "1. conj. advers. U. para contraponer a un concepto otro diverso o ampliativo del anterior. El dinero hace ricas a las personas, pero no dichosas. La injurié, pero ella primero me había injuriado a mí.Sin.:aunque, mas, empero.",
+            "meaning_number": 1,
+            "category": "noun",
+            "usage": "",
+            "description": "para contraponer a un concepto otro diverso o ampliativo del anterior",
+            "examples": [
+              "El dinero hace ricas a las personas, pero no dichosas.",
+              "La injurié, pero ella primero me había injuriado a mí."
+            ],
+            "synonyms": [
+              "aunque",
+              "mas",
+              "empero"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "aunque"
+              },
+              {
+                "word": "mas"
+              },
+              {
+                "word": "empero"
+              }
+            ]
+          },
+          {
+            "raw": "2. conj. advers. U. a principio de cláusula sin referirse a otra anterior, para dar énfasis o fuerza de expresión a lo que se dice. Pero ¿dónde vas a meter tantos libros? Pero ¡qué hermosa noche!",
+            "meaning_number": 2,
+            "category": "noun",
+            "usage": "",
+            "description": "a principio de cláusula sin referirse a otra anterior, para dar énfasis o fuerza de expresión a lo que se dice",
+            "examples": [
+              "Pero ¿dónde vas a meter tantos libros?",
+              "Pero ¡qué hermosa noche!"
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "3. conj. advers. desus. sino (‖ para contraponer un concepto afirmativo a otro negativo).",
+            "meaning_number": 3,
+            "category": "noun",
+            "usage": "obsolete",
+            "description": "sino (‖ para contraponer un concepto afirmativo a otro negativo)",
+            "cross_references": [
+              "sino"
+            ],
+            "synonyms": null,
+            "antonyms": null
+          },
+          {
+            "raw": "4. m. coloq. Defecto u objeción. Este cuadro no tiene pero. Es tan poco amigo de hacer favores que nunca deja de poner algún pero a todo lo que se le pide.Sin.:defecto, deficiencia, fallo2, falta, tara1, imperfección, demérito.objeción, reparo, inconveniente, dificultad, traba, pega1.",
+            "meaning_number": 4,
+            "category": "noun",
+            "gender": "masculine",
+            "usage": "colloquial",
+            "description": "Defecto u objeción",
+            "examples": [
+              "Este cuadro no tiene pero.",
+              "Es tan poco amigo de hacer favores que nunca deja de poner algún pero a todo lo que se le pide."
+            ],
+            "synonyms": [
+              "defecto",
+              "deficiencia",
+              "fallo2",
+              "falta",
+              "tara1",
+              "imperfección",
+              "demérito",
+              "objeción",
+              "reparo",
+              "inconveniente",
+              "dificultad",
+              "traba",
+              "pega1"
+            ],
+            "antonyms": null,
+            "synonyms_v2": [
+              {
+                "word": "defecto"
+              },
+              {
+                "word": "deficiencia"
+              },
+              {
+                "word": "fallo2"
+              },
+              {
+                "word": "falta"
+              },
+              {
+                "word": "tara1"
+              },
+              {
+                "word": "imperfección"
+              },
+              {
+                "word": "demérito"
+              },
+              {
+                "word": "objeción"
+              },
+              {
+                "word": "reparo"
+              },
+              {
+                "word": "inconveniente"
+              },
+              {
+                "word": "dificultad"
+              },
+              {
+                "word": "traba"
+              },
+              {
+                "word": "pega1"
+              }
+            ]
+          }
         ],
-
-        "conjugations": {}
+        "locutions": [
+          {
+            "expression": "pero que muy",
+            "senses": [
+              {
+                "raw": "1. expr. U. ante adjetivos y adverbios para darles mayor relieve. Toca el clarinete pero que muy bien.",
+                "meaning_number": 1,
+                "category": "noun",
+                "usage": "",
+                "description": "ante adjetivos y adverbios para darles mayor relieve",
+                "examples": [
+                  "Toca el clarinete pero que muy bien."
+                ],
+                "synonyms": null,
+                "antonyms": null
+              }
+            ]
+          }
+        ]
       }
     ],
     "suggestions": null
