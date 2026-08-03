@@ -1,5 +1,7 @@
 import sqlite3
 from pathlib import Path
+import json
+
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -77,7 +79,7 @@ def create_relation(connection, raw_word_id: int, lemma_id: int):
     connection.commit()
 
 
-def create_rae_entry(connection, lemma_id: int, raw_json: str, index = None):
+def create_rae_entry(connection, lemma_id: int, raw_json: str, commit_index: int | None = None):
     cursor = connection.cursor()
 
     cursor.execute(
@@ -92,47 +94,12 @@ def create_rae_entry(connection, lemma_id: int, raw_json: str, index = None):
         ),
     )
 
-    if index is None or index % 25 == 0:
+    if commit_index is None or commit_index % 25 == 0:
         connection.commit()
         print("✓ Guardado en rae_entries")
-
+        
     return cursor.lastrowid
 
-
-def create_definition(connection, rae_entry_id, meaning):
-
-    cursor = connection.cursor()
-
-    cursor.execute(
-        """
-        INSERT INTO definitions
-        (
-            rae_entry_id,
-            meaning_number,
-            category,
-            subcategory,
-            gender,
-            usage,
-            description,
-            raw
-        )
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-        """,
-        (
-            rae_entry_id,
-            meaning.get("meaning_number"),
-            meaning.get("category"),
-            meaning.get("verb_category"),
-            meaning.get("gender"),
-            meaning.get("usage"),
-            meaning.get("description"),
-            meaning.get("raw")
-        )
-    )
-
-    connection.commit()
-
-    return cursor.lastrowid
 
 def get_unprocessed_raw_words(connection):
     cursor = connection.cursor()
@@ -169,3 +136,60 @@ def get_lemmas_without_rae_entry(connection):
     )
 
     return cursor.fetchall()
+
+
+def get_rae_entries(connection):
+
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        SELECT
+            id,
+            raw_json
+        FROM rae_entries
+        ORDER BY id
+        """
+    )
+
+    return cursor.fetchall()
+
+
+def create_meaning(connection, rae_entry_id: int, meaning: dict, commit_index: int | None = None):
+
+    origin = meaning.get("origin", {})
+
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        INSERT INTO meanings
+        (
+            rae_entry_id,
+            homonym_index,
+            origin_raw,
+            origin_type,
+            origin_voice,
+            origin_text
+        )
+        VALUES (?, ?, ?, ?, ?, ?)
+        """,
+        (
+            rae_entry_id,
+            meaning.get("homonym_index"),
+            origin.get("raw"),
+            origin.get("type"),
+            origin.get("voice"),
+            origin.get("text"),
+        ),
+    )
+
+    if commit_index == None or commit_index % 25 == 0:
+            connection.commit()
+            print("✓ Guardado en rae_entries")
+
+    return cursor.lastrowid
+
+
+if __name__ == "__main__":
+    pass

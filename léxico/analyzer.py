@@ -1,6 +1,6 @@
 import stanza
-
 from léxico.models import WordAnalysis
+import unicodedata
 
 _nlp = None
 
@@ -22,6 +22,15 @@ def load_model():
 
     return _nlp
 
+
+def remove_accents(text: str):
+    return "".join(
+        c
+        for c in unicodedata.normalize("NFD", text)
+        if unicodedata.category(c) != "Mn"
+    )
+
+
 def analyze_word(word: str) -> WordAnalysis:
     nlp = load_model()
 
@@ -33,3 +42,9 @@ def analyze_word(word: str) -> WordAnalysis:
         lemma=token.lemma,
         part_of_speech=token.upos,
     )
+
+def main():
+    print(analyze_word("solo"))
+
+if __name__ == "__main__":
+    main()

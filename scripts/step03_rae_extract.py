@@ -6,7 +6,8 @@ from léxico.rae import get_rae_entry
 
 def main():
 
-    print("Se están extrayendo entradas de la RAE para los lemas restantes")
+    print()
+    print("Se están extrayendo entradas de la RAE para los lemas restantes.")
 
     connection = get_connection()
 
@@ -24,18 +25,22 @@ def main():
         print()
         print(f"[{index}/{total}] {word}")
 
-        try:
-            data = get_rae_entry(word)
+        data = get_rae_entry(word)
 
-        except Exception as error:
-            print(f"Error: {error}")
+        if not data:
+            print(f'No se pudo encontrar una entrada para "{word}"')
             continue
 
-        if data is None:
-            print("No encontrado")
-            continue
+        create_rae_entry(
+            connection,
+            lemma_id,
+            json.dumps(data, ensure_ascii=False),
+            None if index == total else index,
+        )
 
-        create_rae_entry(connection, lemma_id, json.dumps(data, ensure_ascii=False,), (None if index is total else index))
+    connection.commit()
+    print()
+    print("✓ Todo guardado en rae_entries")
 
     connection.close()
 
