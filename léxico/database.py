@@ -109,13 +109,17 @@ def get_lemmas_without_rae_entry(connection):
 
 
 def get_rae_entries(connection):
+    """
+    Obtiene todas las entradas crudas descargadas de la RAE incluyendo sus IDs asociadas.
+    """
 
     cursor = connection.cursor()
 
     cursor.execute(
         """
-        SELECT
+        SELECT 
             id,
+            lemma_id,
             raw_json
         FROM t04_rae_entries
         ORDER BY id

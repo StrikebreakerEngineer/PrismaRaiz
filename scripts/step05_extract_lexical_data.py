@@ -17,7 +17,6 @@ def main():
     for index, entry in enumerate(entries, start=1):
         data = json.loads(entry["raw_json"])
 
-        print()
         print(f"[{index}/{total}] Procesando lema: {data.get('word', 'Desconocido')}")
 
         # --- CAPA 05-A & 05-B & 05-D: SIGNIFICADOS, SENTIDOS Y LOCUCIONES ---
@@ -83,38 +82,38 @@ def main():
                     for loc_fld in (loc_sense.get("fields") or []):
                         create_locution_field(connection, loc_sense_id, loc_fld)
 
-        # --- CAPA 05-C: FLEXIÓN Y PARADIGMAS VERBALES ---
-        conjugations_data = data.get("conjugations")
-        if conjugations_data:
-            lemma_id = entry["lemma_id"]
-            moods = ["indicative", "subjunctive", "imperative", "non_personal"]
+            # --- CAPA 05-C: FLEXIÓN Y PARADIGMAS VERBALES ---
+            conjugations_data = meaning_data.get("conjugations")
+            if conjugations_data:
+                lemma_id = entry["lemma_id"]
+                moods = ["indicative", "subjunctive", "imperative", "non_personal"]
 
-            for mood in moods:
-                mood_block = conjugations_data.get(mood)
-                if not mood_block:
-                    continue
-
-                for tense, persons_block in mood_block.items():
-                    if not persons_block:
+                for mood in moods:
+                    mood_block = conjugations_data.get(mood)
+                    if not mood_block:
                         continue
 
-                    # Casos especiales de flexiones infinitivas y participios
-                    if mood == "non_personal":
-                        if isinstance(persons_block, str):
-                            create_verb_conjugation(connection, lemma_id, mood, tense, "none", persons_block)
-                        continue
+                    for tense, persons_block in mood_block.items():
+                        if not persons_block:
+                            continue
 
-                    # Casos estándar agrupados por personas gramaticales discretas
-                    if isinstance(persons_block, dict):
-                        for person, form_value in persons_block.items():
-                            if not form_value:
-                                continue
-                            
-                            if isinstance(form_value, list):
-                                for single_form in form_value:
-                                    create_verb_conjugation(connection, lemma_id, mood, tense, person, single_form)
-                            else:
-                                create_verb_conjugation(connection, lemma_id, mood, tense, person, str(form_value))
+                        # Casos especiales de flexiones infinitivas y participios
+                        if mood == "non_personal":
+                            if isinstance(persons_block, str):
+                                create_verb_conjugation(connection, lemma_id, mood, tense, "none", persons_block)
+                            continue
+
+                        # Casos estándar agrupados por personas gramaticales discretas
+                        if isinstance(persons_block, dict):
+                            for person, form_value in persons_block.items():
+                                if not form_value:
+                                    continue
+                                
+                                if isinstance(form_value, list):
+                                    for single_form in form_value:
+                                        create_verb_conjugation(connection, lemma_id, mood, tense, person, single_form)
+                                else:
+                                    create_verb_conjugation(connection, lemma_id, mood, tense, person, str(form_value))
 
         # Control transaccional optimizado: Guardado por bloques en ráfagas de 25 lemas
         if index % 25 == 0:
@@ -122,6 +121,7 @@ def main():
             print("Guardando lote de transacciones en la base de datos...")
             connection.commit()
             print("✓ Lote confirmado correctamente")
+            print()
 
     print()
     print("Ejecución finalizada por completo. Volcando residuos finales...")
