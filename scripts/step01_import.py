@@ -1,27 +1,19 @@
 import json
-import sqlite3
 from pathlib import Path
 
-# Variables globales
-project_root = Path(__file__).resolve().parent.parent
+from léxico.database import (
+    PROJECT_ROOT,
+    create_raw_word,
+    get_connection,
+    get_max_raw_word_rank,
+    get_raw_words,
+)
 
-schema_file = (
-    project_root
-    / "schema.sql"
-    )
-
-database_file = (
-        project_root
-        / "datos"
-        / "baseDeDatos"
-        / "léxico.db"
-    )
-
-json_file = (
-    project_root
+JSON_FILE = (
+    PROJECT_ROOT
     / "datos"
     / "sinProcesar"
-    / "spanish_1k.json"
+    / "spanish_10k.json"
 )
 
 
@@ -31,58 +23,43 @@ def load_words(json_file: Path) -> list[str]:
     with open(json_file, "r", encoding="utf-8") as file:
         data = json.load(file)
 
-    print(f"Se han cargado {len(data["words"])} palabras!")
+    print(f"Se han cargado {len(data['words'])} palabras!")
 
     return data["words"]
 
 
-def create_database():
-    print("Creando base de datos...")
-    print(f'Raíz del proyecto: {project_root}')
-
-    connection = sqlite3.connect(database_file)
-    cursor = connection.cursor()
-
-    with open(schema_file, "r", encoding="utf-8") as file:
-        schema = file.read()
-
-    cursor.executescript(schema)
-        
-    connection.commit()
-    connection.close()
+def import_new_words(words: list[str]):
+    connection = get_connection()
     
-    print("Base de datos creada correctamente!")
+    existing_words = get_raw_words(connection=connection)
+    next_rank = get_max_raw_word_rank(connection=connection) + 1
+    
+    words_to_insert = []
+    
+    for word in words:        
+        if len(word) >= 2 and word.strip().lower() not in existing_words and word.isalpha():
+            words_to_insert.append((next_rank, word, JSON_FILE.name))
+            existing_words.add(word)
+            next_rank += 1
+                
+    if words_to_insert:
+        create_raw_word(connection, words_to_insert)
 
-
-def import_words(words: list[str], json_file: Path) -> None:
-    source = json_file.name
-    sql_data = [(rank, word, source) for rank, word in enumerate(words, start = 1)]
-
-    connection = sqlite3.connect(database_file)
-    cursor = connection.cursor()
-
-    sql_query = """
-    INSERT INTO raw_words (
-    rank,
-    word,
-    source
-    )
-
-    VALUES (?, ?, ?)
-    """
-
-    cursor.executemany(sql_query, sql_data)
-    connection.commit()
+        print("Ejecución finalizada por completo. Volcando residuos finales...")
+        connection.commit()
+        print("✓ Base de datos actualizada con éxito")
+        print(f"✓ Éxito total: Se agregaron {len(words_to_insert)} palabras nuevas.")
+        
+    else:
+        print("✓ No hay palabras nuevas para ingresar. La base de datos ya está al día.")
+        
+    # Centralizado al final del ciclo de vida de la función para máxima seguridad de red
     connection.close()
-    print(f"Se han importado {len(words)} palabras de {source}!")
 
 
 def main():
-    create_database()
-
-    words = load_words(json_file)
-
-    import_words(words, json_file)
+    words = load_words(JSON_FILE)
+    import_new_words(words)
 
 
 if __name__ == "__main__":

@@ -29,59 +29,62 @@ def get_connection() -> sqlite3.Connection:
     return connection
 
 
-def get_raw_words(connection):
+def get_raw_words(connection: sqlite3.Connection) -> set[str]:
+    """
+    Recupera todas las palabras de t01_raw_words empaquetadas en un conjunto de Python
+    para optimizar las búsquedas de duplicados en tiempo O(1).
+    """
+
     cursor = connection.cursor()
 
-    cursor.execute('''
-        SELECT id, word
-        FROM raw_words
-    ''')
+    cursor.execute("SELECT word FROM t01_raw_words")
+
+    return {row["word"].strip().lower() for row in cursor.fetchall()}
+
+
+def get_max_raw_word_rank(connection: sqlite3.Connection) -> int:
+    """
+    Obtiene el rango máximo actual para calcular de forma segura la continuación de índices.
+    """
+    cursor = connection.cursor()
+    cursor.execute("SELECT COALESCE(MAX(rank), 0) FROM t01_raw_words")
+    return cursor.fetchone()[0]
+
+
+def get_unprocessed_raw_words(connection: sqlite3.Connection) -> list[sqlite3.Row]:
+    """
+    Recupera todas las palabras de t01_raw_words que aún no han sido asociadas 
+    en la tabla intermedia t03_word_lemmas.
+    """
+
+    cursor = connection.cursor()
+    
+    cursor.execute(
+        """
+        SELECT id, word 
+        FROM t01_raw_words 
+        WHERE id NOT IN (SELECT raw_word_id FROM t03_word_lemmas)
+        ORDER BY id
+        """
+    )
 
     return cursor.fetchall()
 
 
-def get_or_create_lemma(connection, lemma: str, pos: str):
+def get_lemmas(connection: sqlite3.Connection) -> dict[tuple[str, str], int]:
+    """
+    Recupera todos los lemas de t02_lemmas cargados en un diccionario en memoria
+    utilizando una clave compuesta de (lema, categoría) para búsquedas instantáneas O(1).
+    """
+
     cursor = connection.cursor()
 
-    cursor.execute(
-        '''
-        SELECT id
-        FROM lemmas
-        WHERE lemma = ?
-        ''',
-        (lemma,)
-    )
+    print("Cargando lemas existentes para la verificación de duplicados...")
 
-    result = cursor.fetchone()
+    cursor.execute("SELECT id, lemma FROM t02_lemmas")
 
-    if result:
-        return result[0]
-
-    cursor.execute(
-        '''
-        INSERT INTO lemmas (lemma, part_of_speech)
-        VALUES (?, ?)
-        ''',
-        (lemma, pos)
-    )
-
-    connection.commit()
-
-    return cursor.lastrowid
-
-
-def get_unprocessed_raw_words(connection):
-    cursor = connection.cursor()
-
-    cursor.execute("""
-        SELECT rw.id, rw.word
-        FROM raw_words rw
-        LEFT JOIN word_lemmas wl
-            ON wl.raw_word_id = rw.id
-        WHERE wl.raw_word_id IS NULL
-    """)
-
-    return cursor.fetchall()
+    # Llave compuesta formateada defensivamente para evitar fallos de espacios
+    return {row["lemma"].strip().lower(): row["id"] for row in cursor.fetchall()}
 
 
 def get_lemmas_without_rae_entry(connection):
@@ -153,6 +156,136 @@ def get_meanings(connection):
 # =================================
 # FUNCIONES AUXILIARES DE INSERCIÓN
 # =================================
+
+def create_raw_word(connection: sqlite3.Connection, word: tuple | list[tuple], *,
+                    commit_index: int | None = None, commit_batch: int = 25) -> int | None:
+    """
+    Inserta una o varias palabras crudas en la tabla ``t01_raw_words``.
+
+    Args:
+        connection: Conexión activa a la base de datos SQLite.
+        word: Una tupla con los datos de una palabra o una lista de tuplas
+            para realizar una inserción por lotes.
+        commit_index: Controla cuándo se confirma la transacción.
+            - None: realiza ``commit()`` inmediatamente.
+            - -1: no realiza ``commit()``; el código llamador lo gestiona.
+            - >= 0: realiza ``commit()`` cada ``commit_batch`` llamadas.
+        commit_batch: Número de llamadas entre cada ``commit()`` cuando
+            ``commit_index`` es mayor o igual que 0.
+
+    Returns:
+        El identificador de la última fila insertada si se inserta un único
+        registro. En inserciones por lotes el valor devuelto puede ser ``None``.
+    """
+
+    cursor = connection.cursor()
+
+    # Convierte una inserción individual en una lista para utilizar
+    # siempre executemany().
+    if isinstance(word, tuple):
+        words = [word]
+    else:
+        words = word
+
+    # Inserta uno o varios registros en una única llamada.
+    cursor.executemany(
+        """
+        INSERT INTO t01_raw_words (rank, word, source)
+        VALUES (?, ?, ?)
+        """,
+        words,
+        )
+
+    # Gestiona la confirmación de la transacción según la configuración.
+    if commit_index is None or commit_index != 0 and commit_index % commit_batch == 0:
+        connection.commit()
+        print("✓ Guardado en t01_raw_words")
+            
+    return cursor.lastrowid
+
+
+def create_lemma(connection: sqlite3.Connection, lemma: tuple | list[tuple], *,
+                commit_index: int | None = None, commit_batch: int = 25
+                ) -> int | None:
+
+    cursor = connection.cursor()
+
+    if isinstance(lemma, tuple):
+        # Single insert: use execute() so lastrowid is available.
+        cursor.execute(
+            """
+            INSERT INTO t02_lemmas (lemma, part_of_speech)
+            VALUES (?, ?)
+            """,
+            lemma
+        )
+
+        result = cursor.lastrowid
+
+    else:
+        # Batch insert: use executemany().
+        cursor.executemany(
+            """
+            INSERT INTO t02_lemmas (lemma, part_of_speech)
+            VALUES (?, ?)
+            """,
+            lemma
+        )
+
+        result = None
+
+    if (commit_index is None or (commit_index >= 0 and commit_index % commit_batch == 0)):
+        connection.commit()
+
+    return result
+
+
+def create_lemma_raw_relation(connection: sqlite3.Connection, relation_ids: tuple | list[tuple], *,
+                    commit_index: int | None = None, commit_batch: int = 25) -> int | None:
+    """
+    Inserta una o varias relaciones en la tabla ``t03_word_lemmas``.
+
+    Args:
+        connection: Conexión activa a la base de datos SQLite.
+        relation_ids: Una tupla con los identificaciones de una palabra y su lema o una lista de tuplas
+            para realizar una inserción por lotes.
+        commit_index: Controla cuándo se confirma la transacción.
+            - None: realiza ``commit()`` inmediatamente.
+            - -1: no realiza ``commit()``; el código llamador lo gestiona.
+            - >= 0: realiza ``commit()`` cada ``commit_batch`` llamadas.
+        commit_batch: Número de llamadas entre cada ``commit()`` cuando
+            ``commit_index`` es mayor o igual que 0.
+
+    Returns:
+        El identificador de la última fila insertada si se inserta un único
+        registro. En inserciones por lotes el valor devuelto puede ser ``None``.
+    """
+
+    cursor = connection.cursor()
+
+    # Convierte una inserción individual en una lista para utilizar
+    # siempre executemany().
+    if isinstance(relation_ids, tuple):
+        relation = [relation_ids]
+    else:
+        relation = relation_ids
+
+    # Inserta uno o varios registros en una única llamada.
+    cursor.executemany(
+        """
+        INSERT INTO t03_word_lemmas (raw_word_id, lemma_id)
+        VALUES (?, ?)
+        """,
+        relation
+    )
+
+    # Gestiona la confirmación de la transacción según la configuración.
+    if commit_index is None or (commit_index >= 0 and commit_index % commit_batch == 0):
+        connection.commit()
+        print("✓ Guardado en t03_word_lemmas")
+
+    return cursor.lastrowid
+
 
 def create_rae_entry(connection, lemma_id: int, raw_json: str, commit_index: int | None = None) -> int:
     cursor = connection.cursor()

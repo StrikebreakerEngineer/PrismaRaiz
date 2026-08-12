@@ -1,6 +1,8 @@
-import stanza
-from léxico.models import WordAnalysis
 import unicodedata
+
+import stanza
+
+from léxico.models import WordAnalysis
 
 _nlp = None
 
