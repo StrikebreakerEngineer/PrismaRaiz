@@ -87,7 +87,21 @@ def get_lemmas(connection: sqlite3.Connection) -> dict[tuple[str, str], int]:
     return {row["lemma"].strip().lower(): row["id"] for row in cursor.fetchall()}
 
 
-def get_lemmas_without_rae_entry(connection):
+def get_lemmas_without_rae_entry(
+    connection: sqlite3.Connection,
+) -> list[sqlite3.Row]:
+    """
+    Devuelve los lemas que aún no tienen una entrada correspondiente en la RAE.
+
+    Se considera que un lema tiene una entrada en la RAE cuando al menos una fila
+    de ``rae_entries`` hace referencia a su ID mediante ``lemma_id``.
+
+    Argumentos:
+        connection: Conexión activa a SQLite.
+
+    Retorno:
+        Lista de filas que contienen ``id`` y ``lemma``, ordenadas por ID.
+    """
 
     cursor = connection.cursor()
 
@@ -96,14 +110,12 @@ def get_lemmas_without_rae_entry(connection):
         SELECT
             l.id,
             l.lemma
-
-        FROM lemmas l
-
-        LEFT JOIN rae_entries r
-            ON r.lemma_id = l.id
-
-        WHERE r.id IS NULL
-
+        FROM t02_lemmas AS l
+        WHERE NOT EXISTS (
+            SELECT 1
+            FROM t04_rae_entries AS r
+            WHERE r.lemma_id = l.id
+        )
         ORDER BY l.id
         """
     )
@@ -287,7 +299,10 @@ def create_lemma_raw_relation(connection: sqlite3.Connection, relation_ids: tupl
     return cursor.lastrowid
 
 
-def create_rae_entry(connection, lemma_id: int, raw_json: str, commit_index: int | None = None) -> int:
+def create_rae_entry(connection, lemma_id: int, raw_json: str, *,
+                     commit_index: int | None = None, commit_batch: int = 25
+                    ) -> int | None:
+    
     cursor = connection.cursor()
 
     cursor.execute(
@@ -302,9 +317,10 @@ def create_rae_entry(connection, lemma_id: int, raw_json: str, commit_index: int
         ),
     )
 
-    if commit_index != -1 and (commit_index is None or commit_index % 25 == 0):
+    if (commit_index is None or (commit_index >= 0 and commit_index % commit_batch == 0)):
+        print(f"💾 Volcando lote de {commit_batch} palabras...")
         connection.commit()
-        print("✓ Guardado en t04_rae_entries")
+        print("✅ Guardado en t04_rae_entries!")
         
     return cursor.lastrowid
 

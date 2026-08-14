@@ -8,33 +8,63 @@ from léxico.analyzer import remove_accents
 # --- Configuración ---
 config = dotenv_values(".env")
 RAE_API_KEY = config.get("RAE_API_KEY")
-URL = "https://rae-api.com"
+URL = "https://rae-api.com/api/words"
+
+# Variable global para rastrear cuándo se hizo la última petición
+_last_request_time = 0.0
+
+
+class DailyQuotaExceeded(Exception):
+    """Excepción lanzada cuando se agotan las 5,000 peticiones diarias."""
 
 
 def _request_rae(session: requests.Session, word: str):
-    # Controla cuántas veces reintentamos si el servidor remoto falla
+    global _last_request_time
     server_error_retries = 0 
     
     while True:
+        # --- CONTROL DE TASA AUTOCONTENIDO (60 req/min -> 1 req/s) ---
+        elapsed = time.time() - _last_request_time
+        if elapsed < 1.0:
+            time.sleep(1.0 - elapsed)
+        
+        _last_request_time = time.time()
+
         try:
-            # Nota: Los encabezados ya están vinculados a la sesión, no es necesario pasarlos aquí
             response = session.get(
                 f"{URL}/{word}",
                 timeout=15,
             )
             
-            # --- Manejo de Límite de Tasa (429) ---
-            if response.status_code == 429:
-                retry = 60  # Tiempo de espera por defecto si falla la lectura
-                try:
-                    # Intento defensivo de leer JSON (evita caídas si el servidor envía HTML)
-                    data = response.json()
-                    retry = data.get("retry_after", 60)
-                except requests.exceptions.JSONDecodeError:
-                    # Si no es un JSON válido, busca el encabezado HTTP estándar de reintento
-                    retry = int(response.headers.get("Retry-After", 60))
+            # --- DETECCIÓN PREVENTIVA DE CUOTA DIARIA ---
+            # Leemos las cabeceras provistas por el middleware de la API
+            daily_remaining = response.headers.get("X-RateLimit-Daily-Remaining")
+            if daily_remaining and daily_remaining.isdigit():
+                remaining_int = int(daily_remaining)
                 
-                print(f"⚠️ Límite de tasa alcanzado. Esperando {retry} segundos...")
+                # Imprime una advertencia si te estás quedando sin créditos diarios
+                if remaining_int <= 50 and remaining_int > 0:
+                    print(f"⚠️ [Aviso Quota] Te quedan pocas peticiones hoy: {remaining_int} restantes.")
+                
+                # Si llega a 0, detenemos la ejecución inmediatamente de forma controlada
+                if remaining_int == 0:
+                    print("\n🚨 [ALERTA] Se ha alcanzado el límite diario (X-RateLimit-Daily-Remaining = 0).")
+                    raise DailyQuotaExceeded("Límite diario agotado.")
+
+            # --- Manejo de Límite de Tasa por Minuto (429) ---
+            if response.status_code == 429:
+                retry = 5  
+                try:
+                    data = response.json()
+                    retry = data.get("retry_after", 5)
+                except requests.exceptions.JSONDecodeError:
+                    header_value = response.headers.get("Retry-After")
+                    if header_value and header_value.isdigit():
+                        retry = int(header_value)
+                    else:
+                        retry = 5
+                
+                print(f"⚠️ Límite de tasa alcanzado en el servidor. Esperando {retry} segundos...")
                 time.sleep(retry)
                 continue
 
@@ -42,18 +72,22 @@ def _request_rae(session: requests.Session, word: str):
             if response.status_code == 404:
                 return None
 
-            # --- Manejo de Éxito (200) y Errores Inesperados ---
-            # Lanza una excepción si hay códigos de error no controlados (400, 401, 500, etc.)
+            # --- Validar el estado HTTP ANTES de leer el JSON ---
             response.raise_for_status() 
             
-            data = response.json()
+            # --- Parseo defensivo de JSON ---
+            try:
+                data = response.json()
+            except requests.exceptions.JSONDecodeError:
+                print(f"❌ El servidor no devolvió un JSON válido. Respuesta: {response.text[:100]}")
+                return None
+
             if not data.get("ok"):
                 return None
 
             return data["data"]
 
         except (requests.exceptions.HTTPError, requests.exceptions.ConnectionError) as e:
-            # Si es un error del servidor (5xx), espera un momento y vuelve a intentar
             status = getattr(e.response, 'status_code', None)
             if status and status >= 500 and server_error_retries < 3:
                 server_error_retries += 1
@@ -62,24 +96,32 @@ def _request_rae(session: requests.Session, word: str):
                 time.sleep(wait_time)
                 continue
             
-            # Si es un error de cliente fatal o superamos intentos, escala la excepción
             raise
 
 
 def get_rae_entry(session: requests.Session, word: str):
-    print(f"Buscando {word} en el diccionario RAE")
+    print(f"🔍 Buscando '{word}' en el diccionario RAE...")
 
     try:
         data = _request_rae(session, word)
 
+        # AGREGADO: Confirmación si se encuentra la palabra original
         if data:
+            print(f"✅ ¡Éxito! Palabra '{word}' encontrada.")
             return data
 
         simplified = remove_accents(word)
 
         if simplified != word:
-            return _request_rae(session, simplified)
+            print(f"🔄 No encontrada. Intentando variante sin acentos: '{simplified}'...")
+            data = _request_rae(session, simplified)
+            
+            # AGREGADO: Confirmación si se encuentra la palabra simplificada
+            if data:
+                print(f"✅ ¡Éxito! Variante '{simplified}' encontrada.")
+                return data
 
+        print(f"❌ '{word}' no se encuentra en el diccionario.")
         return None
 
     except requests.RequestException as error:
@@ -87,9 +129,13 @@ def get_rae_entry(session: requests.Session, word: str):
         return None
 
 
-
 def main():
-    print(get_rae_entry("ser"))
+    with requests.Session() as session:
+        session.headers.update({
+            "X-API-Key": RAE_API_KEY
+        })
+
+        print(get_rae_entry(session, "ser"))
 
 
 if __name__ == "__main__":
