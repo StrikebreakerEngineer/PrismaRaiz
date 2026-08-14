@@ -1,0 +1,42 @@
+import json
+import os
+
+import requests
+
+# Local destination file
+JSON_PATH = "experimentos/lemmas_es.json"
+
+def download_spanish_dictionary():
+    """Downloads the official expert-verified lookup dictionary using the correct raw domain."""
+    if not os.path.exists(JSON_PATH):
+        print("📥 Downloading official Spanish lemmatization mapping data...")
+        
+        # Corrected raw data domain
+        url = "https://githubusercontent.com"
+        
+        response = requests.get(url)
+        response.raise_for_status()
+        
+        # Create directory if it doesn't exist
+        os.makedirs(os.path.dirname(JSON_PATH), exist_ok=True)
+        
+        with open(JSON_PATH, "w", encoding="utf-8") as f:
+            json.dump(response.json(), f, ensure_ascii=False, indent=2)
+        print("✅ Dictionary downloaded and saved locally!")
+
+# Trigger download and verification
+download_spanish_dictionary()
+
+with open(JSON_PATH, "r", encoding="utf-8") as f:
+    SPANISH_LOOKUP = json.load(f)
+
+def lookup_lemma(word: str) -> str:
+    cleaned = word.strip().lower()
+    return SPANISH_LOOKUP.get(cleaned, cleaned)
+
+# Verify against the prior problem words
+problematic_words = ["hablábamos", "cantábamos", "estábamos", "íbamos", "comíamos", "vivíamos", "quito"]
+
+print("\n--- Testing Corrected Dictionary Lemmatization ---")
+for word in problematic_words:
+    print(f"{word:<12} -> {lookup_lemma(word)}")
