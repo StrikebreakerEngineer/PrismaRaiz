@@ -10,10 +10,32 @@ DATABASE_FILE = (
     / "léxico.db"
 )
 
+BACKUP_FILE = (
+    PROJECT_ROOT
+    / "datos"
+    / "exportaciones"
+    / "léxico_backup.bak"
+)
+
 EXPERIMENTS_FOLDER = (
     PROJECT_ROOT
     / "experimentos"
 )
+
+
+# ===============================
+# FUNCIONES DE COPIA DE SEGUIRDAD
+# ===============================
+def backup_database(source_db_path=DATABASE_FILE, backup_db_path=BACKUP_FILE):
+    src_conn = sqlite3.connect(source_db_path)
+    dst_conn = sqlite3.connect(backup_db_path)
+    
+    with dst_conn:
+        src_conn.backup(dst_conn)
+        
+    src_conn.close()
+    dst_conn.close()
+    print(f"✓ Backup successfully created at {backup_db_path}")
 
 
 # ==================================
@@ -37,9 +59,15 @@ def get_raw_words(connection: sqlite3.Connection) -> set[str]:
 
     cursor = connection.cursor()
 
-    cursor.execute("SELECT word FROM t01_raw_words")
+    cursor.execute(
+        """
+        SELECT id, word
+        FROM t01_raw_words
+        ORDER BY id
+        """
+    )
 
-    return {row["word"].strip().lower() for row in cursor.fetchall()}
+    return cursor.fetchall()
 
 
 def get_max_raw_word_rank(connection: sqlite3.Connection) -> int:
@@ -216,32 +244,35 @@ def create_raw_word(connection: sqlite3.Connection, word: tuple | list[tuple], *
     return cursor.lastrowid
 
 
-def create_lemma(connection: sqlite3.Connection, lemma: tuple | list[tuple], *,
+def create_lemma(connection: sqlite3.Connection, lemma: tuple | list[tuple], source: str, *,
                 commit_index: int | None = None, commit_batch: int = 25
                 ) -> int | None:
 
     cursor = connection.cursor()
 
     if isinstance(lemma, tuple):
-        # Single insert: use execute() so lastrowid is available.
+        # Single insert: 3 placeholders for 3 values (lemma, pos, source)
         cursor.execute(
             """
-            INSERT INTO t02_lemmas (lemma, part_of_speech)
-            VALUES (?, ?)
+            INSERT INTO t02_lemmas (lemma, part_of_speech, lemmatizer)
+            VALUES (?, ?, ?)
             """,
-            lemma
+            (lemma[0], lemma[1], source)
         )
 
         result = cursor.lastrowid
 
     else:
-        # Batch insert: use executemany().
+        # Batch insert: map the source into each item if your batch tuples are only 2 items long,
+        # or expect them to be fully formed. Here we append the source dynamically if needed:
+        batch_data = [(item[0], item[1], source) for item in lemma]
+        
         cursor.executemany(
             """
-            INSERT INTO t02_lemmas (lemma, part_of_speech)
-            VALUES (?, ?)
+            INSERT INTO t02_lemmas (lemma, part_of_speech, lemmatizer)
+            VALUES (?, ?, ?)
             """,
-            lemma
+            batch_data
         )
 
         result = None
@@ -285,7 +316,7 @@ def create_lemma_raw_relation(connection: sqlite3.Connection, relation_ids: tupl
     # Inserta uno o varios registros en una única llamada.
     cursor.executemany(
         """
-        INSERT INTO t03_word_lemmas (raw_word_id, lemma_id)
+        INSERT OR IGNORE INTO t03_word_lemmas (raw_word_id, lemma_id)
         VALUES (?, ?)
         """,
         relation
@@ -530,3 +561,5 @@ def create_locution_usage_note(connection, locution_sense_id: int, note: str):
 if __name__ == "__main__":
     print("¡Alto!\n\nEste programa actúa como una biblioteca y solo contiene\n" \
     "funciones auxiliares para editar y acceder al archivo léxico.db")
+
+    backup_database()

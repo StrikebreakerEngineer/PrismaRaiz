@@ -1,6 +1,7 @@
 import unicodedata
 
 import stanza
+from simplemma import lemmatize
 
 from léxico.models import WordAnalysis
 
@@ -33,7 +34,7 @@ def remove_accents(text: str):
     )
 
 
-def analyze_word(word: str) -> WordAnalysis:
+def stanza_analyze_word(word: str) -> WordAnalysis:
     nlp = load_model()
 
     doc = nlp([[word]])
@@ -45,8 +46,18 @@ def analyze_word(word: str) -> WordAnalysis:
         part_of_speech=token.upos,
     )
 
+
+def dictionary_lemmatizer(word: str) -> WordAnalysis:
+    lemma = lemmatize(word, lang='es')
+
+    return WordAnalysis(
+        lemma=lemma,
+        part_of_speech="Unknown"
+    )
+
+
 def main():
-    print(analyze_word("solo"))
+    print(stanza_analyze_word("solo"))
 
 if __name__ == "__main__":
     main()

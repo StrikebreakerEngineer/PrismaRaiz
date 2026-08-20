@@ -1,5 +1,6 @@
-import time
 import sys
+import time
+
 import pyfiglet
 from colorama import Fore, Style, init
 
