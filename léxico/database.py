@@ -62,7 +62,7 @@ def get_raw_words(connection: sqlite3.Connection) -> set[str]:
     cursor.execute(
         """
         SELECT id, word
-        FROM t01_raw_words
+        FROM t01a_raw_words
         ORDER BY id
         """
     )
@@ -197,15 +197,15 @@ def get_meanings(connection):
 # FUNCIONES AUXILIARES DE INSERCIÓN
 # =================================
 
-def create_raw_word(connection: sqlite3.Connection, word: tuple | list[tuple], *,
+def create_raw_word(connection: sqlite3.Connection, word: str, *,
                     commit_index: int | None = None, commit_batch: int = 25) -> int | None:
     """
-    Inserta una o varias palabras crudas en la tabla ``t01_raw_words``.
+    Inserta una palabra cruda en la tabla ``t01a_raw_words`` o devuelve su
+    identificador si ya existe en la tabla.
 
     Args:
         connection: Conexión activa a la base de datos SQLite.
-        word: Una tupla con los datos de una palabra o una lista de tuplas
-            para realizar una inserción por lotes.
+        word: La palabra que se va a insertar o cuya pertenencia se va a verificar
         commit_index: Controla cuándo se confirma la transacción.
             - None: realiza ``commit()`` inmediatamente.
             - -1: no realiza ``commit()``; el código llamador lo gestiona.
@@ -214,34 +214,75 @@ def create_raw_word(connection: sqlite3.Connection, word: tuple | list[tuple], *
             ``commit_index`` es mayor o igual que 0.
 
     Returns:
-        El identificador de la última fila insertada si se inserta un único
-        registro. En inserciones por lotes el valor devuelto puede ser ``None``.
+        El identificador de la palabra entregada o None si no se pudo encontrar
     """
 
     cursor = connection.cursor()
 
-    # Convierte una inserción individual en una lista para utilizar
-    # siempre executemany().
-    if isinstance(word, tuple):
-        words = [word]
-    else:
-        words = word
-
-    # Inserta uno o varios registros en una única llamada.
-    cursor.executemany(
+    #Intentar insertar
+    cursor.execute(
         """
-        INSERT INTO t01_raw_words (rank, word, source)
-        VALUES (?, ?, ?)
+        INSERT INTO t01a_raw_words (word)
+        VALUES (?)
+        ON CONFLICT(word) DO NOTHING
         """,
-        words,
-        )
+        (word,),
+    )
+
+    # Probar pertenencia
+    cursor.execute(
+        """
+        SELECT id
+        FROM t01a_raw_words
+        WHERE word = ?
+        """,
+        (word,),
+    )
 
     # Gestiona la confirmación de la transacción según la configuración.
     if commit_index is None or commit_index != 0 and commit_index % commit_batch == 0:
         connection.commit()
-        print("✓ Guardado en t01_raw_words")
+        print("✓ Guardado en t01a_raw_words")
             
-    return cursor.lastrowid
+    row = cursor.fetchone()
+    return row[0] if row else None
+
+
+def create_raw_word_source(connection: sqlite3.Connection, word_id: int, rank: int, source: str, *,
+                           commit_index: int | None = None, commit_batch: int = 25) -> None:
+    """
+    Registra que una palabra apareció en una fuente concreta
+    en una posición determinada.
+
+    Args:
+        connection: Conexión activa a la base de datos SQLite.
+        word_id: Identificador de la palabra en t01a_raw_words.
+        rank: Posición de la palabra dentro de la fuente.
+        source: Nombre del archivo o fuente de origen.
+        commit_index: Controla cuándo se confirma la transacción.
+            - None: realiza ``commit()`` inmediatamente.
+            - -1: no realiza ``commit()``; el código llamador lo gestiona.
+            - >= 0: realiza ``commit()`` cada ``commit_batch`` llamadas.
+        commit_batch: Número de llamadas entre cada ``commit()`` cuando
+            ``commit_index`` es mayor o igual que 0.
+    """
+
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        INSERT INTO t01b_raw_word_sources
+            (word_id, rank, source)
+        VALUES (?, ?, ?)
+        ON CONFLICT(word_id, source) DO NOTHING
+        """,
+        (word_id, rank, source),
+    )
+
+    # Gestiona la confirmación de la transacción según la configuración.
+    if commit_index is None or commit_index != 0 and commit_index % commit_batch == 0:
+            connection.commit()
+            print("✓ Guardado en t01b_raw_word_sources")
 
 
 def create_lemma(connection: sqlite3.Connection, lemma: tuple | list[tuple], source: str, *,

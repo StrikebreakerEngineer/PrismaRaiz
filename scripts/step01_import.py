@@ -4,61 +4,73 @@ from pathlib import Path
 from léxico.database import (
     PROJECT_ROOT,
     create_raw_word,
+    create_raw_word_source,
     get_connection,
-    get_max_raw_word_rank,
-    get_raw_words,
 )
 
 JSON_FILE = (
     PROJECT_ROOT
     / "datos"
     / "sinProcesar"
-    / "spanish_10k.json"
+    / "spanish_1k.json"
 )
 
 
 def load_words(json_file: Path) -> list[str]:
+    """
+    Carga las palabras desde un archivo JSON.
+    """
+
     print("Cargando palabras desde archivo...")
 
     with open(json_file, "r", encoding="utf-8") as file:
         data = json.load(file)
 
-    print(f"Se han cargado {len(data['words'])} palabras!")
+    print(
+        f"Se han cargado {len(data['words'])} palabras!"
+    )
 
     return data["words"]
 
 
-def import_new_words(words: list[str]):
-    connection = get_connection()
-    
-    existing_words = get_raw_words(connection=connection)
-    next_rank = get_max_raw_word_rank(connection=connection) + 1
-    
-    words_to_insert = []
-    
-    for word in words:        
-        if len(word) >= 2 and word.strip().lower() not in existing_words and word.isalpha():
-            words_to_insert.append((next_rank, word, JSON_FILE.name))
-            existing_words.add(word)
-            next_rank += 1
-                
-    if words_to_insert:
-        create_raw_word(connection, words_to_insert)
+def import_new_words(words: list[str]) -> None:
+    """
+    Importa las palabras y sus fuentes en las tablas t01a y t01b.
 
-        print("Ejecución finalizada por completo. Volcando residuos finales...")
-        connection.commit()
-        print("✓ Base de datos actualizada con éxito")
-        print(f"✓ Éxito total: Se agregaron {len(words_to_insert)} palabras nuevas.")
-        
-    else:
-        print("✓ No hay palabras nuevas para ingresar. La base de datos ya está al día.")
-        
-    # Centralizado al final del ciclo de vida de la función para máxima seguridad de red
+    t01a contiene cada palabra una sola vez.
+
+    t01b registra en qué fuente apareció cada palabra
+    y cuál era su posición original (rank).
+    """
+
+    connection = get_connection()
+
+    source = JSON_FILE.name
+
+    for index, word in enumerate( words, start=1):
+
+        word = word.strip().lower()
+
+        if not word.isalpha():
+            continue
+
+        word_id = create_raw_word(connection, word, commit_index = -1)
+
+        create_raw_word_source(connection, word_id, index,source, commit_index = -1)
+
+        if index % 2000 == 0:
+            connection.commit()
+            print(f"Procesadas {index} palabras...")
+
+    connection.commit()
+    print("✓ Base de datos actualizada con éxito")
+
     connection.close()
 
 
 def main():
     words = load_words(JSON_FILE)
+
     import_new_words(words)
 
 
