@@ -24,6 +24,7 @@ words = [
     "verdugueases",
     "verdugueaste",
     "verdugueasteis",
+    "gamo-"
 ]
 
 # Run the strict dictionary lemmatizer using the Spanish language code ('es')

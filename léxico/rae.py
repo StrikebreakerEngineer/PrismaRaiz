@@ -7,7 +7,7 @@ from léxico.analyzer import remove_accents
 
 # --- Configuración ---
 config = dotenv_values(".env")
-RAE_API_KEY = config.get("RAE_API_KEY")
+UNOFFICIAL_RAE_API_KEY = config.get("UNOFFICIAL_RAE_API_KEY")
 URL = "https://rae-api.com/api/words"
 
 # Variable global para rastrear cuándo se hizo la última petición
@@ -100,42 +100,42 @@ def _request_rae(session: requests.Session, word: str):
 
 
 def get_rae_entry(session: requests.Session, word: str):
-    print(f"🔍 Buscando '{word}' en el diccionario RAE...")
+    #print(f"🔍 Buscando '{word}' en el diccionario RAE...")
 
     try:
         data = _request_rae(session, word)
 
         # AGREGADO: Confirmación si se encuentra la palabra original
         if data:
-            print(f"✅ ¡Éxito! Palabra '{word}' encontrada.")
+            #print(f"✅ ¡Éxito! Palabra '{word}' encontrada.")
             return data
 
         simplified = remove_accents(word)
 
         if simplified != word:
-            print(f"🔄 No encontrada. Intentando variante sin acentos: '{simplified}'...")
+            #print(f"🔄 No encontrada. Intentando variante sin acentos: '{simplified}'...")
             data = _request_rae(session, simplified)
             
             # AGREGADO: Confirmación si se encuentra la palabra simplificada
             if data:
-                print(f"✅ ¡Éxito! Variante '{simplified}' encontrada.")
+                #print(f"✅ ¡Éxito! Variante '{simplified}' encontrada.")
                 return data
 
-        print(f"❌ '{word}' no se encuentra en el diccionario.")
+        #print(f"❌ '{word}' no se encuentra en el diccionario.")
         return None
 
     except requests.RequestException as error:
-        print(f"Error consultando '{word}': {error}")
+        #print(f"Error consultando '{word}': {error}")
         return None
 
 
 def main():
     with requests.Session() as session:
         session.headers.update({
-            "X-API-Key": RAE_API_KEY
+            "X-API-Key": UNOFFICIAL_RAE_API_KEY
         })
 
-        print(get_rae_entry(session, "ser"))
+        print(get_rae_entry(session, "colactáneo"))
 
 
 if __name__ == "__main__":

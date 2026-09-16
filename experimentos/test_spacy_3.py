@@ -17,7 +17,8 @@ spanish_words = ["gatos",
                 "comíamos",
                 "vivíamos",
                 "quito",
-                "quisiéremos"]
+                "quisiéremos",
+                "gamo-"]
 
 # 3. Process the words as a single string separated by spaces
 # spaCy performs best when words are evaluated with spacing context

@@ -1,0 +1,4895 @@
+{
+  "letter": "a",
+  "database": "C:\\Users\\MISSIONARIES\\Documents\\Text\\léxicoEspañolReal\\datos\\baseDeDatos\\crawler.db",
+  "table": "rae_keys_a",
+  "ground_truth_count": 13749,
+  "test_prefixes": [
+    "a",
+    "al",
+    "anti",
+    "agua",
+    "ama",
+    "ana",
+    "apa",
+    "aca",
+    "acu",
+    "ala",
+    "alca",
+    "ale",
+    "an",
+    "ad",
+    "alo"
+  ],
+  "results": [
+    {
+      "prefix": "a",
+      "api_results": [
+        "a",
+        "a capela",
+        "a contrariis",
+        "a contrario sensu",
+        "a divinis",
+        "a fortiori",
+        "a latere",
+        "a limine",
+        "a nativitate",
+        "a pari"
+      ],
+      "ground_truth_first_20": [
+        "a",
+        "a capela",
+        "a contrariis",
+        "a contrario sensu",
+        "a divinis",
+        "a fortiori",
+        "a latere",
+        "a limine",
+        "a nativitate",
+        "a pari",
+        "ab aeterno",
+        "ab initio",
+        "ab intestato",
+        "ab irato",
+        "ab origine",
+        "ab ovo",
+        "aba",
+        "abaá",
+        "ababillarse",
+        "ababol"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 13749,
+      "api_matches_ground_truth": true,
+      "tenth_result": "a pari",
+      "ground_truth_after_tenth": [
+        "ab aeterno",
+        "ab initio",
+        "ab intestato",
+        "ab irato",
+        "ab origine",
+        "ab ovo",
+        "aba",
+        "abaá",
+        "ababillarse",
+        "ababol",
+        "abacá",
+        "abacal",
+        "abacalera",
+        "abacalero",
+        "abacera",
+        "abacería",
+        "abacero",
+        "abacial",
+        "ábaco",
+        "abacora"
+      ],
+      "query_exact_tenth": {
+        "query": "a pari",
+        "results": [
+          "a pari"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "a pari",
+          "results": [
+            "a pari"
+          ],
+          "count": 1
+        },
+        {
+          "query": "a",
+          "results": [
+            "a",
+            "a capela",
+            "a contrariis",
+            "a contrario sensu",
+            "a divinis",
+            "a fortiori",
+            "a latere",
+            "a limine",
+            "a nativitate",
+            "a pari"
+          ],
+          "count": 10
+        },
+        {
+          "query": "a ",
+          "results": [
+            "a",
+            "a capela",
+            "a contrariis",
+            "a contrario sensu",
+            "a divinis",
+            "a fortiori",
+            "a latere",
+            "a limine",
+            "a nativitate",
+            "a pari"
+          ],
+          "count": 10
+        },
+        {
+          "query": "a p",
+          "results": [
+            "a pari",
+            "a penas",
+            "a posteriori",
+            "a priori"
+          ],
+          "count": 4
+        },
+        {
+          "query": "a pa",
+          "results": [
+            "a pari"
+          ],
+          "count": 1
+        },
+        {
+          "query": "a par",
+          "results": [
+            "a pari"
+          ],
+          "count": 1
+        },
+        {
+          "query": "a paria",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parib",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a paric",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parid",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parie",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parif",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parig",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parih",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parii",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parij",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parik",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a paril",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parim",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parin",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pariñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pario",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parip",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pariq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parir",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a paris",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parit",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pariu",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pariv",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pariw",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a parix",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pariy",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pariz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pariü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pari-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "a pari ",
+          "results": [
+            "a pari"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "aca",
+      "api_results": [
+        "aca",
+        "acá",
+        "acabable",
+        "acabada",
+        "acabadamente",
+        "acabado",
+        "acabador",
+        "acabadora",
+        "acabadura",
+        "acabalar"
+      ],
+      "ground_truth_first_20": [
+        "aca",
+        "acá",
+        "acabable",
+        "acabada",
+        "acabadamente",
+        "acabado",
+        "acabador",
+        "acabadora",
+        "acabadura",
+        "acabalar",
+        "acaballada",
+        "acaballadero",
+        "acaballado",
+        "acaballar",
+        "acaballerada",
+        "acaballerado",
+        "acaballerar",
+        "acaballonar",
+        "acabamiento",
+        "acabangada"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 249,
+      "api_matches_ground_truth": true,
+      "tenth_result": "acabalar",
+      "ground_truth_after_tenth": [
+        "acaballada",
+        "acaballadero",
+        "acaballado",
+        "acaballar",
+        "acaballerada",
+        "acaballerado",
+        "acaballerar",
+        "acaballonar",
+        "acabamiento",
+        "acabangada",
+        "acabangado",
+        "acabangarse",
+        "acabar",
+        "acabañar",
+        "acabe",
+        "acabellada",
+        "acabellado",
+        "acabestrillar",
+        "acabildar",
+        "acabo"
+      ],
+      "query_exact_tenth": {
+        "query": "acabalar",
+        "results": [
+          "acabalar"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "acabalar",
+          "results": [
+            "acabalar"
+          ],
+          "count": 1
+        },
+        {
+          "query": "aca",
+          "results": [
+            "aca",
+            "acá",
+            "acabable",
+            "acabada",
+            "acabadamente",
+            "acabado",
+            "acabador",
+            "acabadora",
+            "acabadura",
+            "acabalar"
+          ],
+          "count": 10
+        },
+        {
+          "query": "acab",
+          "results": [
+            "acabable",
+            "acabada",
+            "acabadamente",
+            "acabado",
+            "acabador",
+            "acabadora",
+            "acabadura",
+            "acabalar",
+            "acaballada",
+            "acaballadero"
+          ],
+          "count": 10
+        },
+        {
+          "query": "acaba",
+          "results": [
+            "acabable",
+            "acabada",
+            "acabadamente",
+            "acabado",
+            "acabador",
+            "acabadora",
+            "acabadura",
+            "acabalar",
+            "acaballada",
+            "acaballadero"
+          ],
+          "count": 10
+        },
+        {
+          "query": "acabal",
+          "results": [
+            "acabalar",
+            "acaballada",
+            "acaballadero",
+            "acaballado",
+            "acaballar",
+            "acaballerada",
+            "acaballerado",
+            "acaballerar",
+            "acaballonar"
+          ],
+          "count": 9
+        },
+        {
+          "query": "acabala",
+          "results": [
+            "acabalar"
+          ],
+          "count": 1
+        },
+        {
+          "query": "acabalara",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarb",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarc",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalard",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalare",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarf",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarg",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarh",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalari",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarj",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalark",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarl",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarm",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarn",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalaro",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarp",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarr",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalars",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalart",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalaru",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarv",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarw",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarx",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalary",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalarü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalar-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "acabalar ",
+          "results": [
+            "acabalar"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "acu",
+      "api_results": [
+        "acuache",
+        "acuacultura",
+        "acuadrillar",
+        "acuantiar",
+        "acuarela",
+        "acuarelada",
+        "acuarelado",
+        "acuarelista",
+        "acuarelística",
+        "acuarelístico"
+      ],
+      "ground_truth_first_20": [
+        "acuache",
+        "acuacultura",
+        "acuadrillar",
+        "acuantiar",
+        "acuarela",
+        "acuarelada",
+        "acuarelado",
+        "acuarelista",
+        "acuarelística",
+        "acuarelístico",
+        "acuariana",
+        "acuariano",
+        "acuario",
+        "acuárium",
+        "acuartar",
+        "acuartelado",
+        "acuartelamiento",
+        "acuartelar",
+        "acuartillar",
+        "acuática"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 139,
+      "api_matches_ground_truth": true,
+      "tenth_result": "acuarelístico",
+      "ground_truth_after_tenth": [
+        "acuariana",
+        "acuariano",
+        "acuario",
+        "acuárium",
+        "acuartar",
+        "acuartelado",
+        "acuartelamiento",
+        "acuartelar",
+        "acuartillar",
+        "acuática",
+        "acuático",
+        "acuátil",
+        "acuatizaje",
+        "acuatizar",
+        "acubada",
+        "acubado",
+        "acubilar",
+        "acucharada",
+        "acucharado",
+        "acuchillada"
+      ],
+      "query_exact_tenth": {
+        "query": "acuarelístico",
+        "results": [
+          "acuarelística",
+          "acuarelístico"
+        ],
+        "count": 2
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "acuarelístico",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acu",
+          "results": [
+            "acuache",
+            "acuacultura",
+            "acuadrillar",
+            "acuantiar",
+            "acuarela",
+            "acuarelada",
+            "acuarelado",
+            "acuarelista",
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 10
+        },
+        {
+          "query": "acua",
+          "results": [
+            "acuache",
+            "acuacultura",
+            "acuadrillar",
+            "acuantiar",
+            "acuarela",
+            "acuarelada",
+            "acuarelado",
+            "acuarelista",
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 10
+        },
+        {
+          "query": "acuar",
+          "results": [
+            "acuarela",
+            "acuarelada",
+            "acuarelado",
+            "acuarelista",
+            "acuarelística",
+            "acuarelístico",
+            "acuariana",
+            "acuariano",
+            "acuario",
+            "acuárium"
+          ],
+          "count": 10
+        },
+        {
+          "query": "acuare",
+          "results": [
+            "acuarela",
+            "acuarelada",
+            "acuarelado",
+            "acuarelista",
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 6
+        },
+        {
+          "query": "acuarel",
+          "results": [
+            "acuarela",
+            "acuarelada",
+            "acuarelado",
+            "acuarelista",
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 6
+        },
+        {
+          "query": "acuarelí",
+          "results": [
+            "acuarelista",
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "acuarelís",
+          "results": [
+            "acuarelista",
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "acuarelíst",
+          "results": [
+            "acuarelista",
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "acuarelísti",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelístic",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoa",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticob",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoc",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticod",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoe",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticof",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticog",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoh",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoi",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoj",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticok",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticol",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticom",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticon",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoñ",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoo",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticop",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoq",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticor",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticos",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticot",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticou",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticov",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticow",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticox",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoy",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoz",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelísticoü",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelístico-",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "acuarelístico ",
+          "results": [
+            "acuarelística",
+            "acuarelístico"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "prefix": "ad",
+      "api_results": [
+        "ad",
+        "ad aeternum",
+        "ad calendas graecas",
+        "ad cautelam",
+        "ad efesios",
+        "ad hoc",
+        "ad hominem",
+        "ad honorem",
+        "ad infinitum",
+        "ad interim"
+      ],
+      "ground_truth_first_20": [
+        "ad",
+        "ad aeternum",
+        "ad calendas graecas",
+        "ad cautelam",
+        "ad efesios",
+        "ad hoc",
+        "ad hominem",
+        "ad honorem",
+        "ad infinitum",
+        "ad interim",
+        "adafina",
+        "adagial",
+        "adagio",
+        "adaguar",
+        "adahala",
+        "adalid",
+        "adamada",
+        "adamado",
+        "adamadura",
+        "adamante"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 545,
+      "api_matches_ground_truth": true,
+      "tenth_result": "ad interim",
+      "ground_truth_after_tenth": [
+        "adafina",
+        "adagial",
+        "adagio",
+        "adaguar",
+        "adahala",
+        "adalid",
+        "adamada",
+        "adamado",
+        "adamadura",
+        "adamante",
+        "adamantina",
+        "adamantino",
+        "adamar",
+        "adamarse",
+        "adamascada",
+        "adamascado",
+        "adamascar",
+        "adámica",
+        "adámico",
+        "adamismo"
+      ],
+      "query_exact_tenth": {
+        "query": "ad interim",
+        "results": [
+          "ad interim"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "ad interim",
+          "results": [
+            "ad interim"
+          ],
+          "count": 1
+        },
+        {
+          "query": "ad",
+          "results": [
+            "ad",
+            "ad aeternum",
+            "ad calendas graecas",
+            "ad cautelam",
+            "ad efesios",
+            "ad hoc",
+            "ad hominem",
+            "ad honorem",
+            "ad infinitum",
+            "ad interim"
+          ],
+          "count": 10
+        },
+        {
+          "query": "ad ",
+          "results": [
+            "ad",
+            "ad aeternum",
+            "ad calendas graecas",
+            "ad cautelam",
+            "ad efesios",
+            "ad hoc",
+            "ad hominem",
+            "ad honorem",
+            "ad infinitum",
+            "ad interim"
+          ],
+          "count": 10
+        },
+        {
+          "query": "ad i",
+          "results": [
+            "ad infinitum",
+            "ad interim"
+          ],
+          "count": 2
+        },
+        {
+          "query": "ad in",
+          "results": [
+            "ad infinitum",
+            "ad interim"
+          ],
+          "count": 2
+        },
+        {
+          "query": "ad int",
+          "results": [
+            "ad interim"
+          ],
+          "count": 1
+        },
+        {
+          "query": "ad inte",
+          "results": [
+            "ad interim"
+          ],
+          "count": 1
+        },
+        {
+          "query": "ad inter",
+          "results": [
+            "ad interim"
+          ],
+          "count": 1
+        },
+        {
+          "query": "ad interi",
+          "results": [
+            "ad interim"
+          ],
+          "count": 1
+        },
+        {
+          "query": "ad interima",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimb",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimc",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimd",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interime",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimf",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimg",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimh",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimi",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimj",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimk",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interiml",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimm",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimn",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimo",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimp",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimr",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interims",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimt",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimu",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimv",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimw",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimx",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimy",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interimü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interim-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "ad interim ",
+          "results": [
+            "ad interim"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "agua",
+      "api_results": [
+        "agua",
+        "aguacal",
+        "aguacatal",
+        "aguacate",
+        "aguacateca",
+        "aguacateco",
+        "aguacatera",
+        "aguacatero",
+        "aguacatillo",
+        "aguacatón"
+      ],
+      "ground_truth_first_20": [
+        "agua",
+        "aguacal",
+        "aguacatal",
+        "aguacate",
+        "aguacateca",
+        "aguacateco",
+        "aguacatera",
+        "aguacatero",
+        "aguacatillo",
+        "aguacatón",
+        "aguacatona",
+        "aguacerazo",
+        "aguacero",
+        "aguacha",
+        "aguachacha",
+        "aguachar",
+        "aguachas",
+        "aguachenta",
+        "aguachento",
+        "aguachile"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 150,
+      "api_matches_ground_truth": true,
+      "tenth_result": "aguacatón",
+      "ground_truth_after_tenth": [
+        "aguacatona",
+        "aguacerazo",
+        "aguacero",
+        "aguacha",
+        "aguachacha",
+        "aguachar",
+        "aguachas",
+        "aguachenta",
+        "aguachento",
+        "aguachile",
+        "aguachinar",
+        "aguachinosa",
+        "aguachinoso",
+        "aguachirle",
+        "aguacibera",
+        "aguacil",
+        "aguada",
+        "aguadar",
+        "aguadera",
+        "aguadero"
+      ],
+      "query_exact_tenth": {
+        "query": "aguacatón",
+        "results": [
+          "aguacatón",
+          "aguacatona"
+        ],
+        "count": 2
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "aguacatón",
+          "results": [
+            "aguacatón",
+            "aguacatona"
+          ],
+          "count": 2
+        },
+        {
+          "query": "agua",
+          "results": [
+            "agua",
+            "aguacal",
+            "aguacatal",
+            "aguacate",
+            "aguacateca",
+            "aguacateco",
+            "aguacatera",
+            "aguacatero",
+            "aguacatillo",
+            "aguacatón"
+          ],
+          "count": 10
+        },
+        {
+          "query": "aguac",
+          "results": [
+            "aguacal",
+            "aguacatal",
+            "aguacate",
+            "aguacateca",
+            "aguacateco",
+            "aguacatera",
+            "aguacatero",
+            "aguacatillo",
+            "aguacatón",
+            "aguacatona"
+          ],
+          "count": 10
+        },
+        {
+          "query": "aguaca",
+          "results": [
+            "aguacal",
+            "aguacatal",
+            "aguacate",
+            "aguacateca",
+            "aguacateco",
+            "aguacatera",
+            "aguacatero",
+            "aguacatillo",
+            "aguacatón",
+            "aguacatona"
+          ],
+          "count": 10
+        },
+        {
+          "query": "aguacat",
+          "results": [
+            "aguacatal",
+            "aguacate",
+            "aguacateca",
+            "aguacateco",
+            "aguacatera",
+            "aguacatero",
+            "aguacatillo",
+            "aguacatón",
+            "aguacatona"
+          ],
+          "count": 9
+        },
+        {
+          "query": "aguacató",
+          "results": [
+            "aguacatón",
+            "aguacatona"
+          ],
+          "count": 2
+        },
+        {
+          "query": "aguacatóna",
+          "results": [
+            "aguacatona"
+          ],
+          "count": 1
+        },
+        {
+          "query": "aguacatónb",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónc",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónd",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatóne",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónf",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatóng",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónh",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatóni",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónj",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónk",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónl",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónm",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónn",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatóno",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónp",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónr",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatóns",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónt",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónu",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónv",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónw",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónx",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatóny",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatónü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatón-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aguacatón ",
+          "results": [
+            "aguacatón",
+            "aguacatona"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "prefix": "al",
+      "api_results": [
+        "al",
+        "ál",
+        "alá",
+        "ala",
+        "alabable",
+        "alabado",
+        "alabador",
+        "alabadora",
+        "alabamiento",
+        "alabancera"
+      ],
+      "ground_truth_first_20": [
+        "al",
+        "ál",
+        "ala",
+        "alá",
+        "alabable",
+        "alabado",
+        "alabador",
+        "alabadora",
+        "alabamiento",
+        "alabancera",
+        "alabancero",
+        "alabancia",
+        "alabanciosa",
+        "alabancioso",
+        "alabandina",
+        "alabanza",
+        "alabar",
+        "alabarda",
+        "alabardada",
+        "alabardado"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 2161,
+      "api_matches_ground_truth": true,
+      "tenth_result": "alabancera",
+      "ground_truth_after_tenth": [
+        "alabancero",
+        "alabancia",
+        "alabanciosa",
+        "alabancioso",
+        "alabandina",
+        "alabanza",
+        "alabar",
+        "alabarda",
+        "alabardada",
+        "alabardado",
+        "alabardazo",
+        "alabardera",
+        "alabardero",
+        "alabastrada",
+        "alabastrado",
+        "alabastrina",
+        "alabastrino",
+        "alabastrita",
+        "alabastrites",
+        "alabastro"
+      ],
+      "query_exact_tenth": {
+        "query": "alabancera",
+        "results": [
+          "alabancera"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "alabancera",
+          "results": [
+            "alabancera"
+          ],
+          "count": 1
+        },
+        {
+          "query": "al",
+          "results": [
+            "al",
+            "ál",
+            "alá",
+            "ala",
+            "alabable",
+            "alabado",
+            "alabador",
+            "alabadora",
+            "alabamiento",
+            "alabancera"
+          ],
+          "count": 10
+        },
+        {
+          "query": "ala",
+          "results": [
+            "alá",
+            "ala",
+            "alabable",
+            "alabado",
+            "alabador",
+            "alabadora",
+            "alabamiento",
+            "alabancera",
+            "alabancero",
+            "alabancia"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alab",
+          "results": [
+            "alabable",
+            "alabado",
+            "alabador",
+            "alabadora",
+            "alabamiento",
+            "alabancera",
+            "alabancero",
+            "alabancia",
+            "alabanciosa",
+            "alabancioso"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alaba",
+          "results": [
+            "alabable",
+            "alabado",
+            "alabador",
+            "alabadora",
+            "alabamiento",
+            "alabancera",
+            "alabancero",
+            "alabancia",
+            "alabanciosa",
+            "alabancioso"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alaban",
+          "results": [
+            "alabancera",
+            "alabancero",
+            "alabancia",
+            "alabanciosa",
+            "alabancioso",
+            "alabandina",
+            "alabanza"
+          ],
+          "count": 7
+        },
+        {
+          "query": "alabanc",
+          "results": [
+            "alabancera",
+            "alabancero",
+            "alabancia",
+            "alabanciosa",
+            "alabancioso"
+          ],
+          "count": 5
+        },
+        {
+          "query": "alabance",
+          "results": [
+            "alabancera",
+            "alabancero"
+          ],
+          "count": 2
+        },
+        {
+          "query": "alabancer",
+          "results": [
+            "alabancera",
+            "alabancero"
+          ],
+          "count": 2
+        },
+        {
+          "query": "alabanceraa",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerab",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerac",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerad",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerae",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceraf",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerag",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerah",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerai",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceraj",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerak",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceral",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceram",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceran",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerañ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerao",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerap",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceraq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerar",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceras",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerat",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerau",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerav",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceraw",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancerax",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceray",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceraz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanceraü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancera-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancera ",
+          "results": [
+            "alabancera"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "ala",
+      "api_results": [
+        "alá",
+        "ala",
+        "alabable",
+        "alabado",
+        "alabador",
+        "alabadora",
+        "alabamiento",
+        "alabancera",
+        "alabancero",
+        "alabancia"
+      ],
+      "ground_truth_first_20": [
+        "ala",
+        "alá",
+        "alabable",
+        "alabado",
+        "alabador",
+        "alabadora",
+        "alabamiento",
+        "alabancera",
+        "alabancero",
+        "alabancia",
+        "alabanciosa",
+        "alabancioso",
+        "alabandina",
+        "alabanza",
+        "alabar",
+        "alabarda",
+        "alabardada",
+        "alabardado",
+        "alabardazo",
+        "alabardera"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 210,
+      "api_matches_ground_truth": true,
+      "tenth_result": "alabancia",
+      "ground_truth_after_tenth": [
+        "alabanciosa",
+        "alabancioso",
+        "alabandina",
+        "alabanza",
+        "alabar",
+        "alabarda",
+        "alabardada",
+        "alabardado",
+        "alabardazo",
+        "alabardera",
+        "alabardero",
+        "alabastrada",
+        "alabastrado",
+        "alabastrina",
+        "alabastrino",
+        "alabastrita",
+        "alabastrites",
+        "alabastro",
+        "álabe",
+        "alabeada"
+      ],
+      "query_exact_tenth": {
+        "query": "alabancia",
+        "results": [
+          "alabancia"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "alabancia",
+          "results": [
+            "alabancia"
+          ],
+          "count": 1
+        },
+        {
+          "query": "ala",
+          "results": [
+            "alá",
+            "ala",
+            "alabable",
+            "alabado",
+            "alabador",
+            "alabadora",
+            "alabamiento",
+            "alabancera",
+            "alabancero",
+            "alabancia"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alab",
+          "results": [
+            "alabable",
+            "alabado",
+            "alabador",
+            "alabadora",
+            "alabamiento",
+            "alabancera",
+            "alabancero",
+            "alabancia",
+            "alabanciosa",
+            "alabancioso"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alaba",
+          "results": [
+            "alabable",
+            "alabado",
+            "alabador",
+            "alabadora",
+            "alabamiento",
+            "alabancera",
+            "alabancero",
+            "alabancia",
+            "alabanciosa",
+            "alabancioso"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alaban",
+          "results": [
+            "alabancera",
+            "alabancero",
+            "alabancia",
+            "alabanciosa",
+            "alabancioso",
+            "alabandina",
+            "alabanza"
+          ],
+          "count": 7
+        },
+        {
+          "query": "alabanc",
+          "results": [
+            "alabancera",
+            "alabancero",
+            "alabancia",
+            "alabanciosa",
+            "alabancioso"
+          ],
+          "count": 5
+        },
+        {
+          "query": "alabanci",
+          "results": [
+            "alabancia",
+            "alabanciosa",
+            "alabancioso"
+          ],
+          "count": 3
+        },
+        {
+          "query": "alabanciaa",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciab",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciac",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciad",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciae",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciaf",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciag",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciah",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciai",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciaj",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciak",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancial",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciam",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancian",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciañ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciao",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciap",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciaq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciar",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancias",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciat",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciau",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciav",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciaw",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciax",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciay",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciaz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabanciaü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancia-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alabancia ",
+          "results": [
+            "alabancia"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "alca",
+      "api_results": [
+        "alca",
+        "alcabala",
+        "alcabalatoria",
+        "alcabalatorio",
+        "alcabalero",
+        "alcabor",
+        "alcabota",
+        "alcabtea",
+        "alcabuz",
+        "alcacel"
+      ],
+      "ground_truth_first_20": [
+        "alca",
+        "alcabala",
+        "alcabalatoria",
+        "alcabalatorio",
+        "alcabalero",
+        "alcabor",
+        "alcabota",
+        "alcabtea",
+        "alcabuz",
+        "alcacel",
+        "alcacer",
+        "alcaceña",
+        "alcachofa",
+        "alcachofada",
+        "alcachofado",
+        "alcachofal",
+        "alcachofar",
+        "alcachofera",
+        "alcachofero",
+        "alcací"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 160,
+      "api_matches_ground_truth": true,
+      "tenth_result": "alcacel",
+      "ground_truth_after_tenth": [
+        "alcacer",
+        "alcaceña",
+        "alcachofa",
+        "alcachofada",
+        "alcachofado",
+        "alcachofal",
+        "alcachofar",
+        "alcachofera",
+        "alcachofero",
+        "alcací",
+        "alcacil",
+        "alcaduz",
+        "alcaecería",
+        "alcafar",
+        "alcahaz",
+        "alcahazada",
+        "alcahazar",
+        "alcahotar",
+        "alcahotería",
+        "alcahueta"
+      ],
+      "query_exact_tenth": {
+        "query": "alcacel",
+        "results": [
+          "alcacel"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "alcacel",
+          "results": [
+            "alcacel"
+          ],
+          "count": 1
+        },
+        {
+          "query": "alca",
+          "results": [
+            "alca",
+            "alcabala",
+            "alcabalatoria",
+            "alcabalatorio",
+            "alcabalero",
+            "alcabor",
+            "alcabota",
+            "alcabtea",
+            "alcabuz",
+            "alcacel"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alcac",
+          "results": [
+            "alcacel",
+            "alcaceña",
+            "alcacer",
+            "alcachofa",
+            "alcachofada",
+            "alcachofado",
+            "alcachofal",
+            "alcachofar",
+            "alcachofera",
+            "alcachofero"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alcace",
+          "results": [
+            "alcacel",
+            "alcaceña",
+            "alcacer"
+          ],
+          "count": 3
+        },
+        {
+          "query": "alcacela",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelb",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelc",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcaceld",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacele",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelf",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelg",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelh",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcaceli",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelj",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelk",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacell",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelm",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcaceln",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelo",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelp",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelr",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacels",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelt",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelu",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelv",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelw",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelx",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacely",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacelü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacel-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alcacel ",
+          "results": [
+            "alcacel"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "ale",
+      "api_results": [
+        "ale",
+        "alea",
+        "alea iacta est",
+        "aleación",
+        "alear",
+        "aleas",
+        "aleatoria",
+        "aleatoriamente",
+        "aleatoriedad",
+        "aleatorio"
+      ],
+      "ground_truth_first_20": [
+        "ale",
+        "alea",
+        "alea iacta est",
+        "aleación",
+        "alear",
+        "aleas",
+        "aleatoria",
+        "aleatoriamente",
+        "aleatoriedad",
+        "aleatorio",
+        "aleatorización",
+        "aleatorizar",
+        "alebrarse",
+        "alebrastarse",
+        "alebrestada",
+        "alebrestado",
+        "alebrestarse",
+        "alebrije",
+        "alebronarse",
+        "aleccionador"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 202,
+      "api_matches_ground_truth": true,
+      "tenth_result": "aleatorio",
+      "ground_truth_after_tenth": [
+        "aleatorización",
+        "aleatorizar",
+        "alebrarse",
+        "alebrastarse",
+        "alebrestada",
+        "alebrestado",
+        "alebrestarse",
+        "alebrije",
+        "alebronarse",
+        "aleccionador",
+        "aleccionadora",
+        "aleccionamiento",
+        "aleccionar",
+        "alece",
+        "aleche",
+        "alechigar",
+        "alechugado",
+        "alechugar",
+        "alecrín",
+        "alectomancia"
+      ],
+      "query_exact_tenth": {
+        "query": "aleatorio",
+        "results": [
+          "aleatorio"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "aleatorio",
+          "results": [
+            "aleatorio"
+          ],
+          "count": 1
+        },
+        {
+          "query": "ale",
+          "results": [
+            "ale",
+            "alea",
+            "alea iacta est",
+            "aleación",
+            "alear",
+            "aleas",
+            "aleatoria",
+            "aleatoriamente",
+            "aleatoriedad",
+            "aleatorio"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alea",
+          "results": [
+            "alea",
+            "alea iacta est",
+            "aleación",
+            "alear",
+            "aleas",
+            "aleatoria",
+            "aleatoriamente",
+            "aleatoriedad",
+            "aleatorio",
+            "aleatorización"
+          ],
+          "count": 10
+        },
+        {
+          "query": "aleat",
+          "results": [
+            "aleatoria",
+            "aleatoriamente",
+            "aleatoriedad",
+            "aleatorio",
+            "aleatorización",
+            "aleatorizar"
+          ],
+          "count": 6
+        },
+        {
+          "query": "aleato",
+          "results": [
+            "aleatoria",
+            "aleatoriamente",
+            "aleatoriedad",
+            "aleatorio",
+            "aleatorización",
+            "aleatorizar"
+          ],
+          "count": 6
+        },
+        {
+          "query": "aleator",
+          "results": [
+            "aleatoria",
+            "aleatoriamente",
+            "aleatoriedad",
+            "aleatorio",
+            "aleatorización",
+            "aleatorizar"
+          ],
+          "count": 6
+        },
+        {
+          "query": "aleatori",
+          "results": [
+            "aleatoria",
+            "aleatoriamente",
+            "aleatoriedad",
+            "aleatorio",
+            "aleatorización",
+            "aleatorizar"
+          ],
+          "count": 6
+        },
+        {
+          "query": "aleatorioa",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriob",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioc",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriod",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioe",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriof",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriog",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioh",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioi",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioj",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriok",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriol",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriom",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorion",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioo",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriop",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorior",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorios",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriot",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriou",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriov",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriow",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatoriox",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioy",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorioü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorio-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "aleatorio ",
+          "results": [
+            "aleatorio"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "alo",
+      "api_results": [
+        "aló",
+        "alo-",
+        "aloaria",
+        "alobada",
+        "alobadada",
+        "alobadado",
+        "alobado",
+        "alobar",
+        "alobreguecer",
+        "alóbroge"
+      ],
+      "ground_truth_first_20": [
+        "aló",
+        "alo-",
+        "aloaria",
+        "alobada",
+        "alobadada",
+        "alobadado",
+        "alobado",
+        "alobar",
+        "alobreguecer",
+        "alóbroge",
+        "alobrógica",
+        "alobrógico",
+        "alóbrogo",
+        "alobunada",
+        "alobunado",
+        "alocada",
+        "alocadamente",
+        "alocado",
+        "alocar",
+        "alóctona"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 91,
+      "api_matches_ground_truth": true,
+      "tenth_result": "alóbroge",
+      "ground_truth_after_tenth": [
+        "alobrógica",
+        "alobrógico",
+        "alóbrogo",
+        "alobunada",
+        "alobunado",
+        "alocada",
+        "alocadamente",
+        "alocado",
+        "alocar",
+        "alóctona",
+        "alóctono",
+        "alocución",
+        "alodial",
+        "alodio",
+        "aloe",
+        "áloe",
+        "aloes",
+        "aloética",
+        "aloético",
+        "alófona"
+      ],
+      "query_exact_tenth": {
+        "query": "alóbroge",
+        "results": [
+          "alóbroge"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "alóbroge",
+          "results": [
+            "alóbroge"
+          ],
+          "count": 1
+        },
+        {
+          "query": "aló",
+          "results": [
+            "aló",
+            "alo-",
+            "aloaria",
+            "alobada",
+            "alobadada",
+            "alobadado",
+            "alobado",
+            "alobar",
+            "alobreguecer",
+            "alóbroge"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alób",
+          "results": [
+            "alobada",
+            "alobadada",
+            "alobadado",
+            "alobado",
+            "alobar",
+            "alobreguecer",
+            "alóbroge",
+            "alobrógica",
+            "alobrógico",
+            "alóbrogo"
+          ],
+          "count": 10
+        },
+        {
+          "query": "alóbr",
+          "results": [
+            "alobreguecer",
+            "alóbroge",
+            "alobrógica",
+            "alobrógico",
+            "alóbrogo"
+          ],
+          "count": 5
+        },
+        {
+          "query": "alóbro",
+          "results": [
+            "alóbroge",
+            "alobrógica",
+            "alobrógico",
+            "alóbrogo"
+          ],
+          "count": 4
+        },
+        {
+          "query": "alóbrog",
+          "results": [
+            "alóbroge",
+            "alobrógica",
+            "alobrógico",
+            "alóbrogo"
+          ],
+          "count": 4
+        },
+        {
+          "query": "alóbrogea",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogeb",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogec",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbroged",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogee",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogef",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogeg",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogeh",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogei",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogej",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogek",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogel",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogem",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogen",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogeñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogeo",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogep",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogeq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbroger",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbroges",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbroget",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogeu",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogev",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogew",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogex",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogey",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogez",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbrogeü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbroge-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "alóbroge ",
+          "results": [
+            "alóbroge"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "ama",
+      "api_results": [
+        "amá",
+        "ama",
+        "amabilidad",
+        "amable",
+        "amablemente",
+        "amacayo",
+        "amacena",
+        "amacharse",
+        "amachetear",
+        "amachinarse"
+      ],
+      "ground_truth_first_20": [
+        "ama",
+        "amá",
+        "amabilidad",
+        "amable",
+        "amablemente",
+        "amacayo",
+        "amacena",
+        "amacharse",
+        "amachetear",
+        "amachinarse",
+        "amachorrarse",
+        "amacigada",
+        "amacigado",
+        "amación",
+        "amacizar",
+        "amacollar",
+        "amada",
+        "amadamada",
+        "amadamado",
+        "amadamarse"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 273,
+      "api_matches_ground_truth": true,
+      "tenth_result": "amachinarse",
+      "ground_truth_after_tenth": [
+        "amachorrarse",
+        "amacigada",
+        "amacigado",
+        "amación",
+        "amacizar",
+        "amacollar",
+        "amada",
+        "amadamada",
+        "amadamado",
+        "amadamarse",
+        "amadeo",
+        "amado",
+        "amador",
+        "amadora",
+        "amadrigar",
+        "amadrinamiento",
+        "amadrinar",
+        "amadroñada",
+        "amadroñado",
+        "amaestrada"
+      ],
+      "query_exact_tenth": {
+        "query": "amachinarse",
+        "results": [
+          "amachinarse"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "amachinarse",
+          "results": [
+            "amachinarse"
+          ],
+          "count": 1
+        },
+        {
+          "query": "ama",
+          "results": [
+            "amá",
+            "ama",
+            "amabilidad",
+            "amable",
+            "amablemente",
+            "amacayo",
+            "amacena",
+            "amacharse",
+            "amachetear",
+            "amachinarse"
+          ],
+          "count": 10
+        },
+        {
+          "query": "amac",
+          "results": [
+            "amacayo",
+            "amacena",
+            "amacharse",
+            "amachetear",
+            "amachinarse",
+            "amachorrarse",
+            "amacigada",
+            "amacigado",
+            "amación",
+            "amacizar"
+          ],
+          "count": 10
+        },
+        {
+          "query": "amach",
+          "results": [
+            "amacharse",
+            "amachetear",
+            "amachinarse",
+            "amachorrarse"
+          ],
+          "count": 4
+        },
+        {
+          "query": "amachi",
+          "results": [
+            "amachinarse"
+          ],
+          "count": 1
+        },
+        {
+          "query": "amachin",
+          "results": [
+            "amachinarse"
+          ],
+          "count": 1
+        },
+        {
+          "query": "amachina",
+          "results": [
+            "amachinarse"
+          ],
+          "count": 1
+        },
+        {
+          "query": "amachinar",
+          "results": [
+            "amachinarse"
+          ],
+          "count": 1
+        },
+        {
+          "query": "amachinars",
+          "results": [
+            "amachinarse"
+          ],
+          "count": 1
+        },
+        {
+          "query": "amachinarsea",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarseb",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsec",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsed",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsee",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsef",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarseg",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarseh",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsei",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsej",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsek",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsel",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsem",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsen",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarseñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarseo",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsep",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarseq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarser",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarses",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarset",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarseu",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsev",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsew",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsex",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsey",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarsez",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarseü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarse-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "amachinarse ",
+          "results": [
+            "amachinarse"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "an",
+      "api_results": [
+        "an-",
+        "ana",
+        "ana-",
+        "anabaptismo",
+        "anabaptista",
+        "anabatista",
+        "anabí",
+        "anabolena",
+        "anabólica",
+        "anabólico"
+      ],
+      "ground_truth_first_20": [
+        "an-",
+        "ana",
+        "ana-",
+        "anabaptismo",
+        "anabaptista",
+        "anabatista",
+        "anabí",
+        "anabolena",
+        "anabólica",
+        "anabólico",
+        "anabolismo",
+        "anabolizante",
+        "anacahuita",
+        "anacahuite",
+        "anacala",
+        "anacalo",
+        "anacanto",
+        "anacarada",
+        "anacarado",
+        "anacardiácea"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 1739,
+      "api_matches_ground_truth": true,
+      "tenth_result": "anabólico",
+      "ground_truth_after_tenth": [
+        "anabolismo",
+        "anabolizante",
+        "anacahuita",
+        "anacahuite",
+        "anacala",
+        "anacalo",
+        "anacanto",
+        "anacarada",
+        "anacarado",
+        "anacardiácea",
+        "anacardiáceo",
+        "anacardina",
+        "anacardino",
+        "anacardo",
+        "anaco",
+        "anacoluto",
+        "anaconda",
+        "anacora",
+        "anacoresis",
+        "anacoreta"
+      ],
+      "query_exact_tenth": {
+        "query": "anabólico",
+        "results": [
+          "anabólico"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "anabólico",
+          "results": [
+            "anabólico"
+          ],
+          "count": 1
+        },
+        {
+          "query": "an",
+          "results": [
+            "an-",
+            "ana",
+            "ana-",
+            "anabaptismo",
+            "anabaptista",
+            "anabatista",
+            "anabí",
+            "anabolena",
+            "anabólica",
+            "anabólico"
+          ],
+          "count": 10
+        },
+        {
+          "query": "ana",
+          "results": [
+            "ana",
+            "ana-",
+            "anabaptismo",
+            "anabaptista",
+            "anabatista",
+            "anabí",
+            "anabolena",
+            "anabólica",
+            "anabólico",
+            "anabolismo"
+          ],
+          "count": 10
+        },
+        {
+          "query": "anab",
+          "results": [
+            "anabaptismo",
+            "anabaptista",
+            "anabatista",
+            "anabí",
+            "anabolena",
+            "anabólica",
+            "anabólico",
+            "anabolismo",
+            "anabolizante"
+          ],
+          "count": 9
+        },
+        {
+          "query": "anabó",
+          "results": [
+            "anabolena",
+            "anabólica",
+            "anabólico",
+            "anabolismo",
+            "anabolizante"
+          ],
+          "count": 5
+        },
+        {
+          "query": "anaból",
+          "results": [
+            "anabolena",
+            "anabólica",
+            "anabólico",
+            "anabolismo",
+            "anabolizante"
+          ],
+          "count": 5
+        },
+        {
+          "query": "anabóli",
+          "results": [
+            "anabólica",
+            "anabólico",
+            "anabolismo",
+            "anabolizante"
+          ],
+          "count": 4
+        },
+        {
+          "query": "anabólic",
+          "results": [
+            "anabólica",
+            "anabólico"
+          ],
+          "count": 2
+        },
+        {
+          "query": "anabólicoa",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicob",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoc",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicod",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoe",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicof",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicog",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoh",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoi",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoj",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicok",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicol",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicom",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicon",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoo",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicop",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicor",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicos",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicot",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicou",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicov",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicow",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicox",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoy",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólicoü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólico-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabólico ",
+          "results": [
+            "anabólico"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "ana",
+      "api_results": [
+        "ana",
+        "ana-",
+        "anabaptismo",
+        "anabaptista",
+        "anabatista",
+        "anabí",
+        "anabolena",
+        "anabólica",
+        "anabólico",
+        "anabolismo"
+      ],
+      "ground_truth_first_20": [
+        "ana",
+        "ana-",
+        "anabaptismo",
+        "anabaptista",
+        "anabatista",
+        "anabí",
+        "anabolena",
+        "anabólica",
+        "anabólico",
+        "anabolismo",
+        "anabolizante",
+        "anacahuita",
+        "anacahuite",
+        "anacala",
+        "anacalo",
+        "anacanto",
+        "anacarada",
+        "anacarado",
+        "anacardiácea",
+        "anacardiáceo"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 198,
+      "api_matches_ground_truth": true,
+      "tenth_result": "anabolismo",
+      "ground_truth_after_tenth": [
+        "anabolizante",
+        "anacahuita",
+        "anacahuite",
+        "anacala",
+        "anacalo",
+        "anacanto",
+        "anacarada",
+        "anacarado",
+        "anacardiácea",
+        "anacardiáceo",
+        "anacardina",
+        "anacardino",
+        "anacardo",
+        "anaco",
+        "anacoluto",
+        "anaconda",
+        "anacora",
+        "anacoresis",
+        "anacoreta",
+        "anacorética"
+      ],
+      "query_exact_tenth": {
+        "query": "anabolismo",
+        "results": [
+          "anabolismo"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "anabolismo",
+          "results": [
+            "anabolismo"
+          ],
+          "count": 1
+        },
+        {
+          "query": "ana",
+          "results": [
+            "ana",
+            "ana-",
+            "anabaptismo",
+            "anabaptista",
+            "anabatista",
+            "anabí",
+            "anabolena",
+            "anabólica",
+            "anabólico",
+            "anabolismo"
+          ],
+          "count": 10
+        },
+        {
+          "query": "anab",
+          "results": [
+            "anabaptismo",
+            "anabaptista",
+            "anabatista",
+            "anabí",
+            "anabolena",
+            "anabólica",
+            "anabólico",
+            "anabolismo",
+            "anabolizante"
+          ],
+          "count": 9
+        },
+        {
+          "query": "anabo",
+          "results": [
+            "anabolena",
+            "anabólica",
+            "anabólico",
+            "anabolismo",
+            "anabolizante"
+          ],
+          "count": 5
+        },
+        {
+          "query": "anabol",
+          "results": [
+            "anabolena",
+            "anabólica",
+            "anabólico",
+            "anabolismo",
+            "anabolizante"
+          ],
+          "count": 5
+        },
+        {
+          "query": "anaboli",
+          "results": [
+            "anabólica",
+            "anabólico",
+            "anabolismo",
+            "anabolizante"
+          ],
+          "count": 4
+        },
+        {
+          "query": "anabolis",
+          "results": [
+            "anabolismo"
+          ],
+          "count": 1
+        },
+        {
+          "query": "anabolism",
+          "results": [
+            "anabolismo"
+          ],
+          "count": 1
+        },
+        {
+          "query": "anabolismoa",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismob",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoc",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismod",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoe",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismof",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismog",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoh",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoi",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoj",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismok",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismol",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismom",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismon",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoo",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismop",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismor",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismos",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismot",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismou",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismov",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismow",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismox",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoy",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismoü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismo-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "anabolismo ",
+          "results": [
+            "anabolismo"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "prefix": "anti",
+      "api_results": [
+        "anti",
+        "anti-",
+        "antia",
+        "antiabortista",
+        "antiabortiva",
+        "antiabortivo",
+        "antiaborto",
+        "antiacadémica",
+        "antiacademicismo",
+        "antiacadémico"
+      ],
+      "ground_truth_first_20": [
+        "anti",
+        "anti-",
+        "antia",
+        "antiabortista",
+        "antiabortiva",
+        "antiabortivo",
+        "antiaborto",
+        "antiacadémica",
+        "antiacademicismo",
+        "antiacadémico",
+        "antiácida",
+        "antiácido",
+        "antiadherente",
+        "antiaérea",
+        "antiaéreo",
+        "antiafrodisiaca",
+        "antiafrodisíaca",
+        "antiafrodisiaco",
+        "antiafrodisíaco",
+        "antiagregante"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 526,
+      "api_matches_ground_truth": true,
+      "tenth_result": "antiacadémico",
+      "ground_truth_after_tenth": [
+        "antiácida",
+        "antiácido",
+        "antiadherente",
+        "antiaérea",
+        "antiaéreo",
+        "antiafrodisiaca",
+        "antiafrodisíaca",
+        "antiafrodisiaco",
+        "antiafrodisíaco",
+        "antiagregante",
+        "antiálcali",
+        "antialcalina",
+        "antialcalino",
+        "antialcohólica",
+        "antialcohólico",
+        "antialérgica",
+        "antialérgico",
+        "antiálgica",
+        "antiálgico",
+        "antiamericana"
+      ],
+      "query_exact_tenth": {
+        "query": "antiacadémico",
+        "results": [
+          "antiacadémica",
+          "antiacademicismo",
+          "antiacadémico"
+        ],
+        "count": 3
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "antiacadémico",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "anti",
+          "results": [
+            "anti",
+            "anti-",
+            "antia",
+            "antiabortista",
+            "antiabortiva",
+            "antiabortivo",
+            "antiaborto",
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 10
+        },
+        {
+          "query": "antia",
+          "results": [
+            "antia",
+            "antiabortista",
+            "antiabortiva",
+            "antiabortivo",
+            "antiaborto",
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico",
+            "antiácida",
+            "antiácido"
+          ],
+          "count": 10
+        },
+        {
+          "query": "antiac",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico",
+            "antiácida",
+            "antiácido"
+          ],
+          "count": 5
+        },
+        {
+          "query": "antiaca",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacad",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadé",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadém",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémi",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémic",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoa",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicob",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoc",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicod",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoe",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicof",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicog",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoh",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoi",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoj",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicok",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicol",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicom",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicon",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoñ",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoo",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicop",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoq",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicor",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicos",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicot",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicou",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicov",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicow",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicox",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoy",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoz",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémicoü",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémico-",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        },
+        {
+          "query": "antiacadémico ",
+          "results": [
+            "antiacadémica",
+            "antiacademicismo",
+            "antiacadémico"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "prefix": "apa",
+      "api_results": [
+        "apa",
+        "apá",
+        "apabilada",
+        "apabilado",
+        "apabilar",
+        "apabullador",
+        "apabulladora",
+        "apabullamiento",
+        "apabullante",
+        "apabullar"
+      ],
+      "ground_truth_first_20": [
+        "apa",
+        "apá",
+        "apabilada",
+        "apabilado",
+        "apabilar",
+        "apabullador",
+        "apabulladora",
+        "apabullamiento",
+        "apabullante",
+        "apabullar",
+        "apabullo",
+        "apacentadero",
+        "apacentador",
+        "apacentadora",
+        "apacentamiento",
+        "apacentar",
+        "apacer",
+        "apachar",
+        "apache",
+        "apacheta"
+      ],
+      "api_count": 10,
+      "ground_truth_count": 233,
+      "api_matches_ground_truth": true,
+      "tenth_result": "apabullar",
+      "ground_truth_after_tenth": [
+        "apabullo",
+        "apacentadero",
+        "apacentador",
+        "apacentadora",
+        "apacentamiento",
+        "apacentar",
+        "apacer",
+        "apachar",
+        "apache",
+        "apacheta",
+        "apachurrada",
+        "apachurrar",
+        "apachurrón",
+        "apacibilidad",
+        "apacible",
+        "apaciblemente",
+        "apaciguador",
+        "apaciguadora",
+        "apaciguamiento",
+        "apaciguar"
+      ],
+      "query_exact_tenth": {
+        "query": "apabullar",
+        "results": [
+          "apabullar"
+        ],
+        "count": 1
+      },
+      "exact_tenth_matches_ground_truth_after": false,
+      "candidate_queries": [
+        {
+          "query": "apabullar",
+          "results": [
+            "apabullar"
+          ],
+          "count": 1
+        },
+        {
+          "query": "apa",
+          "results": [
+            "apa",
+            "apá",
+            "apabilada",
+            "apabilado",
+            "apabilar",
+            "apabullador",
+            "apabulladora",
+            "apabullamiento",
+            "apabullante",
+            "apabullar"
+          ],
+          "count": 10
+        },
+        {
+          "query": "apab",
+          "results": [
+            "apabilada",
+            "apabilado",
+            "apabilar",
+            "apabullador",
+            "apabulladora",
+            "apabullamiento",
+            "apabullante",
+            "apabullar",
+            "apabullo"
+          ],
+          "count": 9
+        },
+        {
+          "query": "apabu",
+          "results": [
+            "apabullador",
+            "apabulladora",
+            "apabullamiento",
+            "apabullante",
+            "apabullar",
+            "apabullo"
+          ],
+          "count": 6
+        },
+        {
+          "query": "apabul",
+          "results": [
+            "apabullador",
+            "apabulladora",
+            "apabullamiento",
+            "apabullante",
+            "apabullar",
+            "apabullo"
+          ],
+          "count": 6
+        },
+        {
+          "query": "apabull",
+          "results": [
+            "apabullador",
+            "apabulladora",
+            "apabullamiento",
+            "apabullante",
+            "apabullar",
+            "apabullo"
+          ],
+          "count": 6
+        },
+        {
+          "query": "apabulla",
+          "results": [
+            "apabullador",
+            "apabulladora",
+            "apabullamiento",
+            "apabullante",
+            "apabullar"
+          ],
+          "count": 5
+        },
+        {
+          "query": "apabullara",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarb",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarc",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullard",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullare",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarf",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarg",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarh",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullari",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarj",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullark",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarl",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarm",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarn",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarñ",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullaro",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarp",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarq",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarr",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullars",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullart",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullaru",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarv",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarw",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarx",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullary",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarz",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullarü",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullar-",
+          "results": [],
+          "count": 0
+        },
+        {
+          "query": "apabullar ",
+          "results": [
+            "apabullar"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

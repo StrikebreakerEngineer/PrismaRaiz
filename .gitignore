@@ -23,3 +23,9 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+# SQLite temporary WAL files
+*.db-wal
+*.db-shm
+
+*.vcf
+

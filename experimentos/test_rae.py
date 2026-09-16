@@ -3,7 +3,9 @@ from pathlib import Path
 
 import requests
 
-WORDS = ["pero"]
+WORDS = ["pero",
+         "‒́cola",
+         "colactáneo"]
 
 for word in WORDS:
     print("=" * 60)
