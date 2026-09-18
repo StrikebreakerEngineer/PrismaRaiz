@@ -1,0 +1,453 @@
+categoria,clave,old_header,old_rae_id,estado,current_ids_by_header,current_headers_by_old_id
+empieza_con_guion,-able,-able,06VsTFX,NINGUNO,,
+empieza_con_guion,-achuelo,"-achuelo, la",0SQc5ML,NINGUNO,,
+empieza_con_guion,-achón,-achón,0SBXoGb,NINGUNO,,
+empieza_con_guion,-ación,-ación,0UA3ZBx,NINGUNO,,
+empieza_con_guion,-adero,"-adero, ra",0jP2F4J,NINGUNO,,
+empieza_con_guion,-ador,"-ador, ra",0oWyp5O,NINGUNO,,
+empieza_con_guion,-adura,-adura,0ryHaU5,NINGUNO,,
+empieza_con_guion,-ajón,-ajón,1ODlufO,NINGUNO,,
+empieza_con_guion,-amento,-amento,2K4DV1i,NINGUNO,,
+empieza_con_guion,-amiento,-amiento,2LawU8M,NINGUNO,,
+empieza_con_guion,-ancia,-ancia,2Xiwer9,NINGUNO,,
+empieza_con_guion,-aracho,"-aracho, cha",3O3jFBC,NINGUNO,,
+empieza_con_guion,-arada,-arada,3OFFcWZ,NINGUNO,,
+empieza_con_guion,-arajo,-arajo,3OcnTet,NINGUNO,,
+empieza_con_guion,-areda,-areda,3UT4ta2,NINGUNO,,
+empieza_con_guion,-arraco,"-arraco, ca",3eTuBLy,NINGUNO,,
+empieza_con_guion,-arrada,-arrada,3eWZduP,NINGUNO,,
+empieza_con_guion,-arrajo,-arrajo,3evVv2y,NINGUNO,,
+empieza_con_guion,-arro,"-arro, rra",3li1D1e,NINGUNO,,
+empieza_con_guion,-arrón,-arrón,3nOEaqM,NINGUNO,,
+empieza_con_guion,-asco,"-asco, ca",3wGcnoF,NINGUNO,,
+empieza_con_guion,-asis,-asis,411V9qv,NINGUNO,,
+empieza_con_guion,-astre,-astre,45s6f5P,NINGUNO,,
+empieza_con_guion,-astrón,"-astrón, na",46SgWle,NINGUNO,,
+empieza_con_guion,-ativo,"-ativo, va",4G4oVYf,NINGUNO,,
+empieza_con_guion,-atorio,"-atorio, ria",4INg5C0,NINGUNO,,
+empieza_con_guion,-bilidad,-bilidad,5Vqc7J7,NINGUNO,,
+empieza_con_guion,-bilísimo,"-bilísimo, ma",5W1OgFg,NINGUNO,,
+empieza_con_guion,-cer,-cer,8I7zs8i,NINGUNO,,
+empieza_con_guion,-cete,"-cete, ta",8QNNVMi,NINGUNO,,
+empieza_con_guion,-cico,"-cico, ca",9AFD0eR,NINGUNO,,
+empieza_con_guion,-cillo,"-cillo, lla",9DOeZ6d,NINGUNO,,
+empieza_con_guion,-ececico,"-ececico, ca",EJSx8hb,NINGUNO,,
+empieza_con_guion,-ececillo,"-ececillo, lla",EJTKIJ8,NINGUNO,,
+empieza_con_guion,-ececito,"-ececito, ta",EJUJr7w,NINGUNO,,
+empieza_con_guion,-ecezuelo,"-ecezuelo, la",EJXirtP,NINGUNO,,
+empieza_con_guion,-ecico,"-ecico, ca",EK89MlR,NINGUNO,,
+empieza_con_guion,-ecillo,"-ecillo, lla",EKB9w4I,NINGUNO,,
+empieza_con_guion,-ecito,"-ecito, ta",EKC7WWx,NINGUNO,,
+empieza_con_guion,-edad,-edad,ENATORl,NINGUNO,,
+empieza_con_guion,-edal,-edal,ENFwLx8,NINGUNO,,
+empieza_con_guion,-edero,"-edero, ra",ENQ9cwG,NINGUNO,,
+empieza_con_guion,-edor,"-edor, ra",ENvG7Ws,NINGUNO,,
+empieza_con_guion,-edura,-edura,EORpzyf,NINGUNO,,
+empieza_con_guion,-ego,"-ego, ga",EQoE7aL,NINGUNO,,
+empieza_con_guion,-ejón,-ejón,ESkmCZU,NINGUNO,,
+empieza_con_guion,-ema,-ema,EZ2Ofo7,NINGUNO,,
+empieza_con_guion,-encia,-encia,F64wazA,NINGUNO,,
+empieza_con_guion,-esco,"-esco, ca",GF6D1qs,NINGUNO,,
+empieza_con_guion,-esino,"-esino, na",GQkD91K,NINGUNO,,
+empieza_con_guion,-esis,-esis,GQmPBto,NINGUNO,,
+empieza_con_guion,-etón,-etón,H5GTUpN,NINGUNO,,
+empieza_con_guion,-ezuelo,"-ezuelo, la",HR22WKq,NINGUNO,,
+empieza_con_guion,-huelo,"-huelo, la",KlAQG5L,NINGUNO,,
+empieza_con_guion,-iano,"-iano, na",KrWQlR5,NINGUNO,,
+empieza_con_guion,-ible,-ible,KrqSttz,NINGUNO,,
+empieza_con_guion,-ichuelo,"-ichuelo, la",Ks8Pn8e,NINGUNO,,
+empieza_con_guion,-ición,-ición,KsCJZny,NINGUNO,,
+empieza_con_guion,-idad,-idad,KtLQ9qb,NINGUNO,,
+empieza_con_guion,-idero,"-idero, ra",KuHA7rF,NINGUNO,,
+empieza_con_guion,-idor,"-idor, ra",KvB1ZIY,NINGUNO,,
+empieza_con_guion,-idura,-idura,KvGioHm,NINGUNO,,
+empieza_con_guion,-iense,-iense,KvNh82L,NINGUNO,,
+empieza_con_guion,-iento,"-iento, ta",KvPM0mO,NINGUNO,,
+empieza_con_guion,-imento,-imento,L11ttMb,NINGUNO,,
+empieza_con_guion,-imiento,-imiento,L120iDS,NINGUNO,,
+empieza_con_guion,-isco,"-isco, ca",MAR83U2,NINGUNO,,
+empieza_con_guion,-itivo,"-itivo, va",MEVTZG4,NINGUNO,,
+empieza_con_guion,-itorio,"-itorio, ria",MEeJQTG,NINGUNO,,
+empieza_con_guion,-izco,"-izco, ca",MFILa1i,NINGUNO,,
+empieza_con_guion,-nta,-nta,QgY70aB,NINGUNO,,
+empieza_con_guion,-oideo,-oideo,Qx5xQD0,NINGUNO,,
+empieza_con_guion,-oides,-oides,Qx62D6n,NINGUNO,,
+empieza_con_guion,-orrio,"-orrio, rria",RFiXRLQ,NINGUNO,,
+empieza_con_guion,-orro,"-orro, rra",RFkmHVm,NINGUNO,,
+empieza_con_guion,-osis,-osis,RI6iTY9,NINGUNO,,
+empieza_con_guion,-strajo,-strajo,YUEHlL1,NINGUNO,,
+empieza_con_guion,-tano,"-tano, na",Z5V5Ss6,NINGUNO,,
+empieza_con_guion,-usco,"-usco, ca",bBCLrg8,NINGUNO,,
+empieza_con_guion,-uzco,"-uzco, ca",bDvxJQj,NINGUNO,,
+empieza_con_guion,-zuelo,"-zuelo, la",cWPN9rE,NINGUNO,,
+contiene_espacios,a posteriori,a posteriori,3HFytIB,NINGUNO,,
+contiene_espacios,a priori,a priori,3JdXcMt,NINGUNO,,
+contiene_espacios,a quo,a quo,3NK26ap,NINGUNO,,
+contiene_espacios,a radice,a radice,3OGLpcR,NINGUNO,,
+contiene_espacios,a sensu contrario,a sensu contrario,3xNuNuB,NINGUNO,,
+contiene_espacios,a simili,a simili,40P0NEL,NINGUNO,,
+termina_con_guion,a-,a-,003XJY1,ID_EXISTE_HEADER_NO,,a-<sup>1</sup>
+termina_con_guion,a-,a-,006hGa6,ID_EXISTE_HEADER_NO,,a-<sup>2</sup>
+empieza_con_mayuscula,Abraham,Abraham,0A3RgnP,ID_Y_HEADER_EXISTEN,0A3RgnP,Abraham
+empieza_con_mayuscula,Abrahán,Abrahán,0A5CVRj,ID_Y_HEADER_EXISTEN,0A5CVRj,Abrahán
+mayusculas,ABS,ABS,0BytV56,ID_Y_HEADER_EXISTEN,0BytV56,ABS
+contiene_espacios,ad libitum,ad libitum,0m3VSvG,NINGUNO,,
+contiene_espacios,ad limina,ad limina,0m7crM7,NINGUNO,,
+contiene_espacios,ad litteram,ad litteram,0m8gjWK,NINGUNO,,
+contiene_espacios,ad nauseam,ad nauseam,0n7ESlF,NINGUNO,,
+contiene_espacios,ad nutum,ad nutum,0nEwxpa,NINGUNO,,
+contiene_espacios,ad pedem litterae,ad pedem litterae,0pIkOuK,NINGUNO,,
+contiene_espacios,ad perpetuam,ad perpetuam,0pK95xy,NINGUNO,,
+contiene_espacios,ad personam,ad personam,0pL4UU7,NINGUNO,,
+contiene_espacios,ad quem,ad quem,0pLV5dW,NINGUNO,,
+contiene_espacios,ad referendum,ad referendum,0pvnJ9h,NINGUNO,,
+contiene_espacios,ad tempus,ad tempus,0qV5tGo,NINGUNO,,
+contiene_espacios,ad valorem,ad valorem,0sGeln3,NINGUNO,,
+termina_con_guion,ad-,ad-,0gYPN6u,ID_Y_HEADER_EXISTEN,0gYPN6u,ad-
+mayusculas,ADN,ADN,0myw40a,ID_Y_HEADER_EXISTEN,0myw40a,ADN
+mayusculas,ADSL,ADSL,0qJoM3u,ID_Y_HEADER_EXISTEN,0qJoM3u,ADSL
+empieza_con_mayuscula,Adviento,Adviento,0stC04n,ID_Y_HEADER_EXISTEN,0stC04n,Adviento
+contiene_espacios,agnus Dei,agnus Dei,164SBCx,ID_EXISTE_HEADER_NO,,<i>agnus Dei</i>
+empieza_con_mayuscula,Agramante,Agramante,17yEAVL,ID_Y_HEADER_EXISTEN,17yEAVL,Agramante
+empieza_con_mayuscula,Airón,Airón,1LFdt7D,ID_EXISTE_HEADER_NO,,Airón<sup>2</sup>
+empieza_con_mayuscula,Alcalá,Alcalá,1b9mt26,ID_Y_HEADER_EXISTEN,1b9mt26,Alcalá
+empieza_con_mayuscula,Alcorán,Alcorán,1eURqN6,ID_Y_HEADER_EXISTEN,1eURqN6,Alcorán
+empieza_con_mayuscula,Alcántara,Alcántara,1cDZnjj,ID_EXISTE_HEADER_NO,,Alcántara<sup>2</sup>
+empieza_con_mayuscula,Alejandría,Alejandría,1hPm6OK,ID_Y_HEADER_EXISTEN,1hPm6OK,Alejandría
+minuscula,algún,algún,1oNT36b,NINGUNO,,
+empieza_con_mayuscula,Alicante,Alicante,1qFoZBi,ID_EXISTE_HEADER_NO,,Alicante<sup>2</sup>
+empieza_con_mayuscula,Allen,Allen,1vLyYYb,ID_Y_HEADER_EXISTEN,1vLyYYb,Allen
+empieza_con_mayuscula,Altísimo,Altísimo,27MdCwA,ID_Y_HEADER_EXISTEN,27MdCwA,Altísimo
+empieza_con_mayuscula,Alzheimer,Alzheimer,2B2GW59,ID_Y_HEADER_EXISTEN,2B2GW59,Alzheimer
+mayusculas,AM,AM,2B6laEC,ID_Y_HEADER_EXISTEN,2B6laEC,AM
+minuscula,ampère,ampère,2RUsypi,NINGUNO,,
+empieza_con_mayuscula,América,América,2K9Sy1z,ID_Y_HEADER_EXISTEN,2K9Sy1z,América
+empieza_con_mayuscula,Américas,Américas,2KSgMun,ID_Y_HEADER_EXISTEN,2KSgMun,Américas
+empieza_con_mayuscula,Amón,Amón,2ONo22M,ID_Y_HEADER_EXISTEN,2ONo22M,Amón
+empieza_con_mayuscula,Anchuelo,Anchuelo,2XhBPcl,ID_Y_HEADER_EXISTEN,2XhBPcl,Anchuelo
+empieza_con_mayuscula,Andrés,Andrés,2aL1PJV,ID_Y_HEADER_EXISTEN,2aL1PJV,Andrés
+empieza_con_mayuscula,Antillas,Antillas,2tTnKm1,ID_Y_HEADER_EXISTEN,2tTnKm1,Antillas
+empieza_con_mayuscula,Antonio,Antonio,2xvGZW0,ID_Y_HEADER_EXISTEN,2xvGZW0,Antonio
+empieza_con_mayuscula,Antón,Antón,2xnGUZK,ID_Y_HEADER_EXISTEN,2xnGUZK,Antón
+minuscula,aquellos,"aquellos, llas",3MH5fe6,NINGUNO,,
+minuscula,aquelo,aquelo,3MH8U50,NINGUNO,,
+minuscula,aquelos,"aquelos, las",3MHDPUA,NINGUNO,,
+minuscula,aqueso,aqueso,3MZX30e,NINGUNO,,
+minuscula,aquesos,"aquesos, sas",3Mb2ozD,NINGUNO,,
+minuscula,aquesto,aquesto,3Md6DX9,NINGUNO,,
+minuscula,aquestos,"aquestos, tas",3MeP0Xe,NINGUNO,,
+empieza_con_mayuscula,Aquiles,Aquiles,3MwXR9i,ID_Y_HEADER_EXISTEN,3MwXR9i,Aquiles
+empieza_con_mayuscula,Aragón,Aragón,3OPDFly,ID_Y_HEADER_EXISTEN,3OPDFly,Aragón
+empieza_con_mayuscula,Armenia,Armenia,3ayiDp4,ID_Y_HEADER_EXISTEN,3ayiDp4,Armenia
+mayusculas,ARN,ARN,3c0nZtQ,ID_Y_HEADER_EXISTEN,3c0nZtQ,ARN
+empieza_con_mayuscula,Arquímedes,Arquímedes,3dlJeLj,ID_Y_HEADER_EXISTEN,3dlJeLj,Arquímedes
+empieza_con_mayuscula,Arrás,Arrás,3fgItCW,ID_Y_HEADER_EXISTEN,3fgItCW,Arrás
+mayusculas,ATS,ATS,4LhZGwN,ID_Y_HEADER_EXISTEN,4LhZGwN,ATS
+mayusculas,AVE,AVE,4XBPG4o,ID_EXISTE_HEADER_NO,,AVE<sup>3</sup>
+empieza_con_mayuscula,Babia,Babia,4ia1kp9,ID_Y_HEADER_EXISTEN,4ia1kp9,Babia
+empieza_con_mayuscula,Bamba,Bamba,4vYKRIn,ID_EXISTE_HEADER_NO,,Bamba<sup>4</sup>
+empieza_con_mayuscula,Barcelona,Barcelona,53yEDrc,ID_Y_HEADER_EXISTEN,53yEDrc,Barcelona
+empieza_con_mayuscula,Batavia,Batavia,5CzZmDX,ID_Y_HEADER_EXISTEN,5CzZmDX,Batavia
+empieza_con_mayuscula,Batuecas,Batuecas,5EI9lxw,ID_Y_HEADER_EXISTEN,5EI9lxw,Batuecas
+empieza_con_mayuscula,Bayona,Bayona,5F9RbqA,ID_Y_HEADER_EXISTEN,5F9RbqA,Bayona
+empieza_con_mayuscula,Bañón,Bañón,4z6AVGx,ID_Y_HEADER_EXISTEN,4z6AVGx,Bañón
+minuscula,bestializarse,bestializarse,5Pa1lZo,ID_EXISTE_HEADER_NO,,bestializar
+empieza_con_mayuscula,Bierzo,Bierzo,5UdhAFU,ID_Y_HEADER_EXISTEN,5UdhAFU,Bierzo
+empieza_con_mayuscula,Blas,Blas,5fuf54b,ID_Y_HEADER_EXISTEN,5fuf54b,Blas
+empieza_con_mayuscula,Bohemia,Bohemia,5lX1qkS,ID_EXISTE_HEADER_NO,,Bohemia<sup>2</sup>
+empieza_con_mayuscula,Bona,Bona,5qKuB8y,ID_Y_HEADER_EXISTEN,5qKuB8y,Bona
+minuscula,bonoloto,bonoloto,5rfgvxt,NINGUNO,,
+minuscula,boîte,boîte,5ltAZe0,NINGUNO,,
+empieza_con_mayuscula,Brasil,Brasil,63Zi6EZ,ID_EXISTE_HEADER_NO,,Brasil<sup>2</sup>
+empieza_con_mayuscula,Bright,Bright,66OJF1B,ID_Y_HEADER_EXISTEN,66OJF1B,Bright
+empieza_con_mayuscula,Briján,Briján,66UVreU,ID_Y_HEADER_EXISTEN,66UVreU,Briján
+empieza_con_mayuscula,Bruselas,Bruselas,6BzwRGZ,ID_EXISTE_HEADER_NO,,Bruselas<sup>2</sup>
+contiene_espacios,Buenos Aires,Buenos Aires,6EbEq6s,ID_Y_HEADER_EXISTEN,6EbEq6s,Buenos Aires
+empieza_con_mayuscula,Burgos,Burgos,6J0fcUY,ID_Y_HEADER_EXISTEN,6J0fcUY,Burgos
+empieza_con_mayuscula,Bárbara,Bárbara,51uTeC1,ID_Y_HEADER_EXISTEN,51uTeC1,Bárbara
+empieza_con_mayuscula,Cabo,Cabo,6S603J4,ID_EXISTE_HEADER_NO,,Cabo<sup>2</sup>
+empieza_con_mayuscula,Cachano,Cachano,6VQCWZe,ID_Y_HEADER_EXISTEN,6VQCWZe,Cachano
+empieza_con_mayuscula,Calabar,Calabar,6fEftgH,ID_Y_HEADER_EXISTEN,6fEftgH,Calabar
+empieza_con_mayuscula,Calatrava,Calatrava,6iIIWoi,ID_Y_HEADER_EXISTEN,6iIIWoi,Calatrava
+empieza_con_mayuscula,Calaínos,Calaínos,6gnpx5q,ID_Y_HEADER_EXISTEN,6gnpx5q,Calaínos
+empieza_con_mayuscula,Calañas,Calañas,6i2skWZ,ID_Y_HEADER_EXISTEN,6i2skWZ,Calañas
+empieza_con_mayuscula,Calleja,Calleja,6pn3vAV,ID_EXISTE_HEADER_NO,,Calleja<sup>2</sup>
+empieza_con_mayuscula,Canadá,Canadá,71yMb7K,ID_Y_HEADER_EXISTEN,71yMb7K,Canadá
+empieza_con_mayuscula,Cancelaría,Cancelaría,73pGFXR,ID_Y_HEADER_EXISTEN,73pGFXR,Cancelaría
+empieza_con_mayuscula,Caplán,Caplán,7L6ZRu6,ID_Y_HEADER_EXISTEN,7L6ZRu6,Caplán
+empieza_con_mayuscula,Caravaca,Caravaca,7RMcPmO,ID_Y_HEADER_EXISTEN,7RMcPmO,Caravaca
+empieza_con_mayuscula,Cardona,Cardona,7VxtTzx,ID_EXISTE_HEADER_NO,,Cardona<sup>2</sup>
+empieza_con_mayuscula,Carracuca,Carracuca,7fGQZiD,ID_Y_HEADER_EXISTEN,7fGQZiD,Carracuca
+empieza_con_mayuscula,Casio,Casio,7p9MO7l,ID_Y_HEADER_EXISTEN,7p9MO7l,Casio
+empieza_con_mayuscula,Caín,Caín,6dhjQcK,ID_Y_HEADER_EXISTEN,6dhjQcK,Caín
+mayusculas,CD,CD,846shPv,ID_Y_HEADER_EXISTEN,846shPv,CD
+mayusculas,CD-ROM,CD-ROM,848XxEW,ID_Y_HEADER_EXISTEN,848XxEW,CD-ROM
+empieza_con_mayuscula,Ceilán,Ceilán,87fFGPO,ID_Y_HEADER_EXISTEN,87fFGPO,Ceilán
+empieza_con_mayuscula,Celsius,Celsius,8AUbMc4,ID_Y_HEADER_EXISTEN,8AUbMc4,Celsius
+empieza_con_mayuscula,Chagas,Chagas,8TG2Y1j,ID_Y_HEADER_EXISTEN,8TG2Y1j,Chagas
+empieza_con_mayuscula,Chiapa,Chiapa,8hyRAJC,ID_Y_HEADER_EXISTEN,8hyRAJC,Chiapa
+empieza_con_mayuscula,Chile,Chile,8lFNNNW,ID_EXISTE_HEADER_NO,,Chile<sup>2</sup>
+minuscula,chullpi,chullpi,93FixWj,ID_EXISTE_HEADER_NO,,chulpi
+empieza_con_mayuscula,Cobos,Cobos,9XllUyQ,ID_Y_HEADER_EXISTEN,9XllUyQ,Cobos
+empieza_con_mayuscula,Compostela,Compostela,A2W8Ict,ID_Y_HEADER_EXISTEN,A2W8Ict,Compostela
+empieza_con_mayuscula,Congreve,Congreve,AJkPBQa,ID_Y_HEADER_EXISTEN,AJkPBQa,Congreve
+empieza_con_mayuscula,Constantinopla,Constantinopla,AR98ykC,ID_Y_HEADER_EXISTEN,AR98ykC,Constantinopla
+empieza_con_mayuscula,Coria,Coria,AsN6BCQ,ID_Y_HEADER_EXISTEN,AsN6BCQ,Coria
+empieza_con_mayuscula,Corinto,Corinto,Asrumdo,ID_EXISTE_HEADER_NO,,Corinto<sup>1</sup>
+empieza_con_mayuscula,Corpus,Corpus,AwSPUeK,ID_EXISTE_HEADER_NO,,Corpus<sup>1</sup>
+empieza_con_mayuscula,Corán,Corán,AoOGgUs,ID_Y_HEADER_EXISTEN,AoOGgUs,Corán
+mayusculas,COVID,COVID,BAjhQ3X,ID_Y_HEADER_EXISTEN,BAjhQ3X,COVID
+empieza_con_mayuscula,Cribas,Cribas,BGAvibS,ID_Y_HEADER_EXISTEN,BGAvibS,Cribas
+minuscula,cualesquier,cualesquier,BRMztn0,NINGUNO,,
+minuscula,cualesquiera,cualesquiera,BRN0Op6,NINGUNO,,
+minuscula,cualquier,cualquier,BRfxGm8,NINGUNO,,
+minuscula,cuan,cuan,BRnREbE,NINGUNO,,
+empieza_con_mayuscula,Cuasimodo,Cuasimodo,BTzDed5,ID_Y_HEADER_EXISTEN,BTzDed5,Cuasimodo
+empieza_con_mayuscula,Cuenca,Cuenca,BZr18lT,ID_EXISTE_HEADER_NO,,Cuenca<sup>2</sup>
+minuscula,cuán,cuán,BRpCzFC,NINGUNO,,
+minuscula,cyclo-cross,cyclo-cross,Bo2hHnb,NINGUNO,,
+contiene_espacios,Cástor y Pólux,Cástor y Pólux,7rXwh8y,ID_Y_HEADER_EXISTEN,7rXwh8y,Cástor y Pólux
+empieza_con_mayuscula,Damocles,Damocles,Br2uGNl,ID_Y_HEADER_EXISTEN,Br2uGNl,Damocles
+empieza_con_mayuscula,David,David,Bt0oZcf,ID_Y_HEADER_EXISTEN,Bt0oZcf,David
+mayusculas,DDT,DDT,BtBOXkO,ID_Y_HEADER_EXISTEN,BtBOXkO,DDT
+contiene_espacios,Deo volente,Deo volente,CEUGngB,ID_EXISTE_HEADER_NO,,<i>Deo volente</i>
+minuscula,deso,deso,DEKdXai,NINGUNO,,
+minuscula,desto,desto,DUJUz91,NINGUNO,,
+mayusculas,DIN,DIN,DnhzO94,ID_EXISTE_HEADER_NO,,DIN<sup>2</sup>
+mayusculas,DNA,DNA,E1xhjgs,ID_Y_HEADER_EXISTEN,E1xhjgs,DNA
+mayusculas,DNI,DNI,E1yehOH,ID_Y_HEADER_EXISTEN,E1yehOH,DNI
+empieza_con_mayuscula,Domingo,Domingo,E6srI3L,ID_EXISTE_HEADER_NO,,Domingo<sup>2</sup>
+empieza_con_mayuscula,Down,Down,EArj9SL,ID_Y_HEADER_EXISTEN,EArj9SL,Down
+empieza_con_mayuscula,Duero,Duero,EF6Wx4Q,ID_Y_HEADER_EXISTEN,EF6Wx4Q,Duero
+mayusculas,DVD,DVD,EITKPOm,ID_Y_HEADER_EXISTEN,EITKPOm,DVD
+empieza_con_mayuscula,Edipo,Edipo,ENiddAk,ID_Y_HEADER_EXISTEN,ENiddAk,Edipo
+empieza_con_mayuscula,Egeria,Egeria,EQAZIdN,ID_Y_HEADER_EXISTEN,EQAZIdN,Egeria
+empieza_con_mayuscula,Egipto,Egipto,EQgpOy5,ID_Y_HEADER_EXISTEN,EQgpOy5,Egipto
+contiene_espacios,El Escorial,El Escorial,EWzrcO6,ID_Y_HEADER_EXISTEN,EWzrcO6,El Escorial
+empieza_con_mayuscula,Electra,Electra,ETecsKf,ID_Y_HEADER_EXISTEN,ETecsKf,Electra
+minuscula,ellos,"ellos, llas",EYDli6v,NINGUNO,,
+minuscula,endeudarse,endeudarse,FCm0mlz,ID_EXISTE_HEADER_NO,,endeudar
+empieza_con_mayuscula,Ertzaintza,Ertzaintza,G4BKwyC,ID_EXISTE_HEADER_NO,,<i>Ertzaintza</i>
+empieza_con_mayuscula,Escila,Escila,GE0IEc3,ID_EXISTE_HEADER_NO,,Escila<sup>2</sup>
+empieza_con_mayuscula,Escocia,Escocia,GG4ARfQ,ID_EXISTE_HEADER_NO,,Escocia<sup>1</sup>
+mayusculas,ESO,ESO,GSANc3R,ID_Y_HEADER_EXISTEN,GSANc3R,ESO
+minuscula,esos,"esos, sas",GSL4kTT,NINGUNO,,
+empieza_con_mayuscula,España,España,GUQ1mFn,ID_Y_HEADER_EXISTEN,GUQ1mFn,España
+empieza_con_mayuscula,Espinosa,Espinosa,GbefZRR,ID_Y_HEADER_EXISTEN,GbefZRR,Espinosa
+empieza_con_mayuscula,Estocolmo,Estocolmo,Gu9qUA4,ID_Y_HEADER_EXISTEN,Gu9qUA4,Estocolmo
+minuscula,estos,"estos, tas",GvpwejL,NINGUNO,,
+empieza_con_mayuscula,Etiopía,Etiopía,H4Ma8iH,ID_Y_HEADER_EXISTEN,H4Ma8iH,Etiopía
+empieza_con_mayuscula,Europa,Europa,H6xQqF1,ID_Y_HEADER_EXISTEN,H6xQqF1,Europa
+empieza_con_mayuscula,Eustaquio,Eustaquio,H7jc2tJ,ID_Y_HEADER_EXISTEN,H7jc2tJ,Eustaquio
+empieza_con_mayuscula,Fahrenheit,Fahrenheit,HUii7L9,ID_Y_HEADER_EXISTEN,HUii7L9,Fahrenheit
+minuscula,faleuco,faleuco,HXPDozH,NINGUNO,,
+empieza_con_mayuscula,Falopio,Falopio,HYXomjk,ID_Y_HEADER_EXISTEN,HYXomjk,Falopio
+empieza_con_mayuscula,Fernambuco,Fernambuco,HmW8ay8,ID_Y_HEADER_EXISTEN,HmW8ay8,Fernambuco
+empieza_con_mayuscula,Flandes,Flandes,I375Q8h,ID_Y_HEADER_EXISTEN,I375Q8h,Flandes
+empieza_con_mayuscula,Florencia,Florencia,I6lX71l,ID_Y_HEADER_EXISTEN,I6lX71l,Florencia
+empieza_con_mayuscula,Florida,Florida,I7GzDzL,ID_Y_HEADER_EXISTEN,I7GzDzL,Florida
+minuscula,fondonga,fondonga,IBq7XMS,NINGUNO,,
+minuscula,fondongo,"fondongo, ga",IBqK1SP,ID_EXISTE_HEADER_NO,,"fodongo, ga"
+empieza_con_mayuscula,Fraga,Fraga,IMNds8Z,ID_EXISTE_HEADER_NO,,Fraga<sup>3</sup>
+empieza_con_mayuscula,Francia,Francia,IOEl3hJ,ID_Y_HEADER_EXISTEN,IOEl3hJ,Francia
+empieza_con_mayuscula,Frisia,Frisia,IV60T4d,ID_Y_HEADER_EXISTEN,IV60T4d,Frisia
+empieza_con_mayuscula,Gambia,Gambia,IokGGhF,ID_Y_HEADER_EXISTEN,IokGGhF,Gambia
+empieza_con_mayuscula,Gargajo,Gargajo,Itvm0Al,ID_EXISTE_HEADER_NO,,Gargajo<sup>2</sup>
+empieza_con_mayuscula,Gauss,Gauss,J0kpXjJ,ID_EXISTE_HEADER_NO,,Gauss<sup>2</sup>
+contiene_espacios,Gloria Patri,Gloria Patri,JFVwZ7q,ID_EXISTE_HEADER_NO,,<i>Gloria Patri</i>
+empieza_con_mayuscula,Golgi,Golgi,JIqDbAr,ID_Y_HEADER_EXISTEN,JIqDbAr,Golgi
+mayusculas,GPS,GPS,JNqHTYE,ID_Y_HEADER_EXISTEN,JNqHTYE,GPS
+empieza_con_mayuscula,Graaf,Graaf,JNs9FxZ,ID_Y_HEADER_EXISTEN,JNs9FxZ,Graaf
+empieza_con_mayuscula,Guernesey,Guernesey,JoJSim0,ID_Y_HEADER_EXISTEN,JoJSim0,Guernesey
+empieza_con_mayuscula,Génova,Génova,J5ontBr,ID_Y_HEADER_EXISTEN,J5ontBr,Génova
+empieza_con_mayuscula,Higuera,Higuera,KNoqKXx,ID_EXISTE_HEADER_NO,,Higuera<sup>2</sup>
+empieza_con_mayuscula,Hinojosa,Hinojosa,KQBLePz,ID_Y_HEADER_EXISTEN,KQBLePz,Hinojosa
+minuscula,house,house,KiQ3lpc,NINGUNO,,
+empieza_con_mayuscula,Ignacio,Ignacio,KvazWio,ID_Y_HEADER_EXISTEN,KvazWio,Ignacio
+contiene_espacios,in fraganti,in fraganti,LYnESFR,ID_Y_HEADER_EXISTEN,LYnESFR,in fraganti
+contiene_espacios,in illo tempore,in illo tempore,LcgKi5C,NINGUNO,,
+contiene_espacios,in integrum,in integrum,LcoPm3X,NINGUNO,,
+contiene_espacios,in itinere,in itinere,Lcxkw1S,NINGUNO,,
+contiene_espacios,in medias res,in medias res,Le5AFqG,NINGUNO,,
+contiene_espacios,in memoriam,in memoriam,LeN78IB,NINGUNO,,
+contiene_espacios,in mente,in mente,LeUeikl,NINGUNO,,
+contiene_espacios,in partibus,in partibus,LiNk5DU,NINGUNO,,
+contiene_espacios,in partibus infidelium,in partibus infidelium,LiNkM3K,NINGUNO,,
+contiene_espacios,in pectore,in pectore,LiQuOqq,NINGUNO,,
+contiene_espacios,in perpetuum,in perpetuum,LiSD5dk,NINGUNO,,
+contiene_espacios,in promptu,in promptu,LiUNB1A,NINGUNO,,
+contiene_espacios,in púribus,in púribus,LiWqF0U,NINGUNO,,
+contiene_espacios,in situ,in situ,LlJeGAq,NINGUNO,,
+contiene_espacios,in solidum,in solidum,LlkrAN7,NINGUNO,,
+contiene_espacios,in statu quo,in statu quo,LmnWpQn,NINGUNO,,
+contiene_espacios,in terminis,in terminis,LvQSuA9,NINGUNO,,
+contiene_espacios,in utroque,in utroque,M1Vgfq4,NINGUNO,,
+contiene_espacios,in utroque iure,in utroque iure,M1Z3Y8h,NINGUNO,,
+contiene_espacios,in utroque jure,in utroque jure,M1mvimL,NINGUNO,,
+contiene_espacios,in vitro,in vitro,M4cX8vQ,NINGUNO,,
+contiene_espacios,in vivo,in vivo,M4dN6uq,NINGUNO,,
+contiene_espacios,in voce,in voce,M4i4erf,NINGUNO,,
+termina_con_guion,in-,in-,L9vLorj,ID_EXISTE_HEADER_NO,,in-<sup>1</sup>
+termina_con_guion,in-,in-,L9vXSzQ,ID_EXISTE_HEADER_NO,,in-<sup>2</sup>
+empieza_con_mayuscula,India,India,LNY9KCm,ID_Y_HEADER_EXISTEN,LNY9KCm,India
+empieza_con_mayuscula,Inglaterra,Inglaterra,LaRSGMX,ID_Y_HEADER_EXISTEN,LaRSGMX,Inglaterra
+contiene_espacios,invita Minerva,invita Minerva,M4WzZQH,ID_EXISTE_HEADER_NO,,<i>invita Minerva</i>
+mayusculas,IPC,IPC,M5Twh46,ID_Y_HEADER_EXISTEN,M5Twh46,IPC
+mayusculas,IRPF,IRPF,M6noDQ8,ID_Y_HEADER_EXISTEN,M6noDQ8,IRPF
+mayusculas,ISBN,ISBN,MAOZu6u,ID_Y_HEADER_EXISTEN,MAOZu6u,ISBN
+empieza_con_mayuscula,Islandia,Islandia,MB0uZx8,ID_Y_HEADER_EXISTEN,MB0uZx8,Islandia
+mayusculas,ISO,ISO,MBMXM4p,ID_Y_HEADER_EXISTEN,MBMXM4p,ISO
+mayusculas,ISSN,ISSN,MCxcAvU,ID_Y_HEADER_EXISTEN,MCxcAvU,ISSN
+empieza_con_mayuscula,Italia,Italia,MDD58KS,ID_Y_HEADER_EXISTEN,MDD58KS,Italia
+mayusculas,IVA,IVA,MEqD4f5,ID_Y_HEADER_EXISTEN,MEqD4f5,IVA
+empieza_con_mayuscula,Jamaica,Jamaica,MJyFETh,ID_EXISTE_HEADER_NO,,Jamaica<sup>1</sup>
+empieza_con_mayuscula,Japón,Japón,MLCUyS2,ID_EXISTE_HEADER_NO,,Japón<sup>1</sup>
+empieza_con_mayuscula,Jericó,Jericó,MQILtyL,ID_Y_HEADER_EXISTEN,MQILtyL,Jericó
+empieza_con_mayuscula,Jersey,Jersey,MQrr2os,ID_EXISTE_HEADER_NO,,Jersey<sup>2</sup>
+empieza_con_mayuscula,Jerusalén,Jerusalén,MQzbPWB,ID_Y_HEADER_EXISTEN,MQzbPWB,Jerusalén
+empieza_con_mayuscula,Jesucristo,Jesucristo,MR6KyOj,ID_Y_HEADER_EXISTEN,MR6KyOj,Jesucristo
+empieza_con_mayuscula,Jesé,Jesé,MR2AHpE,ID_Y_HEADER_EXISTEN,MR2AHpE,Jesé
+empieza_con_mayuscula,Jesús,Jesús,MRGvkek,ID_Y_HEADER_EXISTEN,MRGvkek,Jesús
+empieza_con_mayuscula,Jiménez,Jiménez,MTAGuf3,ID_Y_HEADER_EXISTEN,MTAGuf3,Jiménez
+empieza_con_mayuscula,Job,Job,MUvFZE2,ID_Y_HEADER_EXISTEN,MUvFZE2,Job
+empieza_con_mayuscula,José,José,MXXTjIR,ID_Y_HEADER_EXISTEN,MXXTjIR,José
+empieza_con_mayuscula,Juanelo,Juanelo,MYe6Sdo,ID_Y_HEADER_EXISTEN,MYe6Sdo,Juanelo
+empieza_con_mayuscula,Judea,Judea,MZc1qI1,ID_Y_HEADER_EXISTEN,MZc1qI1,Judea
+empieza_con_mayuscula,Koch,Koch,Mi88esE,ID_Y_HEADER_EXISTEN,Mi88esE,Koch
+contiene_espacios,laus Deo,laus Deo,N0CaPAD,ID_EXISTE_HEADER_NO,,<i>laus Deo</i>
+empieza_con_mayuscula,Leiden,Leiden,N5eEqKY,ID_Y_HEADER_EXISTEN,N5eEqKY,Leiden
+empieza_con_mayuscula,Lepe,Lepe,N9Ee2WU,ID_Y_HEADER_EXISTEN,N9Ee2WU,Lepe
+empieza_con_mayuscula,Loja,Loja,Na31RmH,ID_Y_HEADER_EXISTEN,Na31RmH,Loja
+empieza_con_mayuscula,Lombardía,Lombardía,NaNMudC,ID_Y_HEADER_EXISTEN,NaNMudC,Lombardía
+minuscula,los,"los, las",NcnX1R9,NINGUNO,,
+mayusculas,LP,LP,NdSmI8k,ID_Y_HEADER_EXISTEN,NdSmI8k,LP
+mayusculas,LSD,LSD,NdTwE3T,ID_Y_HEADER_EXISTEN,NdTwE3T,LSD
+empieza_con_mayuscula,Lucía,Lucía,NedOJFD,ID_Y_HEADER_EXISTEN,NedOJFD,Lucía
+empieza_con_mayuscula,Luis,Luis,NghR3Hc,ID_EXISTE_HEADER_NO,,Luis<sup>2</sup>
+empieza_con_mayuscula,Líbano,Líbano,NDyAKLE,ID_Y_HEADER_EXISTEN,NDyAKLE,Líbano
+empieza_con_mayuscula,López,López,Nbxn2nt,ID_Y_HEADER_EXISTEN,Nbxn2nt,López
+empieza_con_mayuscula,Madrid,Madrid,NqKY4wJ,ID_Y_HEADER_EXISTEN,NqKY4wJ,Madrid
+empieza_con_mayuscula,Malta,Malta,O4XHJk2,ID_EXISTE_HEADER_NO,,Malta<sup>2</sup>
+empieza_con_mayuscula,Mancha,Mancha,O8Rku9A,ID_EXISTE_HEADER_NO,,Mancha<sup>2</sup>
+empieza_con_mayuscula,Manila,Manila,OE1naPs,ID_EXISTE_HEADER_NO,,Manila<sup>2</sup>
+empieza_con_mayuscula,Marcial,Marcial,ONRi9je,ID_EXISTE_HEADER_NO,,Marcial<sup>2</sup>
+empieza_con_mayuscula,Marigargajo,Marigargajo,OPoNth3,ID_Y_HEADER_EXISTEN,OPoNth3,Marigargajo
+empieza_con_mayuscula,Marta,Marta,OUr4RIS,ID_EXISTE_HEADER_NO,,Marta<sup>3</sup>
+empieza_con_mayuscula,Mazagatos,Mazagatos,OgWZm2W,ID_Y_HEADER_EXISTEN,OgWZm2W,Mazagatos
+minuscula,maître,maître,Nwf1tnn,NINGUNO,,
+minuscula,milara,milara,PEjXr1Q,ID_EXISTE_HEADER_NO,,milana
+empieza_con_mayuscula,Misiones,Misiones,POtAWQ6,ID_Y_HEADER_EXISTEN,POtAWQ6,Misiones
+empieza_con_mayuscula,Moctezuma,Moctezuma,PTF2ICE,ID_Y_HEADER_EXISTEN,PTF2ICE,Moctezuma
+empieza_con_mayuscula,Montesa,Montesa,PkHOrjQ,ID_EXISTE_HEADER_NO,,Montesa<sup>2</sup>
+empieza_con_mayuscula,Morfeo,Morfeo,PooW9sK,NINGUNO,,
+empieza_con_mayuscula,México,México,P8xNYa2,ID_Y_HEADER_EXISTEN,P8xNYa2,México
+empieza_con_mayuscula,Móstoles,Móstoles,PvBgPWG,ID_Y_HEADER_EXISTEN,PvBgPWG,Móstoles
+empieza_con_mayuscula,Nancy,Nancy,QEAHFfd,ID_Y_HEADER_EXISTEN,QEAHFfd,Nancy
+empieza_con_mayuscula,Neoclasicismo,Neoclasicismo,QOGQ4Fo,ID_Y_HEADER_EXISTEN,QOGQ4Fo,Neoclasicismo
+mayusculas,NIF,NIF,QUs4YvZ,ID_Y_HEADER_EXISTEN,QUs4YvZ,NIF
+minuscula,ningún,ningún,QVkXtgV,NINGUNO,,
+mayusculas,NN,NN,QXiM8Ka,ID_Y_HEADER_EXISTEN,QXiM8Ka,NN
+empieza_con_mayuscula,Nochevieja,Nochevieja,QYNKPBi,ID_Y_HEADER_EXISTEN,QYNKPBi,Nochevieja
+empieza_con_mayuscula,Noé,Noé,QZ7yTGo,ID_Y_HEADER_EXISTEN,QZ7yTGo,Noé
+mayusculas,ONG,ONG,R4TmoR1,ID_Y_HEADER_EXISTEN,R4TmoR1,ONG
+empieza_con_mayuscula,Pablo,Pablo,RO4tDSf,ID_Y_HEADER_EXISTEN,RO4tDSf,Pablo
+empieza_con_mayuscula,Pandora,Pandora,RfJXNUl,ID_Y_HEADER_EXISTEN,RfJXNUl,Pandora
+contiene_espacios,Pange lingua,Pange lingua,Rgqp5Cz,ID_EXISTE_HEADER_NO,,<i>Pange lingua</i>
+empieza_con_mayuscula,Paracleto,Paracleto,RpNlzoX,ID_Y_HEADER_EXISTEN,RpNlzoX,Paracleto
+empieza_con_mayuscula,Parkinson,Parkinson,RwlF7MS,ID_Y_HEADER_EXISTEN,RwlF7MS,Parkinson
+empieza_con_mayuscula,Paráclito,Paráclito,RpOyl8q,ID_Y_HEADER_EXISTEN,RpOyl8q,Paráclito
+empieza_con_mayuscula,París,París,RwZXCbZ,ID_Y_HEADER_EXISTEN,RwZXCbZ,París
+mayusculas,PCR,PCR,SEuV5Vh,ID_Y_HEADER_EXISTEN,SEuV5Vh,PCR
+empieza_con_mayuscula,Pentecostés,Pentecostés,SUZRqwY,ID_Y_HEADER_EXISTEN,SUZRqwY,Pentecostés
+empieza_con_mayuscula,Pepa,Pepa,SVXjhE7,ID_EXISTE_HEADER_NO,,Pepa<sup>2</sup>
+empieza_con_mayuscula,Pernambuco,Pernambuco,SgCeowE,ID_Y_HEADER_EXISTEN,SgCeowE,Pernambuco
+empieza_con_mayuscula,Perogrullo,Perogrullo,Sh54Lwn,ID_Y_HEADER_EXISTEN,Sh54Lwn,Perogrullo
+minuscula,personalísimo,personalísimo,SjcUDpP,NINGUNO,,
+mayusculas,PET,PET,SoqZZMD,ID_Y_HEADER_EXISTEN,SoqZZMD,PET
+empieza_con_mayuscula,Petri,Petri,SqEfRp9,ID_Y_HEADER_EXISTEN,SqEfRp9,Petri
+contiene_espacios,Petrus in cunctis,Petrus in cunctis,Sqeoqgo,ID_EXISTE_HEADER_NO,,<i>Petrus in cunctis</i>
+empieza_con_mayuscula,Peñaranda,Peñaranda,SUo2Avv,ID_Y_HEADER_EXISTEN,SUo2Avv,Peñaranda
+minuscula,pH,pH,SrEA7mp,ID_Y_HEADER_EXISTEN,SrEA7mp,pH
+empieza_con_mayuscula,Picio,Picio,SvU757d,ID_Y_HEADER_EXISTEN,SvU757d,Picio
+empieza_con_mayuscula,Pinar,Pinar,T27tpQ2,ID_EXISTE_HEADER_NO,,Pinar<sup>2</sup>
+empieza_con_mayuscula,Pinto,Pinto,T53z4K6,ID_EXISTE_HEADER_NO,,Pinto<sup>1</sup>
+mayusculas,PNN,PNN,TSJZosQ,ID_Y_HEADER_EXISTEN,TSJZosQ,PNN
+empieza_con_mayuscula,Polonia,Polonia,TbNJDv9,ID_Y_HEADER_EXISTEN,TbNJDv9,Polonia
+empieza_con_mayuscula,Prusia,Prusia,UVnBxQH,ID_Y_HEADER_EXISTEN,UVnBxQH,Prusia
+empieza_con_mayuscula,Purísima,Purísima,UioNNDi,ID_Y_HEADER_EXISTEN,UioNNDi,Purísima
+mayusculas,PVC,PVC,UkOAnCk,ID_Y_HEADER_EXISTEN,UkOAnCk,PVC
+empieza_con_mayuscula,Pórtland,Pórtland,TliOXme,ID_Y_HEADER_EXISTEN,TliOXme,Pórtland
+empieza_con_mayuscula,Quico,Quico,UpFXsr3,ID_Y_HEADER_EXISTEN,UpFXsr3,Quico
+minuscula,quienesquiera,quienesquiera,UpkwhAI,NINGUNO,,
+empieza_con_mayuscula,Quintín,Quintín,UvLfXzd,ID_EXISTE_HEADER_NO,,Quintín<sup>2</sup>
+minuscula,radiobemba,radiobemba,V1WLisn,NINGUNO,,
+empieza_con_mayuscula,Ramos,Ramos,V6xQ3RC,ID_Y_HEADER_EXISTEN,V6xQ3RC,Ramos
+mayusculas,RDSI,RDSI,VFx0o9A,ID_Y_HEADER_EXISTEN,VFx0o9A,RDSI
+empieza_con_mayuscula,Rengo,Rengo,VxQHeX7,ID_EXISTE_HEADER_NO,,Rengo<sup>2</sup>
+minuscula,repelada,repelada,W0uBff3,NINGUNO,,
+empieza_con_mayuscula,Rh,Rh,WRW1Put,ID_Y_HEADER_EXISTEN,WRW1Put,Rh
+empieza_con_mayuscula,Rin,Rin,WUGZIhJ,ID_EXISTE_HEADER_NO,,Rin<sup>1</sup>
+mayusculas,RNA,RNA,WX66t39,ID_Y_HEADER_EXISTEN,WX66t39,RNA
+empieza_con_mayuscula,Rodas,Rodas,WasuXuu,ID_Y_HEADER_EXISTEN,WasuXuu,Rodas
+empieza_con_mayuscula,Roma,Roma,WdJDhRZ,ID_Y_HEADER_EXISTEN,WdJDhRZ,Roma
+empieza_con_mayuscula,Roque,Roque,Whi7JC0,ID_EXISTE_HEADER_NO,,Roque<sup>3</sup>
+empieza_con_mayuscula,Rota,Rota,Wjvk168,ID_EXISTE_HEADER_NO,,Rota<sup>3</sup>
+empieza_con_mayuscula,Rubicón,Rubicón,WmJWenV,ID_Y_HEADER_EXISTEN,WmJWenV,Rubicón
+empieza_con_mayuscula,Réaumur,Réaumur,VIf7XMT,ID_Y_HEADER_EXISTEN,VIf7XMT,Réaumur
+empieza_con_mayuscula,Sajonia,Sajonia,X0VqmrU,ID_Y_HEADER_EXISTEN,X0VqmrU,Sajonia
+empieza_con_mayuscula,Sancho,Sancho,XBNop6z,ID_EXISTE_HEADER_NO,,Sancho<sup>2</sup>
+empieza_con_mayuscula,Segovia,Segovia,XSQdlVL,ID_Y_HEADER_EXISTEN,XSQdlVL,Segovia
+empieza_con_mayuscula,Seltz,Seltz,XUu4MjD,ID_Y_HEADER_EXISTEN,XUu4MjD,Seltz
+mayusculas,SMS,SMS,Y33DAtg,ID_Y_HEADER_EXISTEN,Y33DAtg,SMS
+empieza_con_mayuscula,Suiza,Suiza,YfzgVJx,ID_EXISTE_HEADER_NO,,Suiza<sup>2</sup>
+empieza_con_mayuscula,Talmud,Talmud,Z0xK4OZ,ID_Y_HEADER_EXISTEN,Z0xK4OZ,Talmud
+contiene_espacios,Tantum ergo,Tantum ergo,Z64SZbx,ID_EXISTE_HEADER_NO,,<i>Tantum ergo</i>
+empieza_con_mayuscula,Tato,Tato,ZG04nnS,ID_EXISTE_HEADER_NO,,Tato<sup>2</sup>
+empieza_con_mayuscula,Telmo,Telmo,ZOOoQR5,ID_Y_HEADER_EXISTEN,ZOOoQR5,Telmo
+empieza_con_mayuscula,Terranova,Terranova,ZbRuTLd,ID_Y_HEADER_EXISTEN,ZbRuTLd,Terranova
+mayusculas,TNT,TNT,Zv5aljo,ID_Y_HEADER_EXISTEN,Zv5aljo,TNT
+empieza_con_mayuscula,Toledo,Toledo,ZyMP0DR,ID_Y_HEADER_EXISTEN,ZyMP0DR,Toledo
+empieza_con_mayuscula,Tolú,Tolú,ZzJnl9Q,ID_Y_HEADER_EXISTEN,ZzJnl9Q,Tolú
+empieza_con_mayuscula,Tortis,Tortis,a8WSycH,ID_Y_HEADER_EXISTEN,a8WSycH,Tortis
+empieza_con_mayuscula,Troya,Troya,aoufKb3,ID_Y_HEADER_EXISTEN,aoufKb3,Troya
+empieza_con_mayuscula,Tíbet,Tíbet,Zi4BX1t,ID_Y_HEADER_EXISTEN,Zi4BX1t,Tíbet
+empieza_con_mayuscula,Túnez,Túnez,av6nlMB,ID_Y_HEADER_EXISTEN,av6nlMB,Túnez
+minuscula,un,un,b3uuZZA,NINGUNO,,
+minuscula,un,un,b3vJFnW,NINGUNO,,
+empieza_con_mayuscula,Urías,Urías,b9WoTns,ID_Y_HEADER_EXISTEN,b9WoTns,Urías
+mayusculas,USB,USB,bBC7gKG,ID_Y_HEADER_EXISTEN,bBC7gKG,USB
+mayusculas,UVA,UVA,bD3Djdi,ID_EXISTE_HEADER_NO,,UVA<sup>2</sup>
+empieza_con_mayuscula,Valsaín,Valsaín,bJywpKO,ID_Y_HEADER_EXISTEN,bJywpKO,Valsaín
+empieza_con_mayuscula,Varolio,Varolio,bOJV5lz,ID_Y_HEADER_EXISTEN,bOJV5lz,Varolio
+empieza_con_mayuscula,Veda,Veda,bQNaoYm,ID_EXISTE_HEADER_NO,,Veda<sup>2</sup>
+empieza_con_mayuscula,Venecia,Venecia,bWkU3T4,ID_Y_HEADER_EXISTEN,bWkU3T4,Venecia
+empieza_con_mayuscula,Venezuela,Venezuela,bXRvnxi,ID_Y_HEADER_EXISTEN,bXRvnxi,Venezuela
+empieza_con_mayuscula,Vicente,Vicente,bkPFqtb,ID_Y_HEADER_EXISTEN,bkPFqtb,Vicente
+mayusculas,VIH,VIH,boT2U1G,ID_Y_HEADER_EXISTEN,boT2U1G,VIH
+empieza_con_mayuscula,Villadiego,Villadiego,bovJ8BA,ID_Y_HEADER_EXISTEN,bovJ8BA,Villadiego
+empieza_con_mayuscula,Vulgata,Vulgata,c5a0whk,ID_Y_HEADER_EXISTEN,c5a0whk,Vulgata
+contiene_espacios,Yom Kippur,Yom Kippur,cCvrW91,ID_EXISTE_HEADER_NO,,<i>Yom Kippur</i>
+contiene_espacios,Yom Kipur,Yom Kipur,cCw0d3F,ID_Y_HEADER_EXISTEN,cCw0d3F,Yom Kipur
+empieza_con_mayuscula,Ángela,Ángela,2dADLyH,NINGUNO,,
+otro,‒́fico,"‒́fico, ca",Hr0C0RL,NINGUNO,,
+otro,‒́fobo,"‒́fobo, ba",I8gtgZw,NINGUNO,,
+otro,‒́foro,"‒́foro, ra",IGYaabT,ID_Y_HEADER_EXISTEN,IGYaabT,"‒́foro, ra"
+otro,‒́fugo,"‒́fugo, ga",IZRzRfV,ID_Y_HEADER_EXISTEN,IZRzRfV,"‒́fugo, ga"
+otro,‒́geno,"‒́geno, na",J56cPrf,ID_Y_HEADER_EXISTEN,J56cPrf,"‒́geno, na"
+otro,‒́gono,"‒́gono, na",JL5MhfD,NINGUNO,,
+otro,‒́grado,‒́grado,JOysjvm,ID_Y_HEADER_EXISTEN,JOysjvm,‒́grado
+otro,‒́grafo,"‒́grafo, fa",JQ5cr8q,ID_Y_HEADER_EXISTEN,JQ5cr8q,"‒́grafo, fa"
+otro,‒́ico,"‒́ico, ca",KsOKaaZ,NINGUNO,,
+otro,‒́ido,"‒́ido, da",KunRvMp,ID_EXISTE_HEADER_NO,,"‒́ido<sup>1</sup>, da"
+otro,‒́ido,"‒́ido, da",KupfGGR,ID_EXISTE_HEADER_NO,,"‒́ido<sup>2</sup>, da"
+otro,‒́il,‒́il,KxPqpET,NINGUNO,,
+otro,‒́lisis,‒́lisis,NPxuR3s,ID_Y_HEADER_EXISTEN,NPxuR3s,‒́lisis
+otro,‒́logo,"‒́logo, ga",NZTxcTa,ID_Y_HEADER_EXISTEN,NZTxcTa,"‒́logo, ga"
+otro,‒́mano,"‒́mano, na",OFBUhWs,ID_Y_HEADER_EXISTEN,OFBUhWs,"‒́mano, na"
+otro,‒́metro,‒́metro,P8UAjhT,ID_Y_HEADER_EXISTEN,P8UAjhT,‒́metro
+otro,‒́paro,"‒́paro, ra",RxT2UDj,ID_Y_HEADER_EXISTEN,RxT2UDj,"‒́paro, ra"
+otro,‒́pedo,"‒́pedo, da",SJFh2bH,ID_Y_HEADER_EXISTEN,SJFh2bH,"‒́pedo, da"
+otro,‒́stato,‒́stato,YU98s1H,NINGUNO,,
+otro,‒́tico,"‒́tico, ca",ZibqWJB,ID_Y_HEADER_EXISTEN,ZibqWJB,"‒́tico, ca"
+otro,‒́trofo,"‒́trofo, fa",akrudvg,NINGUNO,,
+otro,‒́voro,"‒́voro, ra",c3oGhJ2,NINGUNO,,

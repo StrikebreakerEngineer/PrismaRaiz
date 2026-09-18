@@ -1,0 +1,68 @@
+categoria,clave,old_header,old_rae_id,estado,current_ids_by_header,current_headers_by_old_id
+termina_con_guion,a-,a-,003XJY1,ID_EXISTE_HEADER_NO,,a-<sup>1</sup>
+termina_con_guion,a-,a-,006hGa6,ID_EXISTE_HEADER_NO,,a-<sup>2</sup>
+contiene_espacios,agnus Dei,agnus Dei,164SBCx,ID_EXISTE_HEADER_NO,,<i>agnus Dei</i>
+empieza_con_mayuscula,Airón,Airón,1LFdt7D,ID_EXISTE_HEADER_NO,,Airón<sup>2</sup>
+empieza_con_mayuscula,Alcántara,Alcántara,1cDZnjj,ID_EXISTE_HEADER_NO,,Alcántara<sup>2</sup>
+empieza_con_mayuscula,Alicante,Alicante,1qFoZBi,ID_EXISTE_HEADER_NO,,Alicante<sup>2</sup>
+mayusculas,AVE,AVE,4XBPG4o,ID_EXISTE_HEADER_NO,,AVE<sup>3</sup>
+empieza_con_mayuscula,Bamba,Bamba,4vYKRIn,ID_EXISTE_HEADER_NO,,Bamba<sup>4</sup>
+minuscula,bestializarse,bestializarse,5Pa1lZo,ID_EXISTE_HEADER_NO,,bestializar
+empieza_con_mayuscula,Bohemia,Bohemia,5lX1qkS,ID_EXISTE_HEADER_NO,,Bohemia<sup>2</sup>
+empieza_con_mayuscula,Brasil,Brasil,63Zi6EZ,ID_EXISTE_HEADER_NO,,Brasil<sup>2</sup>
+empieza_con_mayuscula,Bruselas,Bruselas,6BzwRGZ,ID_EXISTE_HEADER_NO,,Bruselas<sup>2</sup>
+empieza_con_mayuscula,Cabo,Cabo,6S603J4,ID_EXISTE_HEADER_NO,,Cabo<sup>2</sup>
+empieza_con_mayuscula,Calleja,Calleja,6pn3vAV,ID_EXISTE_HEADER_NO,,Calleja<sup>2</sup>
+empieza_con_mayuscula,Cardona,Cardona,7VxtTzx,ID_EXISTE_HEADER_NO,,Cardona<sup>2</sup>
+empieza_con_mayuscula,Chile,Chile,8lFNNNW,ID_EXISTE_HEADER_NO,,Chile<sup>2</sup>
+minuscula,chullpi,chullpi,93FixWj,ID_EXISTE_HEADER_NO,,chulpi
+empieza_con_mayuscula,Corinto,Corinto,Asrumdo,ID_EXISTE_HEADER_NO,,Corinto<sup>1</sup>
+empieza_con_mayuscula,Corpus,Corpus,AwSPUeK,ID_EXISTE_HEADER_NO,,Corpus<sup>1</sup>
+empieza_con_mayuscula,Cuenca,Cuenca,BZr18lT,ID_EXISTE_HEADER_NO,,Cuenca<sup>2</sup>
+contiene_espacios,Deo volente,Deo volente,CEUGngB,ID_EXISTE_HEADER_NO,,<i>Deo volente</i>
+mayusculas,DIN,DIN,DnhzO94,ID_EXISTE_HEADER_NO,,DIN<sup>2</sup>
+empieza_con_mayuscula,Domingo,Domingo,E6srI3L,ID_EXISTE_HEADER_NO,,Domingo<sup>2</sup>
+minuscula,endeudarse,endeudarse,FCm0mlz,ID_EXISTE_HEADER_NO,,endeudar
+empieza_con_mayuscula,Ertzaintza,Ertzaintza,G4BKwyC,ID_EXISTE_HEADER_NO,,<i>Ertzaintza</i>
+empieza_con_mayuscula,Escila,Escila,GE0IEc3,ID_EXISTE_HEADER_NO,,Escila<sup>2</sup>
+empieza_con_mayuscula,Escocia,Escocia,GG4ARfQ,ID_EXISTE_HEADER_NO,,Escocia<sup>1</sup>
+minuscula,fondongo,"fondongo, ga",IBqK1SP,ID_EXISTE_HEADER_NO,,"fodongo, ga"
+empieza_con_mayuscula,Fraga,Fraga,IMNds8Z,ID_EXISTE_HEADER_NO,,Fraga<sup>3</sup>
+empieza_con_mayuscula,Gargajo,Gargajo,Itvm0Al,ID_EXISTE_HEADER_NO,,Gargajo<sup>2</sup>
+empieza_con_mayuscula,Gauss,Gauss,J0kpXjJ,ID_EXISTE_HEADER_NO,,Gauss<sup>2</sup>
+contiene_espacios,Gloria Patri,Gloria Patri,JFVwZ7q,ID_EXISTE_HEADER_NO,,<i>Gloria Patri</i>
+empieza_con_mayuscula,Higuera,Higuera,KNoqKXx,ID_EXISTE_HEADER_NO,,Higuera<sup>2</sup>
+termina_con_guion,in-,in-,L9vLorj,ID_EXISTE_HEADER_NO,,in-<sup>1</sup>
+termina_con_guion,in-,in-,L9vXSzQ,ID_EXISTE_HEADER_NO,,in-<sup>2</sup>
+contiene_espacios,invita Minerva,invita Minerva,M4WzZQH,ID_EXISTE_HEADER_NO,,<i>invita Minerva</i>
+empieza_con_mayuscula,Jamaica,Jamaica,MJyFETh,ID_EXISTE_HEADER_NO,,Jamaica<sup>1</sup>
+empieza_con_mayuscula,Japón,Japón,MLCUyS2,ID_EXISTE_HEADER_NO,,Japón<sup>1</sup>
+empieza_con_mayuscula,Jersey,Jersey,MQrr2os,ID_EXISTE_HEADER_NO,,Jersey<sup>2</sup>
+contiene_espacios,laus Deo,laus Deo,N0CaPAD,ID_EXISTE_HEADER_NO,,<i>laus Deo</i>
+empieza_con_mayuscula,Luis,Luis,NghR3Hc,ID_EXISTE_HEADER_NO,,Luis<sup>2</sup>
+empieza_con_mayuscula,Malta,Malta,O4XHJk2,ID_EXISTE_HEADER_NO,,Malta<sup>2</sup>
+empieza_con_mayuscula,Mancha,Mancha,O8Rku9A,ID_EXISTE_HEADER_NO,,Mancha<sup>2</sup>
+empieza_con_mayuscula,Manila,Manila,OE1naPs,ID_EXISTE_HEADER_NO,,Manila<sup>2</sup>
+empieza_con_mayuscula,Marcial,Marcial,ONRi9je,ID_EXISTE_HEADER_NO,,Marcial<sup>2</sup>
+empieza_con_mayuscula,Marta,Marta,OUr4RIS,ID_EXISTE_HEADER_NO,,Marta<sup>3</sup>
+minuscula,milara,milara,PEjXr1Q,ID_EXISTE_HEADER_NO,,milana
+empieza_con_mayuscula,Montesa,Montesa,PkHOrjQ,ID_EXISTE_HEADER_NO,,Montesa<sup>2</sup>
+contiene_espacios,Pange lingua,Pange lingua,Rgqp5Cz,ID_EXISTE_HEADER_NO,,<i>Pange lingua</i>
+empieza_con_mayuscula,Pepa,Pepa,SVXjhE7,ID_EXISTE_HEADER_NO,,Pepa<sup>2</sup>
+contiene_espacios,Petrus in cunctis,Petrus in cunctis,Sqeoqgo,ID_EXISTE_HEADER_NO,,<i>Petrus in cunctis</i>
+empieza_con_mayuscula,Pinar,Pinar,T27tpQ2,ID_EXISTE_HEADER_NO,,Pinar<sup>2</sup>
+empieza_con_mayuscula,Pinto,Pinto,T53z4K6,ID_EXISTE_HEADER_NO,,Pinto<sup>1</sup>
+empieza_con_mayuscula,Quintín,Quintín,UvLfXzd,ID_EXISTE_HEADER_NO,,Quintín<sup>2</sup>
+empieza_con_mayuscula,Rengo,Rengo,VxQHeX7,ID_EXISTE_HEADER_NO,,Rengo<sup>2</sup>
+empieza_con_mayuscula,Rin,Rin,WUGZIhJ,ID_EXISTE_HEADER_NO,,Rin<sup>1</sup>
+empieza_con_mayuscula,Roque,Roque,Whi7JC0,ID_EXISTE_HEADER_NO,,Roque<sup>3</sup>
+empieza_con_mayuscula,Rota,Rota,Wjvk168,ID_EXISTE_HEADER_NO,,Rota<sup>3</sup>
+empieza_con_mayuscula,Sancho,Sancho,XBNop6z,ID_EXISTE_HEADER_NO,,Sancho<sup>2</sup>
+empieza_con_mayuscula,Suiza,Suiza,YfzgVJx,ID_EXISTE_HEADER_NO,,Suiza<sup>2</sup>
+contiene_espacios,Tantum ergo,Tantum ergo,Z64SZbx,ID_EXISTE_HEADER_NO,,<i>Tantum ergo</i>
+empieza_con_mayuscula,Tato,Tato,ZG04nnS,ID_EXISTE_HEADER_NO,,Tato<sup>2</sup>
+mayusculas,UVA,UVA,bD3Djdi,ID_EXISTE_HEADER_NO,,UVA<sup>2</sup>
+empieza_con_mayuscula,Veda,Veda,bQNaoYm,ID_EXISTE_HEADER_NO,,Veda<sup>2</sup>
+contiene_espacios,Yom Kippur,Yom Kippur,cCvrW91,ID_EXISTE_HEADER_NO,,<i>Yom Kippur</i>
+otro,‒́ido,"‒́ido, da",KunRvMp,ID_EXISTE_HEADER_NO,,"‒́ido<sup>1</sup>, da"
+otro,‒́ido,"‒́ido, da",KupfGGR,ID_EXISTE_HEADER_NO,,"‒́ido<sup>2</sup>, da"
